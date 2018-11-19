@@ -1,0 +1,40 @@
+{
+  "name": "amir.cloud",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "gcp-build": "tsc",
+    "start": "yarn build && yarn generate",
+    "generate": "yarn clean-up && node dist/index.js",
+    "generate:dev": "yarn clean-up && cp -R public/assets www/assets && nodemon --watch 'src/**/*.ts' --ignore 'src/**/*.spec.ts' --exec 'ts-node' src/index.ts",
+    "clean-up": "rm -rf www && mkdir www && mkdir www/images",
+    "serve": "http-server -p 3000 www"
+  },
+  "author": "amir houieh",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/lodash": "^4.14.117",
+    "@types/marked": "^0.4.2",
+    "@types/node": "^10.12.0",
+    "@types/uglifycss": "^0.0.5",
+    "http-server": "^0.11.1",
+    "ts-node": "^7.0.1",
+    "tslint": "^5.11.0",
+    "typescript": "^3.0.1"
+  },
+  "dependencies": {
+    "@types/html-minifier": "^3.5.2",
+    "@types/sharp": "^0.21.0",
+    "@types/uniqid": "^4.1.2",
+    "html-minifier": "^3.5.21",
+    "marked": "^0.5.1",
+    "nodemon": "^1.18.5",
+    "promise-sequential": "^1.1.1",
+    "sharp": "^0.21.0",
+    "slugify": "^1.3.3",
+    "uglifycss": "^0.0.29",
+    "uniqid": "^5.0.3"
+  }
+}

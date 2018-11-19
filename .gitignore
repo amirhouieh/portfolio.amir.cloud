@@ -1,0 +1,8 @@
+dist
+www
+node_modules
+
+.DS_Store
+.idea
+.env
+.env*
