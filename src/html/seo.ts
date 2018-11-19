@@ -7,6 +7,7 @@ export const generateSeo = (
     imageUrl: string = `${BASE_URL}/assets/site-thumb.png`,
     tags: string[] = ["amir houieh", "amirhouieh"],
 ) => (`
+            <meta name="viewport" content="width=device-width, initial-scale=1">
             <title>${title}</title>
             <meta name="keywords" content=${tags} >
             <meta name="description" content="${description}" >
@@ -20,7 +21,7 @@ export const generateSeo = (
             <meta name="identifier-URL" content="${BASE_URL}/${url}">
             <meta property="og:title" content="${title}">
             <meta property="og:url" content="${BASE_URL}/${url}">
-            <meta property="og:image" content="${imageUrl}">
+            <meta name="image" property="og:image" content="${imageUrl}">
             <meta property="og:site_name" content="amir houieh">
             <meta property="og:type" content="website" >
             <meta property="og:description" content="${description}">

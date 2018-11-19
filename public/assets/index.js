@@ -63,4 +63,40 @@ window.onload = () => {
         updateMaxDistance();
     }
 
+
+    const deviceAgent = navigator.userAgent.toLowerCase();
+
+    const isTouch = (deviceAgent.match(/(iphone|ipod|ipad)/) ||
+        deviceAgent.match(/(android)/)  ||
+        deviceAgent.match(/(iemobile)/) ||
+        deviceAgent.match(/iphone/i) ||
+        deviceAgent.match(/ipad/i) ||
+        deviceAgent.match(/ipod/i) ||
+        deviceAgent.match(/blackberry/i) ||
+        deviceAgent.match(/bada/i) ||
+        deviceAgent.match(/mobile/i)
+    ) !== null;
+
+    if (isTouch) {
+        console.log("your device is a touch screen device.");
+        [].slice.call(document.links).forEach((link) => {
+            link.dataset.url = link.href;
+            link.href = "javascript:;"
+            link.onclick = () => {
+                //reset others
+                [].slice.call(document.links).forEach((_link)=>{
+                    if(_link.dataset.url !== link.dataset.url){
+                        _link.classList.remove("clicked")
+                    }
+                });
+                if(link.classList.contains("clicked")){
+                    window.location.href = link.dataset.url;
+                }else{
+                    link.classList.add("clicked")
+                }
+            };
+        });
+    }
+
+
 };
