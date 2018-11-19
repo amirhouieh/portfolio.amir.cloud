@@ -34,16 +34,19 @@ const BODY_MARGIN = 50;
 window.onload = () => {
     const thumbs = [].slice.call( document.querySelectorAll(".page-thumbnail") );
 
-    const updateThumbsCenter = (() => {
+    const updateThumbsCenter = () => {
         state.thumbsCenter = thumbs.map(calcElemCenter);
-    })();
+    };
 
-    const updateMaxDistance = (() => {
+    const updateMaxDistance = () => {
         state.maxDistance = calcDistance(
             {x: BODY_MARGIN, y: BODY_MARGIN},
             {x: window.innerWidth, y: window.innerHeight}
             );
-    })();
+    };
+
+    updateThumbsCenter();
+    updateMaxDistance();
 
     window.onmousemove = (e) => {
         thumbs.forEach((thumb, i) => {

@@ -1,6 +1,6 @@
 import {lstatSync, mkdirSync, readdirSync} from "fs";
 import * as path from "path";
-import {createIndexHtml, createPageHtml} from "./html";
+import {createIndexHtml} from "./html";
 import slugify from "slugify";
 import {createHTMLFile, isValidImageExt, isValidMarkdownExt, parseMd} from "./utils";
 import {processImage} from "./image";
@@ -10,6 +10,7 @@ import sequential from "promise-sequential";
 
 import {Page} from "./types";
 import {CONTENT_DIR, SITE_DIR} from "./consts";
+import {createPageHtml} from "./html/page";
 
 const processFolder = async (folderDir: string): Promise<Page> => {
     const IMAGES_DIR_PATH = path.join(folderDir, "images");

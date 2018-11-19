@@ -7,10 +7,12 @@
     "build": "tsc",
     "gcp-build": "tsc",
     "start": "yarn build && yarn generate",
-    "generate": "yarn clean-up && node dist/index.js",
-    "generate:dev": "yarn clean-up && cp -R public/assets www/assets && nodemon --watch 'src/**/*.ts' --ignore 'src/**/*.spec.ts' --exec 'ts-node' src/index.ts",
+    "generate": "yarn build && yarn clean-up && NODE_ENV=pro && node dist/index.js",
+    "generate:dev": "yarn clean-up:dev && cp -R public/assets tmp_www/assets && nodemon --watch 'src/**/*.ts' --ignore 'src/**/*.spec.ts' --exec 'ts-node' src/index.ts",
     "clean-up": "rm -rf www && mkdir www && mkdir www/images",
-    "serve": "http-server -p 3000 www"
+    "clean-up:dev": "rm -rf tmp_www && mkdir tmp_www && mkdir tmp_www/images",
+    "serve": "http-server -p 3000 tmp_www",
+    "deploy": "yarn generate && firebase deploy"
   },
   "author": "amir houieh",
   "license": "ISC",

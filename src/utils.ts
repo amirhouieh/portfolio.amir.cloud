@@ -3,7 +3,6 @@ import * as path from "path";
 import {readFileSync, writeFileSync} from "fs";
 import marked from "marked";
 import {minify} from "html-minifier";
-import slugify from "slugify";
 
 const MATCH_NUMBER = new RegExp(/^[0-9]*$/);
 
