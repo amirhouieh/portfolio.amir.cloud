@@ -23,10 +23,10 @@ export const createPageHtml = (page: Page): string => (`
         ${getStyle("base.css")}
         ${getStyle("page.css")}
         ${generateSeo(
-    page.markdown.title,
+    `amir houieh / ${page.markdown.title}`,
     page.markdown.description,
     page.slug,
-    `${BASE_URL}/images/${page.thumb.src}`,
+    `${BASE_URL}/${page.thumb.src}`,
 )}
     </head>
     <body>

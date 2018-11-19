@@ -7,12 +7,13 @@
     "build": "tsc",
     "gcp-build": "tsc",
     "start": "yarn build && yarn generate",
-    "generate": "yarn build && yarn clean-up && NODE_ENV=pro && node dist/index.js",
-    "generate:dev": "yarn clean-up:dev && cp -R public/assets tmp_www/assets && nodemon --watch 'src/**/*.ts' --ignore 'src/**/*.spec.ts' --exec 'ts-node' src/index.ts",
-    "clean-up": "rm -rf www && mkdir www && mkdir www/images",
-    "clean-up:dev": "rm -rf tmp_www && mkdir tmp_www && mkdir tmp_www/images",
+    "generate": "NODE_ENV=pro && yarn build && yarn clean-up && node dist/index.js",
+    "generate:dev": "yarn clean-up:dev && nodemon --watch 'src/**/*.ts' --ignore 'src/**/*.spec.ts' --exec 'ts-node' src/index.ts",
+    "clean-up": "rm -rf www && mkdir www && mkdir www/images && cp -R public/assets www/assets",
+    "clean-up:dev": "rm -rf tmp_www && mkdir tmp_www && mkdir tmp_www/images && cp -R public/assets tmp_www/assets",
     "serve": "http-server -p 3000 tmp_www",
-    "deploy": "yarn generate && firebase deploy"
+    "clean:deploy": "yarn generate && firebase deploy",
+    "deploy": "firebase deploy"
   },
   "author": "amir houieh",
   "license": "ISC",
