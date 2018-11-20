@@ -1,0 +1,884 @@
+{
+  "projects": [
+    {
+      "html": "<h1 id=\"pages\">Pages</h1>\n<p><code>2016-17</code></p>\n<p><em>website_, _publishing platform</em>\n<a href=\"https://pagesmagazine.net\">pagesmagazine.net</a></p>\n<p><code>with</code> <a href=\"https://lust.nl\"><code>LUST/LUSTLAB</code></a>, <a href=\"https://linkedin.com/in/lenarobin\"><code>Léna Robin</code></a></p>\n<p>This project is the online expansion of the publishing work of Pages, the bilingual, Farsi and English, artist magazine. This platform operates primarily as a working space, concerned with rethinking the politics and practice of archiving and publishing. It approaches publishing as a collective practice of generating an open, transparent archive. With minimum editorial mediation, the platform offers direct access to invited authors to publish their contributions, while making them instantly accessible to the reader. The central tool facilitating this is the automated mailing system which authors use to upload, edit, and expand on their contributions.\nI was proudly involved in the research, design, and implementation phase of this project during my time at LUST/LustLab. I can honestly say that the Pages project was my best working experience during this time for two reasons: Firstly, because the project was about online publishing, a topic of special interest to me and secondly, because of my major position within the project which brought me a lot of responsibilities as well as challenges.</p>\n",
+      "title": "Pages",
+      "description": "This project is the online expansion of the publishing work of Pages, the bilingual, Farsi and English, artist magazine. This platform operates primarily as a working space, concerned with rethinking the politics and practice of archiving and publishing. It approaches publishing as a collective practice of generating an open, transparent archive. With minimum editorial mediation, the platform offers direct access to invited authors to publish their contributions, while making them instantly accessible to the reader. The central tool facilitating this is the automated mailing system which authors use to upload, edit, and expand on their contributions.\nI was proudly involved in the research, design, and implementation phase of this project during my time at LUST/LustLab. I can honestly say that the Pages project was my best working experience during this time for two reasons: Firstly, because the project was about online publishing, a topic of special interest to me and secondly, because of my major position within the project which brought me a lot of responsibilities as well as challenges.",
+      "slug": "pages",
+      "thumb": {
+        "src": "images/1dgbg45majoq4t8ks-320.png",
+        "srcSet": [
+          {
+            "path": "images/1dgbg45majoq4t8ks-320.png",
+            "size": 320
+          },
+          {
+            "path": "images/1dgbg45majoq4t8kv-640.png",
+            "size": 640
+          },
+          {
+            "path": "images/1dgbg45majoq4t8kw-1024.png",
+            "size": 1024
+          }
+        ],
+        "caption": null,
+        "alt": "pagesmagazine.net.png",
+        "order": -1
+      },
+      "images": [
+        {
+          "src": "images/1dgbg45majoq4t9qk-320.png",
+          "srcSet": [
+            {
+              "path": "images/1dgbg45majoq4t9qk-320.png",
+              "size": 320
+            },
+            {
+              "path": "images/1dgbg45majoq4t9ql-640.png",
+              "size": 640
+            },
+            {
+              "path": "images/1dgbg45majoq4t9qm-1024.png",
+              "size": 1024
+            }
+          ],
+          "caption": "Pages platform has it’s own search engine, which enables the users to search among different type of content within its database",
+          "alt": "Pages platform has it’s own search engine, which enables the users to search among different type of content within its database",
+          "order": 1
+        },
+        {
+          "src": "images/1dgbg45majoq4tatl-320.png",
+          "srcSet": [
+            {
+              "path": "images/1dgbg45majoq4tatl-320.png",
+              "size": 320
+            },
+            {
+              "path": "images/1dgbg45majoq4tatm-640.png",
+              "size": 640
+            },
+            {
+              "path": "images/1dgbg45majoq4tatn-1024.png",
+              "size": 1024
+            }
+          ],
+          "caption": "Versioning for articles and other types of content",
+          "alt": "Versioning for articles and other types of content",
+          "order": 2
+        },
+        {
+          "src": "images/1dgbg45majoq4tc3t-320.png",
+          "srcSet": [
+            {
+              "path": "images/1dgbg45majoq4tc3t-320.png",
+              "size": 320
+            },
+            {
+              "path": "images/1dgbg45majoq4tc3u-640.png",
+              "size": 640
+            },
+            {
+              "path": "images/1dgbg45majoq4tc3v-1024.png",
+              "size": 1024
+            }
+          ],
+          "caption": "Users are able to create their own magazines  by adding:removing articles to their collection. Further the platform enables them to publish their collection with other users and:or generate a designed PDF version",
+          "alt": "Users are able to create their own magazines  by adding:removing articles to their collection. Further the platform enables them to publish their collection with other users and:or generate a designed PDF version",
+          "order": 3
+        },
+        {
+          "src": "images/1dgbg45majoq4td8f-320.png",
+          "srcSet": [
+            {
+              "path": "images/1dgbg45majoq4td8f-320.png",
+              "size": 320
+            },
+            {
+              "path": "images/1dgbg45majoq4td8g-640.png",
+              "size": 640
+            },
+            {
+              "path": "images/1dgbg45majoq4td8h-1024.png",
+              "size": 1024
+            }
+          ],
+          "caption": null,
+          "alt": "4-Screen Shot 2018-09-30 at 22.22.51.png",
+          "order": 4
+        },
+        {
+          "src": "images/1dgbg45majoq4tedh-320.png",
+          "srcSet": [
+            {
+              "path": "images/1dgbg45majoq4tedh-320.png",
+              "size": 320
+            },
+            {
+              "path": "images/1dgbg45majoq4tedi-640.png",
+              "size": 640
+            },
+            {
+              "path": "images/1dgbg45majoq4tedj-1024.png",
+              "size": 1024
+            }
+          ],
+          "caption": null,
+          "alt": "5-Screen Shot 2018-09-30 at 22.23.16.png",
+          "order": 5
+        },
+        {
+          "src": "images/1dgbg45majoq4tfhn-320.png",
+          "srcSet": [
+            {
+              "path": "images/1dgbg45majoq4tfhn-320.png",
+              "size": 320
+            },
+            {
+              "path": "images/1dgbg45majoq4tfho-640.png",
+              "size": 640
+            },
+            {
+              "path": "images/1dgbg45majoq4tfhp-1024.png",
+              "size": 1024
+            }
+          ],
+          "caption": null,
+          "alt": "6-Screen Shot 2018-09-30 at 22.23.24.png",
+          "order": 6
+        }
+      ],
+      "dateString": "2016-17",
+      "dataYear": 17
+    },
+    {
+      "html": "<h1 id=\"project-indefensible\">Project Indefensible</h1>\n<p><code>2016</code></p>\n<p><em>website_, _publishing platform</em>\n<a href=\"https://projectindefensible.org\">projectindefensible.org</a></p>\n<p><code>width</code> <a href=\"https://lust.nl\"><code>LUST/LUSTLAB</code></a>, <code>Gabor Kerekes</code>, <a href=\"http://veravandeseyp.com\"><code>Vera van de Seyp</code></a></p>\n<p>Project Indefensible emerged out of a series of research and discussion workshops on the global arms business. The result of this collaboration is the educational website and text of Indefensible. In order to stimulate this conversation, <a href=\"https://lust.nl\">LUST</a>, where I worked as a designer and developer, approached the design and implementation of the website as a critical tool for collaborative reading and writing. LUST offered speculations on scalable reading experiences between all target audiences, situations, and locations centered on the thematics of the Indefensible text.\nMy contribution to this project was mainly implementation and software development including both back-end and front-end. As a result, the website for Indefensible offers the reader a set of tools which you can find at the online website.</p>\n",
+      "title": "Project Indefensible",
+      "description": "Project Indefensible emerged out of a series of research and discussion workshops on the global arms business. The result of this collaboration is the educational website and text of Indefensible. In order to stimulate this conversation, [LUST](https://lust.nl), where I worked as a designer and developer, approached the design and implementation of the website as a critical tool for collaborative reading and writing. LUST offered speculations on scalable reading experiences between all target audiences, situations, and locations centered on the thematics of the Indefensible text.\nMy contribution to this project was mainly implementation and software development including both back-end and front-end. As a result, the website for Indefensible offers the reader a set of tools which you can find at the online website.",
+      "slug": "project-indefensible",
+      "thumb": {
+        "src": "images/1dgbg45majoq4tgnu-320.jpg",
+        "srcSet": [
+          {
+            "path": "images/1dgbg45majoq4tgnu-320.jpg",
+            "size": 320
+          },
+          {
+            "path": "images/1dgbg45majoq4tgnv-640.jpg",
+            "size": 640
+          },
+          {
+            "path": "images/1dgbg45majoq4tgnw-1024.jpg",
+            "size": 1024
+          }
+        ],
+        "caption": null,
+        "alt": "indefensible.jpg",
+        "order": -1
+      },
+      "images": [
+        {
+          "src": "images/1dgbg45majoq4tgux-320.png",
+          "srcSet": [
+            {
+              "path": "images/1dgbg45majoq4tgux-320.png",
+              "size": 320
+            },
+            {
+              "path": "images/1dgbg45majoq4tguy-640.png",
+              "size": 640
+            },
+            {
+              "path": "images/1dgbg45majoq4tguz-1024.png",
+              "size": 1024
+            }
+          ],
+          "caption": "highlighting and note taking",
+          "alt": "highlighting and note taking",
+          "order": -1
+        },
+        {
+          "src": "images/1dgbg45majoq4tiuk-320.png",
+          "srcSet": [
+            {
+              "path": "images/1dgbg45majoq4tiuk-320.png",
+              "size": 320
+            },
+            {
+              "path": "images/1dgbg45majoq4tiul-640.png",
+              "size": 640
+            },
+            {
+              "path": "images/1dgbg45majoq4tium-1024.png",
+              "size": 1024
+            }
+          ],
+          "caption": "search",
+          "alt": "search",
+          "order": -1
+        }
+      ],
+      "dateString": "2016",
+      "dataYear": 16
+    },
+    {
+      "html": "<h1 id=\"re-\">Re-</h1>\n<p><code>2016</code></p>\n<p><em>A modular content-driven web browser</em>\n<a href=\"https://github.com/amirhouieh/re-\">github.com/amirhouieh/re-</a></p>\n<p>Re is my graduation project, which already contains some of the key ideas of the Repub project. Re is a new web browser, altering the way we surf and consume on the web. Re empowers the user to embrace the content of the web pages as well as the design, empowering them to reflect on the way content is shown. Re is a modular platform within which users can decide what type of content they want to see on a webpage\nThis is enabled by creating and adding content modules to the browser. Therefore, Re becomes a super minimal browser which is faster, more reliable, and more efficient in terms of data-consumption by cutting off all the noises from a webpage’s content.</p>\n",
+      "title": "Re-",
+      "description": "Re is my graduation project, which already contains some of the key ideas of the Repub project. Re is a new web browser, altering the way we surf and consume on the web. Re empowers the user to embrace the content of the web pages as well as the design, empowering them to reflect on the way content is shown. Re is a modular platform within which users can decide what type of content they want to see on a webpage\nThis is enabled by creating and adding content modules to the browser. Therefore, Re becomes a super minimal browser which is faster, more reliable, and more efficient in terms of data-consumption by cutting off all the noises from a webpage’s content.",
+      "slug": "re-",
+      "thumb": {
+        "src": "images/1dgbg45majoq4tkwb-320.png",
+        "srcSet": [
+          {
+            "path": "images/1dgbg45majoq4tkwb-320.png",
+            "size": 320
+          },
+          {
+            "path": "images/1dgbg45majoq4tkwc-640.png",
+            "size": 640
+          },
+          {
+            "path": "images/1dgbg45majoq4tkwd-1024.png",
+            "size": 1024
+          }
+        ],
+        "caption": null,
+        "alt": "re-browser-homepage.png",
+        "order": -1
+      },
+      "images": [
+        {
+          "src": "images/1dgbg45majoq4tlg9-320.png",
+          "srcSet": [
+            {
+              "path": "images/1dgbg45majoq4tlg9-320.png",
+              "size": 320
+            },
+            {
+              "path": "images/1dgbg45majoq4tlga-640.png",
+              "size": 640
+            },
+            {
+              "path": "images/1dgbg45majoq4tlgb-1024.png",
+              "size": 1024
+            }
+          ],
+          "caption": "How a Wikipedia page could look like in Re",
+          "alt": "How a Wikipedia page could look like in Re",
+          "order": 1
+        },
+        {
+          "src": "images/1dgbg45majoq4tm5u-320.png",
+          "srcSet": [
+            {
+              "path": "images/1dgbg45majoq4tm5u-320.png",
+              "size": 320
+            },
+            {
+              "path": "images/1dgbg45majoq4tm5v-640.png",
+              "size": 640
+            },
+            {
+              "path": "images/1dgbg45majoq4tm5w-1024.png",
+              "size": 1024
+            }
+          ],
+          "caption": "How Google search could look like in Re",
+          "alt": "How Google search could look like in Re",
+          "order": 2
+        },
+        {
+          "src": "images/1dgbg45majoq4tmwe-320.png",
+          "srcSet": [
+            {
+              "path": "images/1dgbg45majoq4tmwe-320.png",
+              "size": 320
+            },
+            {
+              "path": "images/1dgbg45majoq4tmwf-640.png",
+              "size": 640
+            },
+            {
+              "path": "images/1dgbg45majoq4tmwg-1024.png",
+              "size": 1024
+            }
+          ],
+          "caption": "How KABK.nl could look like in Re",
+          "alt": "How KABK.nl could look like in Re",
+          "order": 3
+        },
+        {
+          "src": "images/1dgbg45majoq4tnu7-320.png",
+          "srcSet": [
+            {
+              "path": "images/1dgbg45majoq4tnu7-320.png",
+              "size": 320
+            },
+            {
+              "path": "images/1dgbg45majoq4tnu8-640.png",
+              "size": 640
+            },
+            {
+              "path": "images/1dgbg45majoq4tnu9-1024.png",
+              "size": 1024
+            }
+          ],
+          "caption": "General UI of Re - menu",
+          "alt": "General UI of Re - menu",
+          "order": 4
+        },
+        {
+          "src": "images/1dgbg45majoq4tod4-320.png",
+          "srcSet": [
+            {
+              "path": "images/1dgbg45majoq4tod4-320.png",
+              "size": 320
+            },
+            {
+              "path": "images/1dgbg45majoq4tod5-640.png",
+              "size": 640
+            },
+            {
+              "path": "images/1dgbg45majoq4tod6-1024.png",
+              "size": 1024
+            }
+          ],
+          "caption": "General UI of Re - browser history",
+          "alt": "General UI of Re - browser history",
+          "order": 5
+        },
+        {
+          "src": "images/1dgbg45majoq4tou5-320.png",
+          "srcSet": [
+            {
+              "path": "images/1dgbg45majoq4tou5-320.png",
+              "size": 320
+            },
+            {
+              "path": "images/1dgbg45majoq4tou6-640.png",
+              "size": 640
+            },
+            {
+              "path": "images/1dgbg45majoq4tou7-1024.png",
+              "size": 1024
+            }
+          ],
+          "caption": "General UI of Re - shortcuts",
+          "alt": "General UI of Re - shortcuts",
+          "order": 6
+        }
+      ],
+      "dateString": "2016",
+      "dataYear": 16
+    },
+    {
+      "html": "<h1 id=\"running-out\">Running Out</h1>\n<p><code>2016</code></p>\n<p><em>Real-time data Installation</em>\nExhibited at Salone del Mobile, Milano</p>\n<p><code>with</code> <a href=\"http://www.minddesign.info/\"><code>Niels Schrader</code></a>, <code>Gabor Kerekes</code>, <a href=\"http://veravandeseyp.com\"><code>Vera van de Seyp</code></a></p>\n<p>The installation Running Out by Graphic Design students Amir Houieh, Gábor Kerekes, and <a href=\"http://veravandeseyp.com\">Vera van de Seyp</a>, confronts its audience with the consequences of the rapidly increasing electricity consumption. In their research, the students address one of the biggest challenge of the 21st century: the global dependecy on electricity.\nThe work is centered around a dismantled computer screen that displays the CO2 emissions generated by the device itself and a countdown revealing the days left until the world runs out of natural resources (numbers based on projections published at COP21).\nIn fall 2015, the Climate Change Conference took place in Paris. Delegates of all United Nations member countries met to discuss urgent arrangement in relation of climate change. Their discussion resulted in the Paris Agreement that made 196 countries agree upon changing national and international policies for the sake of keeping the damage for the climate as low as possible.\nIf the average temperature in the world rises above 2ºC, the damage to the environment is unstoppable and the climate will grow into a vicious circle leading to a rapidly increasing amount of natural disasters. Right now, the average temperature rise is already at 1.5ºC and rising steadily. The largest contribution to this increase is the burning of fossil fuels to generate electrical energy.\nAbout a third of the carbon emissions that are generated is created in a domestic environment. This means that all of us contribute with our daily habits.\nThe interfaces through which people get in contact with their energy consumption leaves out all context: the carbon emissions generated by the device, in the home, but also the bigger context. The global change isn’t visible in the home and the time that is left before the 2ºC temperature elevation is crossed partially because of these daily domestic useages.\nWith their project, Houieh, Kerekes and Van de Seyp aim to lay bare how common energy interfaces seem to deliberately cover the urgency of the global energy crisis.</p>\n<p><em>Pictures by Sem Langendijk and Roel Backaert.</em></p>\n",
+      "title": "Running Out",
+      "description": "The installation Running Out by Graphic Design students Amir Houieh, Gábor Kerekes, and [Vera van de Seyp](http://veravandeseyp.com), confronts its audience with the consequences of the rapidly increasing electricity consumption. In their research, the students address one of the biggest challenge of the 21st century: the global dependecy on electricity.\nThe work is centered around a dismantled computer screen that displays the CO2 emissions generated by the device itself and a countdown revealing the days left until the world runs out of natural resources (numbers based on projections published at COP21).\nIn fall 2015, the Climate Change Conference took place in Paris. Delegates of all United Nations member countries met to discuss urgent arrangement in relation of climate change. Their discussion resulted in the Paris Agreement that made 196 countries agree upon changing national and international policies for the sake of keeping the damage for the climate as low as possible.\nIf the average temperature in the world rises above 2ºC, the damage to the environment is unstoppable and the climate will grow into a vicious circle leading to a rapidly increasing amount of natural disasters. Right now, the average temperature rise is already at 1.5ºC and rising steadily. The largest contribution to this increase is the burning of fossil fuels to generate electrical energy.\nAbout a third of the carbon emissions that are generated is created in a domestic environment. This means that all of us contribute with our daily habits.\nThe interfaces through which people get in contact with their energy consumption leaves out all context: the carbon emissions generated by the device, in the home, but also the bigger context. The global change isn’t visible in the home and the time that is left before the 2ºC temperature elevation is crossed partially because of these daily domestic useages.\nWith their project, Houieh, Kerekes and Van de Seyp aim to lay bare how common energy interfaces seem to deliberately cover the urgency of the global energy crisis.",
+      "slug": "running-out",
+      "thumb": {
+        "src": "images/1dgbg45majoq4tpap-320.jpg",
+        "srcSet": [
+          {
+            "path": "images/1dgbg45majoq4tpap-320.jpg",
+            "size": 320
+          },
+          {
+            "path": "images/1dgbg45majoq4tpaq-640.jpg",
+            "size": 640
+          },
+          {
+            "path": "images/1dgbg45majoq4tpar-1024.jpg",
+            "size": 1024
+          }
+        ],
+        "caption": null,
+        "alt": "running-out-project.jpg",
+        "order": -1
+      },
+      "images": [
+        {
+          "src": "images/1dgbg45majoq4tped-320.jpg",
+          "srcSet": [
+            {
+              "path": "images/1dgbg45majoq4tped-320.jpg",
+              "size": 320
+            },
+            {
+              "path": "images/1dgbg45majoq4tpee-640.jpg",
+              "size": 640
+            },
+            {
+              "path": "images/1dgbg45majoq4tpef-1024.jpg",
+              "size": 1024
+            }
+          ],
+          "caption": null,
+          "alt": "1-reset-5.jpg",
+          "order": 1
+        },
+        {
+          "src": "images/1dgbg45majoq4tphv-320.jpg",
+          "srcSet": [
+            {
+              "path": "images/1dgbg45majoq4tphv-320.jpg",
+              "size": 320
+            },
+            {
+              "path": "images/1dgbg45majoq4tphw-640.jpg",
+              "size": 640
+            },
+            {
+              "path": "images/1dgbg45majoq4tphx-1024.jpg",
+              "size": 1024
+            }
+          ],
+          "caption": null,
+          "alt": "2-reset-7.jpg",
+          "order": 2
+        },
+        {
+          "src": "images/1dgbg45majoq4tplv-320.jpg",
+          "srcSet": [
+            {
+              "path": "images/1dgbg45majoq4tplv-320.jpg",
+              "size": 320
+            },
+            {
+              "path": "images/1dgbg45majoq4tplw-640.jpg",
+              "size": 640
+            },
+            {
+              "path": "images/1dgbg45majoq4tplx-1024.jpg",
+              "size": 1024
+            }
+          ],
+          "caption": null,
+          "alt": "3-reset-8.jpg",
+          "order": 3
+        },
+        {
+          "src": "images/1dgbg45majoq4tppf-320.jpg",
+          "srcSet": [
+            {
+              "path": "images/1dgbg45majoq4tppf-320.jpg",
+              "size": 320
+            },
+            {
+              "path": "images/1dgbg45majoq4tppg-640.jpg",
+              "size": 640
+            },
+            {
+              "path": "images/1dgbg45majoq4tpph-1024.jpg",
+              "size": 1024
+            }
+          ],
+          "caption": null,
+          "alt": "4-reset-9.jpg",
+          "order": 4
+        },
+        {
+          "src": "images/1dgbg45majoq4tpu3-320.jpg",
+          "srcSet": [
+            {
+              "path": "images/1dgbg45majoq4tpu3-320.jpg",
+              "size": 320
+            },
+            {
+              "path": "images/1dgbg45majoq4tpu4-640.jpg",
+              "size": 640
+            },
+            {
+              "path": "images/1dgbg45majoq4tpu5-1024.jpg",
+              "size": 1024
+            }
+          ],
+          "caption": null,
+          "alt": "5-reset-10.jpg",
+          "order": 5
+        },
+        {
+          "src": "images/1dgbg45majoq4tpxy-320.jpg",
+          "srcSet": [
+            {
+              "path": "images/1dgbg45majoq4tpxy-320.jpg",
+              "size": 320
+            },
+            {
+              "path": "images/1dgbg45majoq4tpxz-640.jpg",
+              "size": 640
+            },
+            {
+              "path": "images/1dgbg45majoq4tpy0-1024.jpg",
+              "size": 1024
+            }
+          ],
+          "caption": null,
+          "alt": "6-reset-11.jpg",
+          "order": 6
+        },
+        {
+          "src": "images/1dgbg45majoq4tq1r-320.jpg",
+          "srcSet": [
+            {
+              "path": "images/1dgbg45majoq4tq1r-320.jpg",
+              "size": 320
+            },
+            {
+              "path": "images/1dgbg45majoq4tq1s-640.jpg",
+              "size": 640
+            },
+            {
+              "path": "images/1dgbg45majoq4tq1t-1024.jpg",
+              "size": 1024
+            }
+          ],
+          "caption": null,
+          "alt": "7-reset-12.jpg",
+          "order": 7
+        },
+        {
+          "src": "images/1dgbg45majoq4tq5l-320.jpg",
+          "srcSet": [
+            {
+              "path": "images/1dgbg45majoq4tq5l-320.jpg",
+              "size": 320
+            },
+            {
+              "path": "images/1dgbg45majoq4tq5m-640.jpg",
+              "size": 640
+            },
+            {
+              "path": "images/1dgbg45majoq4tq5n-1024.jpg",
+              "size": 1024
+            }
+          ],
+          "caption": null,
+          "alt": "8-reset-6.jpg",
+          "order": 8
+        },
+        {
+          "src": "images/1dgbg45majoq4tq9d-320.jpg",
+          "srcSet": [
+            {
+              "path": "images/1dgbg45majoq4tq9d-320.jpg",
+              "size": 320
+            },
+            {
+              "path": "images/1dgbg45majoq4tq9e-640.jpg",
+              "size": 640
+            },
+            {
+              "path": "images/1dgbg45majoq4tq9f-1024.jpg",
+              "size": 1024
+            }
+          ],
+          "caption": null,
+          "alt": "9-reset-13.jpg",
+          "order": 9
+        }
+      ],
+      "dateString": "2016",
+      "dataYear": 16
+    },
+    {
+      "html": "<h1 id=\"tomorrow-book\">Tomorrow Book</h1>\n<p><code>2015</code></p>\n<p><em>research, website</em>\n<a href=\"https://tomorrowbook.amir.cloud\">tomorrowbook.amir.cloud</a></p>\n<p>The Tomorrow Book, an experimental research project in form of an school assignment, is one of my early attempts to experiment with text driven design. Within this assignment, I studied various types of content containers in a digital environment and questioned the different reading experiences digital and analogue readers have to offer. As result, the Tomorrow Book was transferred onto a website where it claims that “a new container requires new content”. This website uses Wikipedia articles in order to generate new reading narratives for books.</p>\n",
+      "title": "Tomorrow Book",
+      "description": "The Tomorrow Book, an experimental research project in form of an school assignment, is one of my early attempts to experiment with text driven design. Within this assignment, I studied various types of content containers in a digital environment and questioned the different reading experiences digital and analogue readers have to offer. As result, the Tomorrow Book was transferred onto a website where it claims that “a new container requires new content”. This website uses Wikipedia articles in order to generate new reading narratives for books.",
+      "slug": "tomorrow-book",
+      "thumb": {
+        "src": "images/1dgbg45majoq4trp8-320.png",
+        "srcSet": [
+          {
+            "path": "images/1dgbg45majoq4trp8-320.png",
+            "size": 320
+          },
+          {
+            "path": "images/1dgbg45majoq4trp9-640.png",
+            "size": 640
+          },
+          {
+            "path": "images/1dgbg45majoq4trpa-1024.png",
+            "size": 1024
+          }
+        ],
+        "caption": null,
+        "alt": "tomorrow-book.png",
+        "order": -1
+      },
+      "images": [
+        {
+          "src": "images/1dgbg45majoq4tsiv-320.jpg",
+          "srcSet": [
+            {
+              "path": "images/1dgbg45majoq4tsiv-320.jpg",
+              "size": 320
+            },
+            {
+              "path": "images/1dgbg45majoq4tsiw-640.jpg",
+              "size": 640
+            },
+            {
+              "path": "images/1dgbg45majoq4tsix-1024.jpg",
+              "size": 1024
+            }
+          ],
+          "caption": null,
+          "alt": "1-image2.jpg",
+          "order": 1
+        },
+        {
+          "src": "images/1dgbg45majoq4tsmb-320.jpg",
+          "srcSet": [
+            {
+              "path": "images/1dgbg45majoq4tsmb-320.jpg",
+              "size": 320
+            },
+            {
+              "path": "images/1dgbg45majoq4tsmc-640.jpg",
+              "size": 640
+            },
+            {
+              "path": "images/1dgbg45majoq4tsmd-1024.jpg",
+              "size": 1024
+            }
+          ],
+          "caption": null,
+          "alt": "2-image3.jpg",
+          "order": 2
+        },
+        {
+          "src": "images/1dgbg45majoq4tsq1-320.jpg",
+          "srcSet": [
+            {
+              "path": "images/1dgbg45majoq4tsq1-320.jpg",
+              "size": 320
+            },
+            {
+              "path": "images/1dgbg45majoq4tsq2-640.jpg",
+              "size": 640
+            },
+            {
+              "path": "images/1dgbg45majoq4tsq3-1024.jpg",
+              "size": 1024
+            }
+          ],
+          "caption": null,
+          "alt": "3-image5.jpg",
+          "order": 3
+        },
+        {
+          "src": "images/1dgbg45majoq4tsth-320.jpg",
+          "srcSet": [
+            {
+              "path": "images/1dgbg45majoq4tsth-320.jpg",
+              "size": 320
+            },
+            {
+              "path": "images/1dgbg45majoq4tsti-640.jpg",
+              "size": 640
+            },
+            {
+              "path": "images/1dgbg45majoq4tstj-1024.jpg",
+              "size": 1024
+            }
+          ],
+          "caption": null,
+          "alt": "4-image1.jpg",
+          "order": 4
+        },
+        {
+          "src": "images/1dgbg45majoq4tsww-320.jpg",
+          "srcSet": [
+            {
+              "path": "images/1dgbg45majoq4tsww-320.jpg",
+              "size": 320
+            },
+            {
+              "path": "images/1dgbg45majoq4tswx-640.jpg",
+              "size": 640
+            },
+            {
+              "path": "images/1dgbg45majoq4tswy-1024.jpg",
+              "size": 1024
+            }
+          ],
+          "caption": null,
+          "alt": "5-image7.jpg",
+          "order": 5
+        }
+      ],
+      "dateString": "2015",
+      "dataYear": 15
+    },
+    {
+      "html": "<h1 id=\"text-space\">Text &amp; Space</h1>\n<p><code>2014</code></p>\n<p><em>Data driven installation</em>\nKABK, Den Haag</p>\n<p>Text and Space is a physical translation of the text. I created a system which uses the text as input. It extracts the required data from the text in order to create an space and spacial experiment for the viewers.\nEvery word becomes a dot in a three dimensional space and by connecting the dots a new space is evolved. This project is one of my first attempts working with text and data as material and shaping my visuals through systematic approach.</p>\n<p><a href=\"https://amir.cloud/text_and_space\">See Full Documentation</a></p>\n",
+      "title": "Text & Space",
+      "description": "Text and Space is a physical translation of the text. I created a system which uses the text as input. It extracts the required data from the text in order to create an space and spacial experiment for the viewers.\nEvery word becomes a dot in a three dimensional space and by connecting the dots a new space is evolved. This project is one of my first attempts working with text and data as material and shaping my visuals through systematic approach.",
+      "slug": "text-and-space",
+      "thumb": {
+        "src": "images/1dgbg45majoq4tqdi-320.jpg",
+        "srcSet": [
+          {
+            "path": "images/1dgbg45majoq4tqdi-320.jpg",
+            "size": 320
+          },
+          {
+            "path": "images/1dgbg45majoq4tqdj-640.jpg",
+            "size": 640
+          },
+          {
+            "path": "images/1dgbg45majoq4tqdk-1024.jpg",
+            "size": 1024
+          }
+        ],
+        "caption": null,
+        "alt": "mg_9988-2x.jpg",
+        "order": -1
+      },
+      "images": [
+        {
+          "src": "images/1dgbg45majoq4tqk4-320.jpg",
+          "srcSet": [
+            {
+              "path": "images/1dgbg45majoq4tqk4-320.jpg",
+              "size": 320
+            },
+            {
+              "path": "images/1dgbg45majoq4tqk5-640.jpg",
+              "size": 640
+            },
+            {
+              "path": "images/1dgbg45majoq4tqk6-1024.jpg",
+              "size": 1024
+            }
+          ],
+          "caption": null,
+          "alt": "1-00-2x.jpg",
+          "order": 1
+        },
+        {
+          "src": "images/1dgbg45majoq4tqoz-320.jpg",
+          "srcSet": [
+            {
+              "path": "images/1dgbg45majoq4tqoz-320.jpg",
+              "size": 320
+            },
+            {
+              "path": "images/1dgbg45majoq4tqp0-640.jpg",
+              "size": 640
+            },
+            {
+              "path": "images/1dgbg45majoq4tqp1-1024.jpg",
+              "size": 1024
+            }
+          ],
+          "caption": null,
+          "alt": "2-01-2x.jpg",
+          "order": 2
+        },
+        {
+          "src": "images/1dgbg45majoq4tqtp-320.jpg",
+          "srcSet": [
+            {
+              "path": "images/1dgbg45majoq4tqtp-320.jpg",
+              "size": 320
+            },
+            {
+              "path": "images/1dgbg45majoq4tqtq-640.jpg",
+              "size": 640
+            },
+            {
+              "path": "images/1dgbg45majoq4tqtr-1024.jpg",
+              "size": 1024
+            }
+          ],
+          "caption": null,
+          "alt": "3-mg_0047-2x.jpg",
+          "order": 3
+        },
+        {
+          "src": "images/1dgbg45majoq4tqzz-320.jpg",
+          "srcSet": [
+            {
+              "path": "images/1dgbg45majoq4tqzz-320.jpg",
+              "size": 320
+            },
+            {
+              "path": "images/1dgbg45majoq4tr00-640.jpg",
+              "size": 640
+            },
+            {
+              "path": "images/1dgbg45majoq4tr01-1024.jpg",
+              "size": 1024
+            }
+          ],
+          "caption": null,
+          "alt": "5-mg_0048-2x.jpg",
+          "order": 5
+        },
+        {
+          "src": "images/1dgbg45majoq4tr5x-320.jpg",
+          "srcSet": [
+            {
+              "path": "images/1dgbg45majoq4tr5x-320.jpg",
+              "size": 320
+            },
+            {
+              "path": "images/1dgbg45majoq4tr5y-640.jpg",
+              "size": 640
+            },
+            {
+              "path": "images/1dgbg45majoq4tr5z-1024.jpg",
+              "size": 1024
+            }
+          ],
+          "caption": null,
+          "alt": "6-mg_0061-2x.jpg",
+          "order": 6
+        },
+        {
+          "src": "images/1dgbg45majoq4trc2-320.jpg",
+          "srcSet": [
+            {
+              "path": "images/1dgbg45majoq4trc2-320.jpg",
+              "size": 320
+            },
+            {
+              "path": "images/1dgbg45majoq4trc3-640.jpg",
+              "size": 640
+            },
+            {
+              "path": "images/1dgbg45majoq4trc4-1024.jpg",
+              "size": 1024
+            }
+          ],
+          "caption": null,
+          "alt": "7-mg_9970-2x.jpg",
+          "order": 7
+        },
+        {
+          "src": "images/1dgbg45majoq4trib-320.jpg",
+          "srcSet": [
+            {
+              "path": "images/1dgbg45majoq4trib-320.jpg",
+              "size": 320
+            },
+            {
+              "path": "images/1dgbg45majoq4tric-640.jpg",
+              "size": 640
+            },
+            {
+              "path": "images/1dgbg45majoq4trid-1024.jpg",
+              "size": 1024
+            }
+          ],
+          "caption": null,
+          "alt": "8-mg_9994-2x.jpg",
+          "order": 8
+        }
+      ],
+      "dateString": "2014",
+      "dataYear": 14
+    }
+  ]
+}

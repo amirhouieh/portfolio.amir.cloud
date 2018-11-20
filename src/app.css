@@ -1,0 +1,48 @@
+.page-thumbnail {
+  width: 200px;
+}
+
+.page-thumbnail:hover figure{
+  display: block;
+}
+
+nav figure{
+  position: fixed;
+  display: none;
+
+  width: 75vw;
+  max-width: 1024px;
+
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  z-index: -1;
+}
+
+nav > * {
+  cursor: pointer;
+  margin-top: 1em;
+}
+
+.slideShow {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: rgba(255,255,255, 0.9);
+  width: calc(100vw - 100px);
+  height: calc(100vh - 100px);
+  padding: 50px;
+}
+
+.slideShow > * {
+  max-width: 1024px;
+  margin: auto;
+}
+
+.slideShow .close-handler{
+  position: absolute;
+  top: 0;
+  right: 50px;
+  cursor: pointer;
+}
