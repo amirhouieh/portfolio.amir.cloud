@@ -31,8 +31,8 @@ export const parseMd = async (mdPath: string): Promise<MarkdownContent> => {
     const title = header ? header.text : path.basename(TEST_FOLDER_DIR);
 
     // @ts-ignore
-    const description = longestPara ? longestPara.text : title;
-
+    const description = longestPara ? marked.parse(longestPara.text) : title;
+    console.log(description)
     const body = marked.parser(tokens);
 
     return { title, body, description};

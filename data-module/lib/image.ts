@@ -11,19 +11,22 @@ const createResponsiveImageName = (id: string, size: number, ext: string) => {
 
 export interface ImageSize { path: string, size: number }
 
-const resizeHandlerFactory = (inPath: string) => async (size: number): Promise<ImageSize> => {
+const resizeHandlerFactory = (inPath: string) => {
     const imageFilename = path.basename(inPath);
     const id = uniqid();
     const ext = path.extname(imageFilename);
-    const filename = createResponsiveImageName(id, size, ext);
-    const outputPath = path.join(IMAGES_DIR, filename);
-    return sharp(inPath)
+
+    return (size: number): Promise<ImageSize> => {
+        const filename = createResponsiveImageName(id, size, ext);
+        const outputPath = path.join(IMAGES_DIR, filename);
+        return sharp(inPath)
         .resize(size)
         .toFile(outputPath)
         .then(() => ({
             path: path.join("images", filename),
             size,
         }));
+    }
 };
 
 export const processImage = async (imagePath: string): Promise<Image> => {

@@ -1,7 +1,152 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="492e27c4-cf7b-4780-be26-f0d3b5fa42fb" name="Default Changelist" comment="" />
+    <list default="true" id="492e27c4-cf7b-4780-be26-f0d3b5fa42fb" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/seo.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.firebase/hosting.ZGlzdA.cache" beforeDir="false" afterPath="$PROJECT_DIR$/.firebase/hosting.ZGlzdA.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-module/lib/image.ts" beforeDir="false" afterPath="$PROJECT_DIR$/data-module/lib/image.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-module/lib/utils.ts" beforeDir="false" afterPath="$PROJECT_DIR$/data-module/lib/utils.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/index.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/site-thumb.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/site-thumb.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/content/project-indefensible /text.md" beforeDir="false" afterPath="$PROJECT_DIR$/public/content/project-indefensible /text.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/data.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/data.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/1dgbg45majoq4t8ks-320.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/1dgbg45majoq4t8kv-640.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/1dgbg45majoq4t8kw-1024.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/1dgbg45majoq4t9qk-320.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/1dgbg45majoq4t9ql-640.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/1dgbg45majoq4t9qm-1024.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/1dgbg45majoq4tatl-320.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/1dgbg45majoq4tatm-640.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/1dgbg45majoq4tatn-1024.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/1dgbg45majoq4tc3t-320.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/1dgbg45majoq4tc3u-640.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/1dgbg45majoq4tc3v-1024.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/1dgbg45majoq4td8f-320.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/1dgbg45majoq4td8g-640.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/1dgbg45majoq4td8h-1024.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/1dgbg45majoq4tedh-320.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/1dgbg45majoq4tedi-640.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/1dgbg45majoq4tedj-1024.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/1dgbg45majoq4tfhn-320.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/1dgbg45majoq4tfho-640.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/1dgbg45majoq4tfhp-1024.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/1dgbg45majoq4tgnu-320.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/1dgbg45majoq4tgnv-640.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/1dgbg45majoq4tgnw-1024.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/1dgbg45majoq4tgux-320.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/1dgbg45majoq4tguy-640.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/1dgbg45majoq4tguz-1024.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/1dgbg45majoq4tiuk-320.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/1dgbg45majoq4tiul-640.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/1dgbg45majoq4tium-1024.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/1dgbg45majoq4tkwb-320.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/1dgbg45majoq4tkwc-640.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/1dgbg45majoq4tkwd-1024.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/1dgbg45majoq4tlg9-320.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/1dgbg45majoq4tlga-640.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/1dgbg45majoq4tlgb-1024.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/1dgbg45majoq4tm5u-320.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/1dgbg45majoq4tm5v-640.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/1dgbg45majoq4tm5w-1024.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/1dgbg45majoq4tmwe-320.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/1dgbg45majoq4tmwf-640.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/1dgbg45majoq4tmwg-1024.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/1dgbg45majoq4tnu7-320.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/1dgbg45majoq4tnu8-640.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/1dgbg45majoq4tnu9-1024.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/1dgbg45majoq4tod4-320.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/1dgbg45majoq4tod5-640.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/1dgbg45majoq4tod6-1024.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/1dgbg45majoq4tou5-320.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/1dgbg45majoq4tou6-640.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/1dgbg45majoq4tou7-1024.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/1dgbg45majoq4tpap-320.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/1dgbg45majoq4tpaq-640.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/1dgbg45majoq4tpar-1024.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/1dgbg45majoq4tped-320.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/1dgbg45majoq4tpee-640.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/1dgbg45majoq4tpef-1024.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/1dgbg45majoq4tphv-320.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/1dgbg45majoq4tphw-640.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/1dgbg45majoq4tphx-1024.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/1dgbg45majoq4tplv-320.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/1dgbg45majoq4tplw-640.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/1dgbg45majoq4tplx-1024.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/1dgbg45majoq4tppf-320.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/1dgbg45majoq4tppg-640.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/1dgbg45majoq4tpph-1024.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/1dgbg45majoq4tpu3-320.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/1dgbg45majoq4tpu4-640.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/1dgbg45majoq4tpu5-1024.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/1dgbg45majoq4tpxy-320.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/1dgbg45majoq4tpxz-640.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/1dgbg45majoq4tpy0-1024.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/1dgbg45majoq4tq1r-320.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/1dgbg45majoq4tq1s-640.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/1dgbg45majoq4tq1t-1024.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/1dgbg45majoq4tq5l-320.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/1dgbg45majoq4tq5m-640.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/1dgbg45majoq4tq5n-1024.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/1dgbg45majoq4tq9d-320.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/1dgbg45majoq4tq9e-640.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/1dgbg45majoq4tq9f-1024.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/1dgbg45majoq4tqdi-320.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/1dgbg45majoq4tqdj-640.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/1dgbg45majoq4tqdk-1024.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/1dgbg45majoq4tqk4-320.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/1dgbg45majoq4tqk5-640.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/1dgbg45majoq4tqk6-1024.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/1dgbg45majoq4tqoz-320.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/1dgbg45majoq4tqp0-640.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/1dgbg45majoq4tqp1-1024.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/1dgbg45majoq4tqtp-320.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/1dgbg45majoq4tqtq-640.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/1dgbg45majoq4tqtr-1024.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/1dgbg45majoq4tqzz-320.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/1dgbg45majoq4tr00-640.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/1dgbg45majoq4tr01-1024.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/1dgbg45majoq4tr5x-320.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/1dgbg45majoq4tr5y-640.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/1dgbg45majoq4tr5z-1024.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/1dgbg45majoq4trc2-320.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/1dgbg45majoq4trc3-640.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/1dgbg45majoq4trc4-1024.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/1dgbg45majoq4trib-320.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/1dgbg45majoq4tric-640.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/1dgbg45majoq4trid-1024.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/1dgbg45majoq4trp8-320.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/1dgbg45majoq4trp9-640.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/1dgbg45majoq4trpa-1024.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/1dgbg45majoq4tsiv-320.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/1dgbg45majoq4tsiw-640.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/1dgbg45majoq4tsix-1024.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/1dgbg45majoq4tsmb-320.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/1dgbg45majoq4tsmc-640.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/1dgbg45majoq4tsmd-1024.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/1dgbg45majoq4tsq1-320.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/1dgbg45majoq4tsq2-640.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/1dgbg45majoq4tsq3-1024.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/1dgbg45majoq4tsth-320.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/1dgbg45majoq4tsti-640.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/1dgbg45majoq4tstj-1024.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/1dgbg45majoq4tsww-320.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/1dgbg45majoq4tswx-640.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/1dgbg45majoq4tswy-1024.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/figure.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/figure.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/nav.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/nav.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/sideshow.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/sideshow.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/home.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/home.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/project/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/project/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/static.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -70,64 +215,91 @@
     <session id="1282656619">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="3" />
+          <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.3" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.open.time.4" value="1" />
+          <entry key="project.open.time.7" value="1" />
+          <entry key="project.opened" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="css" value="14" />
-          <entry key="js" value="8" />
+          <entry key="gitignore" value="2" />
+          <entry key="js" value="9" />
           <entry key="json" value="9" />
-          <entry key="ts" value="46" />
-          <entry key="tsx" value="62" />
+          <entry key="md" value="2" />
+          <entry key="png" value="2" />
+          <entry key="ts" value="54" />
+          <entry key="tsx" value="86" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CSS" value="14" />
+          <entry key="Image" value="2" />
           <entry key="JSON" value="9" />
-          <entry key="JavaScript" value="8" />
-          <entry key="TypeScript" value="46" />
-          <entry key="TypeScript JSX" value="62" />
+          <entry key="JavaScript" value="9" />
+          <entry key="PLAIN_TEXT" value="4" />
+          <entry key="TypeScript" value="54" />
+          <entry key="TypeScript JSX" value="86" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts">
         <counts>
-          <entry key="ESLintLanguageService" value="1" />
-          <entry key="TypeScriptServerServiceImpl" value="1" />
+          <entry key="ESLintLanguageService" value="4" />
+          <entry key="TypeScriptServerServiceImpl" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="css" value="136" />
-          <entry key="js" value="452" />
+          <entry key="gitignore" value="28" />
+          <entry key="js" value="489" />
           <entry key="json" value="111" />
-          <entry key="ts" value="947" />
-          <entry key="tsx" value="4180" />
+          <entry key="md" value="12" />
+          <entry key="ts" value="999" />
+          <entry key="tsx" value="4903" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSS" value="136" />
           <entry key="JSON" value="111" />
-          <entry key="JavaScript" value="452" />
-          <entry key="TypeScript" value="947" />
-          <entry key="TypeScript JSX" value="4180" />
+          <entry key="JavaScript" value="489" />
+          <entry key="PLAIN_TEXT" value="40" />
+          <entry key="TypeScript" value="999" />
+          <entry key="TypeScript JSX" value="4903" />
+        </counts>
+      </usages-collector>
+    </session>
+    <session id="265092560">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="gitignore" value="5" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="PLAIN_TEXT" value="5" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/static.config.js">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="11" column="10" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
-              <folding>
-                <element signature="e#0#23#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="216">
+              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
             </state>
           </provider>
         </entry>
@@ -151,10 +323,15 @@
       <find>omit</find>
       <find>fs</find>
       <find>isNumber</find>
+      <find>1dgbg46kdjoq68848</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/data-module/lib</dir>
+      <dir>$PROJECT_DIR$/public/images</dir>
     </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -168,7 +345,6 @@
         <option value="$PROJECT_DIR$/data/tsconfig.json" />
         <option value="$PROJECT_DIR$/data/nodemon.json" />
         <option value="$PROJECT_DIR$/data-module/nodemon.json" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/data-module/tsconfig.json" />
         <option value="$PROJECT_DIR$/tsconfig.webpack.json" />
         <option value="$PROJECT_DIR$/tsconfig-data.json" />
@@ -177,28 +353,31 @@
         <option value="$PROJECT_DIR$/data-module/lib/consts.ts" />
         <option value="$PROJECT_DIR$/data-module/index.d.ts" />
         <option value="$PROJECT_DIR$/data-module/types.d.ts" />
-        <option value="$PROJECT_DIR$/index.d.ts" />
-        <option value="$PROJECT_DIR$/data-module/lib/image.ts" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/src/containers/Post.tsx" />
         <option value="$PROJECT_DIR$/src/containers/project.tsx" />
         <option value="$PROJECT_DIR$/src/index.css" />
         <option value="$PROJECT_DIR$/src/base.css" />
         <option value="$PROJECT_DIR$/src/containers/nav.tsx" />
-        <option value="$PROJECT_DIR$/src/containers/home.tsx" />
         <option value="$PROJECT_DIR$/src/components/blur-text/index.tsx" />
-        <option value="$PROJECT_DIR$/src/App.tsx" />
         <option value="$PROJECT_DIR$/data-module/lib/types.ts" />
-        <option value="$PROJECT_DIR$/data-module/lib/utils.ts" />
         <option value="$PROJECT_DIR$/data-module/index.ts" />
-        <option value="$PROJECT_DIR$/src/components/nav.tsx" />
-        <option value="$PROJECT_DIR$/src/components/figure.tsx" />
         <option value="$PROJECT_DIR$/src/app.css" />
         <option value="$PROJECT_DIR$/src/containers/project/style.css" />
         <option value="$PROJECT_DIR$/src/components/slideshow.tsx" />
         <option value="$PROJECT_DIR$/src/components/sideshow.tsx" />
+        <option value="$PROJECT_DIR$/src/containers/home.tsx" />
+        <option value="$PROJECT_DIR$/src/components/figure.tsx" />
+        <option value="$PROJECT_DIR$/data-module/lib/image.ts" />
+        <option value="$PROJECT_DIR$/index.d.ts" />
+        <option value="$PROJECT_DIR$/src/components/seo.tsx" />
         <option value="$PROJECT_DIR$/src/containers/project/index.tsx" />
+        <option value="$PROJECT_DIR$/data-module/lib/utils.ts" />
+        <option value="$PROJECT_DIR$/src/App.tsx" />
+        <option value="$PROJECT_DIR$/src/components/nav.tsx" />
+        <option value="$PROJECT_DIR$/public/content/project-indefensible /text.md" />
         <option value="$PROJECT_DIR$/static.config.js" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -219,44 +398,33 @@
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="y" value="23" />
+    <option name="y" value="83" />
     <option name="width" value="1920" />
     <option name="height" value="1020" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="amir.cloud.portfolio.react" type="b2602c69:ProjectViewProjectNode" />
-              <item name="amir.cloud.portfolio.react" type="462c0819:PsiDirectoryNode" />
+              <item name="amir.cloud.portfolio" type="b2602c69:ProjectViewProjectNode" />
+              <item name="amir.cloud.portfolio" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="amir.cloud.portfolio.react" type="b2602c69:ProjectViewProjectNode" />
-              <item name="amir.cloud.portfolio.react" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="amir.cloud.portfolio.react" type="b2602c69:ProjectViewProjectNode" />
-              <item name="amir.cloud.portfolio.react" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="amir.cloud.portfolio.react" type="b2602c69:ProjectViewProjectNode" />
-              <item name="amir.cloud.portfolio.react" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="containers" type="462c0819:PsiDirectoryNode" />
+              <item name="amir.cloud.portfolio" type="b2602c69:ProjectViewProjectNode" />
+              <item name="amir.cloud.portfolio" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -280,11 +448,11 @@
       <recent name="$PROJECT_DIR$/data" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public" />
       <recent name="$PROJECT_DIR$/src/components" />
       <recent name="$PROJECT_DIR$/src/containers/project" />
       <recent name="$PROJECT_DIR$/src/containers" />
       <recent name="$PROJECT_DIR$/src" />
-      <recent name="$PROJECT_DIR$/data-module" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -311,12 +479,16 @@
       <updated>1540735630225</updated>
       <workItem from="1540735632405" duration="72000" />
       <workItem from="1540736091024" duration="4631000" />
-      <workItem from="1542725745286" duration="14584000" />
+      <workItem from="1542725745286" duration="18548000" />
+      <workItem from="1542990006955" duration="572000" />
+      <workItem from="1543151437251" duration="122000" />
+      <workItem from="1543322098436" duration="203000" />
+      <workItem from="1543322456606" duration="74000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19287000" />
+    <option name="totallyTimeSpent" value="24222000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1080" extended-state="0" />
@@ -350,14 +522,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/containers/Blog.tsx" />
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="7" column="5" lean-forward="true" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/axios/index.d.ts" />
     <entry file="file://$PROJECT_DIR$/src/data-module/data.ts" />
     <entry file="file://$PROJECT_DIR$/.babelrc">
@@ -394,16 +558,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data-module/data.ts">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data-module/src/html/seo.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="696">
-          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/data-module/data.ts" />
+    <entry file="file://$PROJECT_DIR$/data-module/src/html/seo.ts" />
     <entry file="file://$PROJECT_DIR$/data-module/lib/consts.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="48">
@@ -411,19 +567,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data-module/lib/index.ts">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data-module/types.d.ts">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.d.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24">
-          <caret line="1" column="16" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/data-module/lib/index.ts" />
+    <entry file="file://$PROJECT_DIR$/data-module/types.d.ts" />
     <entry file="file://$PROJECT_DIR$/node_modules/@types/sharp/index.d.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
@@ -445,16 +590,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data-module/lib/image.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-          <folding>
-            <element signature="e#0#29#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/@types/react/index.d.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="419">
@@ -462,9 +597,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/index.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.css" />
     <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.dom.d.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="347">
@@ -490,9 +623,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="771">
           <caret line="60" column="1" lean-forward="true" selection-start-line="60" selection-start-column="1" selection-end-line="60" selection-end-column="1" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -507,9 +637,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="432">
           <caret line="18" column="1" lean-forward="true" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -517,26 +644,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="723">
           <caret line="40" column="12" selection-start-line="40" selection-start-column="4" selection-end-line="40" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data-module/lib/utils.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-          <folding>
-            <element signature="e#0#29#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/App.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="552">
-          <caret line="23" column="1" lean-forward="true" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -554,40 +661,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data-module/index.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="531">
-          <caret line="52" selection-start-line="52" selection-end-line="52" />
-          <folding>
-            <element signature="e#14#63#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/figure.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="576">
-          <caret line="24" column="9" lean-forward="true" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
-          <folding>
-            <element signature="e#0#31#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/app.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="888">
           <caret line="46" column="18" lean-forward="true" selection-start-line="46" selection-start-column="18" selection-end-line="46" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/containers/home.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -598,26 +675,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/sideshow.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="576">
-          <caret line="24" column="5" lean-forward="true" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
-          <folding>
-            <element signature="e#0#31#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/containers/project/index.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/containers/project/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="385">
@@ -625,23 +682,114 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/sideshow.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="651">
+          <caret line="49" column="71" selection-start-line="49" selection-start-column="71" selection-end-line="49" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/figure.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="15" column="23" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/site-thumb.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/site-thumb.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data-module/lib/image.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="25" column="48" lean-forward="true" selection-start-line="25" selection-start-column="48" selection-end-line="25" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/seo.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="430">
+          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/containers/project/index.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="580">
+          <caret line="67" column="18" lean-forward="true" selection-start-line="67" selection-start-column="18" selection-end-line="67" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data-module/lib/utils.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="755">
+          <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data-module/index.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="401">
+          <caret line="27" column="36" lean-forward="true" selection-start-line="27" selection-start-column="36" selection-end-line="27" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="21" column="17" lean-forward="true" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/content/pages/text.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/content/project-indefensible /text.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="7" column="130" selection-start-line="7" selection-start-column="130" selection-end-line="7" selection-end-column="130" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/nav.tsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="279">
-          <caret line="62" column="40" lean-forward="true" selection-start-line="62" selection-start-column="40" selection-end-line="62" selection-end-column="40" />
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="175">
+          <caret line="60" column="29" selection-start-line="60" selection-start-column="29" selection-end-line="60" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/containers/home.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="14" column="12" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="12" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/static.config.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="11" column="10" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
-          <folding>
-            <element signature="e#0#23#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="596">
+          <caret line="81" column="39" lean-forward="true" selection-start-line="81" selection-start-column="39" selection-end-line="81" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
         </state>
       </provider>
     </entry>

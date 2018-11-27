@@ -1,3 +1,4 @@
+import React from "react";
 import path from 'path'
 import { omit } from 'lodash'
 import { readFileSync } from "fs";
@@ -36,6 +37,33 @@ export default {
         component: 'src/containers/404',
       },
     ]
+  },
+  Document: class CustomHtml extends React.Component {
+    render() {
+      const {
+        Html, Head, Body, children, renderMeta,
+      } = this.props;
+      return (
+        <Html lang={"en"}>
+        <Head>
+          <meta charSet="UTF-8"/>
+          <meta name="viewport" content="width=device-width, initial-scale=1"/>
+          {renderMeta.styleTags}
+          <script async src="https://www.googletagmanager.com/gtag/js?id=UA-129679487-2" />
+          <script dangerouslySetInnerHTML={{
+            __html: `window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', 'UA-129679487-2');`
+          }}/>
+        </Head>
+        <Body>
+        {children}
+        </Body>
+        </Html>
+      )
+    }
   },
   webpack: (config, { defaultLoaders }) => {
     // Add .ts and .tsx extension to resolver

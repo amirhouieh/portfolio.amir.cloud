@@ -25,7 +25,7 @@ class Nav extends React.Component<Props & RouteComponentProps, State> {
         }
     }
 
-    onItemClicked = (page: Page, i: number) => {
+    onItemClicked = (page: Page) => {
         this.setState({
             clickedItem: page.slug
         })
@@ -59,7 +59,7 @@ class Nav extends React.Component<Props & RouteComponentProps, State> {
                             <BlurText fontSize={50}
                                       color={"blue"}
                                       onClick={() => {
-                                          this.onItemClicked(page, i);
+                                          this.onItemClicked(page);
                                       }}
                             >
                                 <h1 className="page-info">{page.title}</h1>
@@ -68,10 +68,9 @@ class Nav extends React.Component<Props & RouteComponentProps, State> {
                             <a href={`${BASE_URL}/${page.slug}`} style={{display: "none"}}/>
                             <p className="description"
                                style={{display: "none"}}
-                               dangerouslySetInnerHTML={{
-                                   __html: page.description
-                               }}
-                            />
+                            >
+                                {page.description}
+                            </p>
                             <Figure imgData={page.thumb}/>
                         </div>)
                     )

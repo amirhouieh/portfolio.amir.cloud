@@ -15,6 +15,7 @@ interface State {
 }
 
 import "./style.css"
+import {Seo} from "../../components/seo";
 
 class Project extends React.Component<Props, State> {
 
@@ -55,6 +56,11 @@ class Project extends React.Component<Props, State> {
 
         return (
             <div className="container">
+                <Seo title={`${project.title} by Amir Houieh`}
+                     description={project.description}
+                     path={`${project.slug}`}
+                     imagePath={project.thumb.src.replace("320", "1024")}
+                />
                 <div className="page-info"
                      dangerouslySetInnerHTML={{
                          __html: project.html
@@ -66,6 +72,7 @@ class Project extends React.Component<Props, State> {
                             <Figure imgData={img}
                                     onClick={() => this.showSlideShow(i)}
                                     key={`fig-${i}`}
+                                    prefix={"../"}
                             />
                         )
                     }

@@ -47,7 +47,7 @@ export class Sideshow extends React.Component<Props, State>{
             <div className={`slideShow`}>
                 <code className={"close-handler"} onClick={this.props.onClose}>[close]</code>
                 <div className={"image-container"}>
-                    <Figure imgData={images[currentIndex]}/>
+                    <Figure imgData={images[currentIndex]} prefix={"../"}/>
                 </div>
             </div>
         )
