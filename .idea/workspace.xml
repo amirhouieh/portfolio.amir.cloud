@@ -2,150 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="492e27c4-cf7b-4780-be26-f0d3b5fa42fb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/seo.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.firebase/hosting.ZGlzdA.cache" beforeDir="false" afterPath="$PROJECT_DIR$/.firebase/hosting.ZGlzdA.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data-module/lib/image.ts" beforeDir="false" afterPath="$PROJECT_DIR$/data-module/lib/image.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data-module/lib/utils.ts" beforeDir="false" afterPath="$PROJECT_DIR$/data-module/lib/utils.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/index.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/site-thumb.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/site-thumb.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/content/project-indefensible /text.md" beforeDir="false" afterPath="$PROJECT_DIR$/public/content/project-indefensible /text.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/data.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/data.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/1dgbg45majoq4t8ks-320.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/1dgbg45majoq4t8kv-640.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/1dgbg45majoq4t8kw-1024.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/1dgbg45majoq4t9qk-320.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/1dgbg45majoq4t9ql-640.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/1dgbg45majoq4t9qm-1024.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/1dgbg45majoq4tatl-320.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/1dgbg45majoq4tatm-640.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/1dgbg45majoq4tatn-1024.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/1dgbg45majoq4tc3t-320.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/1dgbg45majoq4tc3u-640.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/1dgbg45majoq4tc3v-1024.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/1dgbg45majoq4td8f-320.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/1dgbg45majoq4td8g-640.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/1dgbg45majoq4td8h-1024.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/1dgbg45majoq4tedh-320.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/1dgbg45majoq4tedi-640.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/1dgbg45majoq4tedj-1024.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/1dgbg45majoq4tfhn-320.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/1dgbg45majoq4tfho-640.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/1dgbg45majoq4tfhp-1024.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/1dgbg45majoq4tgnu-320.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/1dgbg45majoq4tgnv-640.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/1dgbg45majoq4tgnw-1024.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/1dgbg45majoq4tgux-320.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/1dgbg45majoq4tguy-640.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/1dgbg45majoq4tguz-1024.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/1dgbg45majoq4tiuk-320.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/1dgbg45majoq4tiul-640.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/1dgbg45majoq4tium-1024.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/1dgbg45majoq4tkwb-320.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/1dgbg45majoq4tkwc-640.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/1dgbg45majoq4tkwd-1024.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/1dgbg45majoq4tlg9-320.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/1dgbg45majoq4tlga-640.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/1dgbg45majoq4tlgb-1024.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/1dgbg45majoq4tm5u-320.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/1dgbg45majoq4tm5v-640.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/1dgbg45majoq4tm5w-1024.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/1dgbg45majoq4tmwe-320.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/1dgbg45majoq4tmwf-640.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/1dgbg45majoq4tmwg-1024.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/1dgbg45majoq4tnu7-320.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/1dgbg45majoq4tnu8-640.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/1dgbg45majoq4tnu9-1024.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/1dgbg45majoq4tod4-320.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/1dgbg45majoq4tod5-640.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/1dgbg45majoq4tod6-1024.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/1dgbg45majoq4tou5-320.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/1dgbg45majoq4tou6-640.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/1dgbg45majoq4tou7-1024.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/1dgbg45majoq4tpap-320.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/1dgbg45majoq4tpaq-640.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/1dgbg45majoq4tpar-1024.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/1dgbg45majoq4tped-320.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/1dgbg45majoq4tpee-640.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/1dgbg45majoq4tpef-1024.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/1dgbg45majoq4tphv-320.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/1dgbg45majoq4tphw-640.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/1dgbg45majoq4tphx-1024.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/1dgbg45majoq4tplv-320.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/1dgbg45majoq4tplw-640.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/1dgbg45majoq4tplx-1024.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/1dgbg45majoq4tppf-320.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/1dgbg45majoq4tppg-640.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/1dgbg45majoq4tpph-1024.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/1dgbg45majoq4tpu3-320.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/1dgbg45majoq4tpu4-640.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/1dgbg45majoq4tpu5-1024.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/1dgbg45majoq4tpxy-320.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/1dgbg45majoq4tpxz-640.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/1dgbg45majoq4tpy0-1024.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/1dgbg45majoq4tq1r-320.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/1dgbg45majoq4tq1s-640.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/1dgbg45majoq4tq1t-1024.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/1dgbg45majoq4tq5l-320.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/1dgbg45majoq4tq5m-640.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/1dgbg45majoq4tq5n-1024.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/1dgbg45majoq4tq9d-320.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/1dgbg45majoq4tq9e-640.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/1dgbg45majoq4tq9f-1024.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/1dgbg45majoq4tqdi-320.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/1dgbg45majoq4tqdj-640.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/1dgbg45majoq4tqdk-1024.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/1dgbg45majoq4tqk4-320.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/1dgbg45majoq4tqk5-640.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/1dgbg45majoq4tqk6-1024.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/1dgbg45majoq4tqoz-320.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/1dgbg45majoq4tqp0-640.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/1dgbg45majoq4tqp1-1024.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/1dgbg45majoq4tqtp-320.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/1dgbg45majoq4tqtq-640.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/1dgbg45majoq4tqtr-1024.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/1dgbg45majoq4tqzz-320.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/1dgbg45majoq4tr00-640.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/1dgbg45majoq4tr01-1024.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/1dgbg45majoq4tr5x-320.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/1dgbg45majoq4tr5y-640.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/1dgbg45majoq4tr5z-1024.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/1dgbg45majoq4trc2-320.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/1dgbg45majoq4trc3-640.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/1dgbg45majoq4trc4-1024.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/1dgbg45majoq4trib-320.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/1dgbg45majoq4tric-640.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/1dgbg45majoq4trid-1024.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/1dgbg45majoq4trp8-320.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/1dgbg45majoq4trp9-640.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/1dgbg45majoq4trpa-1024.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/1dgbg45majoq4tsiv-320.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/1dgbg45majoq4tsiw-640.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/1dgbg45majoq4tsix-1024.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/1dgbg45majoq4tsmb-320.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/1dgbg45majoq4tsmc-640.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/1dgbg45majoq4tsmd-1024.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/1dgbg45majoq4tsq1-320.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/1dgbg45majoq4tsq2-640.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/1dgbg45majoq4tsq3-1024.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/1dgbg45majoq4tsth-320.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/1dgbg45majoq4tsti-640.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/1dgbg45majoq4tstj-1024.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/1dgbg45majoq4tsww-320.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/1dgbg45majoq4tswx-640.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/1dgbg45majoq4tswy-1024.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/figure.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/figure.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/nav.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/nav.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/sideshow.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/sideshow.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/home.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/home.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/project/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/project/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/static.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -283,12 +141,22 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="gitignore" value="5" />
+          <entry key="gitignore" value="29" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="5" />
+          <entry key="PLAIN_TEXT" value="29" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="gitignore" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="PLAIN_TEXT" value="1" />
         </counts>
       </usages-collector>
     </session>
@@ -298,8 +166,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+            <state relative-caret-position="672">
+              <caret line="28" column="5" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -483,12 +351,12 @@
       <workItem from="1542990006955" duration="572000" />
       <workItem from="1543151437251" duration="122000" />
       <workItem from="1543322098436" duration="203000" />
-      <workItem from="1543322456606" duration="74000" />
+      <workItem from="1543322456606" duration="179000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24222000" />
+    <option name="totallyTimeSpent" value="24327000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1080" extended-state="0" />
@@ -788,8 +656,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        <state relative-caret-position="672">
+          <caret line="28" column="5" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
         </state>
       </provider>
     </entry>

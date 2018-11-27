@@ -22,8 +22,11 @@ yarn-error.log*
 
 data-module/dist
 
-/.firebase
-/.firebase**
+#/.firebase
+#/.firebase**
+
+/.idea
+.idea
 
 /public/images
 /public/images/**.*
