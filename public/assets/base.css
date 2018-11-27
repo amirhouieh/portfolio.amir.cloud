@@ -9,7 +9,7 @@ img{
 
 a, a:visited, a:active{
     color: blue;
-    text-decoration: none;
+    text-decoration: underline;
 }
 
 h1,h2,h3,h4{
