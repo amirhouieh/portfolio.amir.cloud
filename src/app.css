@@ -6,6 +6,11 @@
   display: block;
 }
 
+nav {
+  column-count: 3;
+  column-gap: 10%;
+}
+
 nav figure{
   position: fixed;
   display: none;
@@ -22,7 +27,6 @@ nav figure{
 
 nav > * {
   cursor: pointer;
-  margin-top: 1em;
 }
 
 .slideShow {
@@ -45,4 +49,16 @@ nav > * {
   top: 0;
   right: 50px;
   cursor: pointer;
+}
+
+@media only screen and (max-width: 1000px) {
+  nav {
+    column-count: 2;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  nav {
+    column-count: 1;
+  }
 }

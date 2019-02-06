@@ -13,12 +13,9 @@ const App = () => (
         <div>
             <BlurText fontSize={50} color={"blue"}>
                 <Link to={`/`}>
-                    <h1 className="page-info">/</h1>
+                    <h2 className="page-info">/</h2>
                 </Link>
             </BlurText>
-            <a href={"https://amir.cloud"} style={{float:"right"}}>
-                <code>amir houieh</code>
-            </a>
             <br/>
             <br/>
             <Routes/>

@@ -4,6 +4,7 @@ import {Figure} from "./figure";
 import {BlurText} from "./blur-text";
 import {Redirect, RouteComponentProps, withRouter} from "react-router";
 import {BASE_URL} from "../../data-module/lib/consts";
+import {Link} from "react-static";
 
 interface Props {
     projects: Page[]
@@ -28,7 +29,7 @@ class Nav extends React.Component<Props & RouteComponentProps, State> {
     onItemClicked = (page: Page) => {
         this.setState({
             clickedItem: page.slug
-        })
+        });
 
         if(isTouchDevice()){
             const { clickedItem } = this.state;
@@ -62,15 +63,18 @@ class Nav extends React.Component<Props & RouteComponentProps, State> {
                                           this.onItemClicked(page);
                                       }}
                             >
-                                <h1 className="page-info">{page.title}</h1>
+                                <Link to={`${BASE_URL}/${page.slug}`} style={{display: "none"}}/>
+                                <h2 className="page-info">{page.title}</h2>
                                 <code className="date">{page.dateString}</code>
                             </BlurText>
-                            <a href={`${BASE_URL}/${page.slug}`} style={{display: "none"}}/>
+                            <Link to={`${BASE_URL}/${page.slug}`} style={{display: "none"}}/>
                             <p className="description"
                                style={{display: "none"}}
                             >
                                 {page.description}
                             </p>
+                            <br/>
+                            <br/>
                             <Figure imgData={page.thumb}/>
                         </div>)
                     )

@@ -17,7 +17,7 @@ export const Figure: React.FunctionComponent<Props&HTMLAttributes<HTMLImageEleme
     return (
         <figure {...rest}>
             <img src={`${prefix}${imgData.src}`}
-                 alt={imgData.alt}
+                 alt={`amir houieh - ${imgData.alt}`}
                  srcSet={createSrcSetQuery(imgData.srcSet, prefix)}
             />
             {
@@ -29,4 +29,5 @@ export const Figure: React.FunctionComponent<Props&HTMLAttributes<HTMLImageEleme
         </figure>
     )
 
-}
+};
+

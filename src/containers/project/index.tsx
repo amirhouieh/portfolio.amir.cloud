@@ -55,7 +55,7 @@ class Project extends React.Component<Props, State> {
         const figures = [project.thumb, ...project.images];
 
         return (
-            <div className="container">
+            <div className="project container">
                 <Seo title={`${project.title} by Amir Houieh`}
                      description={project.description}
                      path={`${project.slug}`}

@@ -4,6 +4,7 @@ import {Image, ImageSizes} from "./types";
 import * as sharp from "sharp";
 import {isNumber} from "./utils";
 import {IMAGES_DIR} from "./consts";
+import {copyFileSync} from "fs";
 
 const createResponsiveImageName = (id: string, size: number, ext: string) => {
     return `${id}-${size}${ext}`;
@@ -29,7 +30,7 @@ const resizeHandlerFactory = (inPath: string) => {
     }
 };
 
-export const processImage = async (imagePath: string): Promise<Image> => {
+export const processImage = async (imagePath: string, projectTitle: string): Promise<Image> => {
     const imageFilename = path.basename(imagePath);
     const resize = resizeHandlerFactory(imagePath);
 
@@ -44,6 +45,26 @@ export const processImage = async (imagePath: string): Promise<Image> => {
         order = parseInt(imageFilename[0]);
     }
 
+    console.log("imageFilename", imageFilename, path.extname(imageFilename) );
+
+    if(path.extname(imageFilename) === ".gif"){
+        const newName = new Date().getTime()+imageFilename;
+        const outputPath = path.join(IMAGES_DIR,newName );
+        try {
+            await copyFileSync(imagePath, outputPath);
+            return {
+                src: path.join("images", newName),
+                srcSet: [{path: path.join("images", newName), size: 600}],
+                caption,
+                alt: caption ? caption : projectTitle + "-" + imageFilename,
+                order,
+            };
+        } catch (e) {
+            console.log(e);
+            console.log("ERROR: copying gif image", imagePath);
+        }
+    }
+
     try {
         const imageSizes = [ImageSizes.SMALL, ImageSizes.MEDIUM, ImageSizes.LARGE];
 
@@ -54,7 +75,7 @@ export const processImage = async (imagePath: string): Promise<Image> => {
             src: `${sizes[0].path}`,
             srcSet: sizes,
             caption,
-            alt: caption ? caption : imageFilename,
+            alt: caption ? caption : projectTitle + "-" + imageFilename,
             order,
         };
 

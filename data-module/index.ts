@@ -24,16 +24,18 @@ const processFolder = async (folderDir: string): Promise<Page> => {
     const mdPath = rootFiles.find(isValidMarkdownExt);
     const imagesPath = imagesFilenames.filter(isValidImageExt).map((p) => path.join(folderDir, "images", p));
 
-    const thumb = await processImage(path.join(folderDir, thumbPath));
-    const images = await sequential(
-        imagesPath.map((img) => () => processImage(img)),
-    );
     const markdown = await parseMd(path.join(folderDir, mdPath));
+    const thumb = await processImage(path.join(folderDir, thumbPath), markdown.title);
+
+    const images = await sequential(
+        imagesPath.map((img) => () => processImage(img, markdown.title)),
+    );
+
 
     const slug = slugify(markdown.title, {lower: true});
     const date = markdown.body.match(/<code>(.*?)<\/code>/g).map((val) => {
         return val.replace(/<\/?code>/g,'');
-    })
+    });
 
     const dateString = date? date[0] : "";
     let year: string = "-1";

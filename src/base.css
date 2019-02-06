@@ -16,9 +16,8 @@ h1,h2,h3,h4{
     font-weight: normal;
 }
 
-h1{
+h2{
     font-size: 50px;
-    text-transform: uppercase;
 }
 
 body{
@@ -46,10 +45,11 @@ header * {
 
 .blur{
     text-shadow: blue 0 0 25px;
+    padding: 5px 0;
 }
 
 @media only screen and (max-width: 600px) {
-    h1 {
+    h2 {
         font-size: 36px;
     }
 }

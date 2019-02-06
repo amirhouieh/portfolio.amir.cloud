@@ -26,6 +26,13 @@ export interface Image {
     order: number;
 }
 
+export interface GifImage {
+    src: string;
+    caption: string | null;
+    alt: string;
+    order: number;
+}
+
 export interface MarkdownContent {
     body: string;
     description: string;
