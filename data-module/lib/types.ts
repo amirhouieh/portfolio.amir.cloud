@@ -15,7 +15,8 @@ export const MarkdownExt = {
 export enum ImageSizes{
     LARGE = 1024,
     MEDIUM = 640,
-    SMALL = 320
+    SMALL = 320,
+    TINY = 20
 };
 
 export interface Image {

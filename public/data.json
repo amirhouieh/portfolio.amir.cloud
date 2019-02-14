@@ -6,10 +6,10 @@
       "description": "<p>Small but exciting project in collaboration with Studio Moniker. This is an interactive typographic webcover designed by Rudy Guedj, and programmed by me. (made by p5JS and opentype-js).</p>\n",
       "slug": "i-see-that-i-see-what-you-do-not-see",
       "thumb": {
-        "src": "images/1550149079867ezgif-2-5d1a1d20bc1c.gif",
+        "src": "images/1550157797470ezgif-2-5d1a1d20bc1c.gif",
         "srcSet": [
           {
-            "path": "images/1550149079867ezgif-2-5d1a1d20bc1c.gif",
+            "path": "images/1550157797470ezgif-2-5d1a1d20bc1c.gif",
             "size": 600
           }
         ],
@@ -19,10 +19,10 @@
       },
       "images": [
         {
-          "src": "images/1550149079873ezgif-2-000c12fab057.gif",
+          "src": "images/1550157797472ezgif-2-000c12fab057.gif",
           "srcSet": [
             {
-              "path": "images/1550149079873ezgif-2-000c12fab057.gif",
+              "path": "images/1550157797472ezgif-2-000c12fab057.gif",
               "size": 600
             }
           ],
@@ -31,10 +31,10 @@
           "order": -1
         },
         {
-          "src": "images/1550149079883ezgif-2-77f92584bbca.gif",
+          "src": "images/1550157797477ezgif-2-77f92584bbca.gif",
           "srcSet": [
             {
-              "path": "images/1550149079883ezgif-2-77f92584bbca.gif",
+              "path": "images/1550157797477ezgif-2-77f92584bbca.gif",
               "size": 600
             }
           ],
@@ -43,10 +43,10 @@
           "order": -1
         },
         {
-          "src": "images/1550149079897ezgif-2-c9dbd1cd888a.gif",
+          "src": "images/1550157797484ezgif-2-c9dbd1cd888a.gif",
           "srcSet": [
             {
-              "path": "images/1550149079897ezgif-2-c9dbd1cd888a.gif",
+              "path": "images/1550157797484ezgif-2-c9dbd1cd888a.gif",
               "size": 600
             }
           ],
@@ -55,10 +55,10 @@
           "order": -1
         },
         {
-          "src": "images/1550149079905ezgif-2-f435cc0528b8.gif",
+          "src": "images/1550157797492ezgif-2-f435cc0528b8.gif",
           "srcSet": [
             {
-              "path": "images/1550149079905ezgif-2-f435cc0528b8.gif",
+              "path": "images/1550157797492ezgif-2-f435cc0528b8.gif",
               "size": 600
             }
           ],
@@ -76,18 +76,18 @@
       "description": "<p>Rexperimental Framework happened as a 4 days workshop given by amir houieh  with BA students from Graphic Design Arnhem, in October 2018 at Artez. The workshop aimed to discuss and develop experimental publishing frameworks in our digital realm based on decentralized and distributed networks. The workshop consist of 4 lectures and one project assignment. The workshop was an extension to REPUB project. The lectures introduces topics such as content flow in digital environments, the fundamental of the web and decentralized networks like p2p.</p>\n",
       "slug": "rexperimental-framework",
       "thumb": {
-        "src": "images/1dgbg423hjs4mr4oo-320.jpg",
+        "src": "images/1dgbg452kjs4rxstd-320.jpg",
         "srcSet": [
           {
-            "path": "images/1dgbg423hjs4mr4oo-320.jpg",
+            "path": "images/1dgbg452kjs4rxstd-320.jpg",
             "size": 320
           },
           {
-            "path": "images/1dgbg423hjs4mr4oo-640.jpg",
+            "path": "images/1dgbg452kjs4rxstd-640.jpg",
             "size": 640
           },
           {
-            "path": "images/1dgbg423hjs4mr4oo-1024.jpg",
+            "path": "images/1dgbg452kjs4rxstd-1024.jpg",
             "size": 1024
           }
         ],
@@ -97,18 +97,18 @@
       },
       "images": [
         {
-          "src": "images/1dgbg423hjs4mr4t4-320.jpg",
+          "src": "images/1dgbg452kjs4rxsy7-320.jpg",
           "srcSet": [
             {
-              "path": "images/1dgbg423hjs4mr4t4-320.jpg",
+              "path": "images/1dgbg452kjs4rxsy7-320.jpg",
               "size": 320
             },
             {
-              "path": "images/1dgbg423hjs4mr4t4-640.jpg",
+              "path": "images/1dgbg452kjs4rxsy7-640.jpg",
               "size": 640
             },
             {
-              "path": "images/1dgbg423hjs4mr4t4-1024.jpg",
+              "path": "images/1dgbg452kjs4rxsy7-1024.jpg",
               "size": 1024
             }
           ],
@@ -117,10 +117,10 @@
           "order": 1
         },
         {
-          "src": "images/15501491055641rNHxcSIRJxluRAzciBw0Sk2UHUmUVEGI.gif",
+          "src": "images/15501578148841rNHxcSIRJxluRAzciBw0Sk2UHUmUVEGI.gif",
           "srcSet": [
             {
-              "path": "images/15501491055641rNHxcSIRJxluRAzciBw0Sk2UHUmUVEGI.gif",
+              "path": "images/15501578148841rNHxcSIRJxluRAzciBw0Sk2UHUmUVEGI.gif",
               "size": 600
             }
           ],
@@ -129,18 +129,18 @@
           "order": 1
         },
         {
-          "src": "images/1dgbg423hjs4mr4wv-320.jpg",
+          "src": "images/1dgbg452kjs4rxt2e-320.jpg",
           "srcSet": [
             {
-              "path": "images/1dgbg423hjs4mr4wv-320.jpg",
+              "path": "images/1dgbg452kjs4rxt2e-320.jpg",
               "size": 320
             },
             {
-              "path": "images/1dgbg423hjs4mr4wv-640.jpg",
+              "path": "images/1dgbg452kjs4rxt2e-640.jpg",
               "size": 640
             },
             {
-              "path": "images/1dgbg423hjs4mr4wv-1024.jpg",
+              "path": "images/1dgbg452kjs4rxt2e-1024.jpg",
               "size": 1024
             }
           ],
@@ -149,18 +149,18 @@
           "order": 2
         },
         {
-          "src": "images/1dgbg423hjs4mr50s-320.jpg",
+          "src": "images/1dgbg452kjs4rxt6z-320.jpg",
           "srcSet": [
             {
-              "path": "images/1dgbg423hjs4mr50s-320.jpg",
+              "path": "images/1dgbg452kjs4rxt6z-320.jpg",
               "size": 320
             },
             {
-              "path": "images/1dgbg423hjs4mr50s-640.jpg",
+              "path": "images/1dgbg452kjs4rxt6z-640.jpg",
               "size": 640
             },
             {
-              "path": "images/1dgbg423hjs4mr50s-1024.jpg",
+              "path": "images/1dgbg452kjs4rxt6z-1024.jpg",
               "size": 1024
             }
           ],
@@ -169,18 +169,18 @@
           "order": 2
         },
         {
-          "src": "images/1dgbg423hjs4mr556-320.jpg",
+          "src": "images/1dgbg452kjs4rxtbl-320.jpg",
           "srcSet": [
             {
-              "path": "images/1dgbg423hjs4mr556-320.jpg",
+              "path": "images/1dgbg452kjs4rxtbl-320.jpg",
               "size": 320
             },
             {
-              "path": "images/1dgbg423hjs4mr556-640.jpg",
+              "path": "images/1dgbg452kjs4rxtbl-640.jpg",
               "size": 640
             },
             {
-              "path": "images/1dgbg423hjs4mr556-1024.jpg",
+              "path": "images/1dgbg452kjs4rxtbl-1024.jpg",
               "size": 1024
             }
           ],
@@ -189,18 +189,18 @@
           "order": 2
         },
         {
-          "src": "images/1dgbg423hjs4mr593-320.jpg",
+          "src": "images/1dgbg452kjs4rxtg9-320.jpg",
           "srcSet": [
             {
-              "path": "images/1dgbg423hjs4mr593-320.jpg",
+              "path": "images/1dgbg452kjs4rxtg9-320.jpg",
               "size": 320
             },
             {
-              "path": "images/1dgbg423hjs4mr593-640.jpg",
+              "path": "images/1dgbg452kjs4rxtg9-640.jpg",
               "size": 640
             },
             {
-              "path": "images/1dgbg423hjs4mr593-1024.jpg",
+              "path": "images/1dgbg452kjs4rxtg9-1024.jpg",
               "size": 1024
             }
           ],
@@ -209,18 +209,18 @@
           "order": 2
         },
         {
-          "src": "images/1dgbg423hjs4mr5cz-320.jpg",
+          "src": "images/1dgbg452kjs4rxtkq-320.jpg",
           "srcSet": [
             {
-              "path": "images/1dgbg423hjs4mr5cz-320.jpg",
+              "path": "images/1dgbg452kjs4rxtkq-320.jpg",
               "size": 320
             },
             {
-              "path": "images/1dgbg423hjs4mr5cz-640.jpg",
+              "path": "images/1dgbg452kjs4rxtkq-640.jpg",
               "size": 640
             },
             {
-              "path": "images/1dgbg423hjs4mr5cz-1024.jpg",
+              "path": "images/1dgbg452kjs4rxtkq-1024.jpg",
               "size": 1024
             }
           ],
@@ -229,18 +229,18 @@
           "order": 2
         },
         {
-          "src": "images/1dgbg423hjs4mr5h2-320.jpg",
+          "src": "images/1dgbg452kjs4rxtpg-320.jpg",
           "srcSet": [
             {
-              "path": "images/1dgbg423hjs4mr5h2-320.jpg",
+              "path": "images/1dgbg452kjs4rxtpg-320.jpg",
               "size": 320
             },
             {
-              "path": "images/1dgbg423hjs4mr5h2-640.jpg",
+              "path": "images/1dgbg452kjs4rxtpg-640.jpg",
               "size": 640
             },
             {
-              "path": "images/1dgbg423hjs4mr5h2-1024.jpg",
+              "path": "images/1dgbg452kjs4rxtpg-1024.jpg",
               "size": 1024
             }
           ],
@@ -258,18 +258,18 @@
       "description": "<p>This project is the online expansion of the publishing work of Pages, the bilingual, Farsi and English, artist magazine. This platform operates primarily as a working space, concerned with rethinking the politics and practice of archiving and publishing. It approaches publishing as a collective practice of generating an open, transparent archive. With minimum editorial mediation, the platform offers direct access to invited authors to publish their contributions, while making them instantly accessible to the reader. The central tool facilitating this is the automated mailing system which authors use to upload, edit, and expand on their contributions.\nI was proudly involved in the research, design, and implementation phase of this project during my time at LUST/LustLab. I can honestly say that the Pages project was my best working experience during this time for two reasons: Firstly, because the project was about online publishing, a topic of special interest to me and secondly, because of my major position within the project which brought me a lot of responsibilities as well as challenges.</p>\n",
       "slug": "pages",
       "thumb": {
-        "src": "images/1dgbg423hjs4mql4w-320.png",
+        "src": "images/1dgbg452kjs4rxfns-320.png",
         "srcSet": [
           {
-            "path": "images/1dgbg423hjs4mql4w-320.png",
+            "path": "images/1dgbg452kjs4rxfns-320.png",
             "size": 320
           },
           {
-            "path": "images/1dgbg423hjs4mql4w-640.png",
+            "path": "images/1dgbg452kjs4rxfns-640.png",
             "size": 640
           },
           {
-            "path": "images/1dgbg423hjs4mql4w-1024.png",
+            "path": "images/1dgbg452kjs4rxfns-1024.png",
             "size": 1024
           }
         ],
@@ -279,18 +279,18 @@
       },
       "images": [
         {
-          "src": "images/1dgbg423hjs4mqm4a-320.png",
+          "src": "images/1dgbg452kjs4rxgh4-320.png",
           "srcSet": [
             {
-              "path": "images/1dgbg423hjs4mqm4a-320.png",
+              "path": "images/1dgbg452kjs4rxgh4-320.png",
               "size": 320
             },
             {
-              "path": "images/1dgbg423hjs4mqm4a-640.png",
+              "path": "images/1dgbg452kjs4rxgh4-640.png",
               "size": 640
             },
             {
-              "path": "images/1dgbg423hjs4mqm4a-1024.png",
+              "path": "images/1dgbg452kjs4rxgh4-1024.png",
               "size": 1024
             }
           ],
@@ -299,18 +299,18 @@
           "order": 1
         },
         {
-          "src": "images/1dgbg423hjs4mqmzh-320.png",
+          "src": "images/1dgbg452kjs4rxh6b-320.png",
           "srcSet": [
             {
-              "path": "images/1dgbg423hjs4mqmzh-320.png",
+              "path": "images/1dgbg452kjs4rxh6b-320.png",
               "size": 320
             },
             {
-              "path": "images/1dgbg423hjs4mqmzh-640.png",
+              "path": "images/1dgbg452kjs4rxh6b-640.png",
               "size": 640
             },
             {
-              "path": "images/1dgbg423hjs4mqmzh-1024.png",
+              "path": "images/1dgbg452kjs4rxh6b-1024.png",
               "size": 1024
             }
           ],
@@ -319,18 +319,18 @@
           "order": 2
         },
         {
-          "src": "images/1dgbg423hjs4mqnww-320.png",
+          "src": "images/1dgbg452kjs4rxi0l-320.png",
           "srcSet": [
             {
-              "path": "images/1dgbg423hjs4mqnww-320.png",
+              "path": "images/1dgbg452kjs4rxi0l-320.png",
               "size": 320
             },
             {
-              "path": "images/1dgbg423hjs4mqnww-640.png",
+              "path": "images/1dgbg452kjs4rxi0l-640.png",
               "size": 640
             },
             {
-              "path": "images/1dgbg423hjs4mqnww-1024.png",
+              "path": "images/1dgbg452kjs4rxi0l-1024.png",
               "size": 1024
             }
           ],
@@ -339,18 +339,18 @@
           "order": 3
         },
         {
-          "src": "images/1dgbg423hjs4mqosj-320.png",
+          "src": "images/1dgbg452kjs4rxipp-320.png",
           "srcSet": [
             {
-              "path": "images/1dgbg423hjs4mqosj-320.png",
+              "path": "images/1dgbg452kjs4rxipp-320.png",
               "size": 320
             },
             {
-              "path": "images/1dgbg423hjs4mqosj-640.png",
+              "path": "images/1dgbg452kjs4rxipp-640.png",
               "size": 640
             },
             {
-              "path": "images/1dgbg423hjs4mqosj-1024.png",
+              "path": "images/1dgbg452kjs4rxipp-1024.png",
               "size": 1024
             }
           ],
@@ -359,18 +359,18 @@
           "order": 4
         },
         {
-          "src": "images/1dgbg423hjs4mqpot-320.png",
+          "src": "images/1dgbg452kjs4rxjfu-320.png",
           "srcSet": [
             {
-              "path": "images/1dgbg423hjs4mqpot-320.png",
+              "path": "images/1dgbg452kjs4rxjfu-320.png",
               "size": 320
             },
             {
-              "path": "images/1dgbg423hjs4mqpot-640.png",
+              "path": "images/1dgbg452kjs4rxjfu-640.png",
               "size": 640
             },
             {
-              "path": "images/1dgbg423hjs4mqpot-1024.png",
+              "path": "images/1dgbg452kjs4rxjfu-1024.png",
               "size": 1024
             }
           ],
@@ -379,18 +379,18 @@
           "order": 5
         },
         {
-          "src": "images/1dgbg423hjs4mqqky-320.png",
+          "src": "images/1dgbg452kjs4rxk6f-320.png",
           "srcSet": [
             {
-              "path": "images/1dgbg423hjs4mqqky-320.png",
+              "path": "images/1dgbg452kjs4rxk6f-320.png",
               "size": 320
             },
             {
-              "path": "images/1dgbg423hjs4mqqky-640.png",
+              "path": "images/1dgbg452kjs4rxk6f-640.png",
               "size": 640
             },
             {
-              "path": "images/1dgbg423hjs4mqqky-1024.png",
+              "path": "images/1dgbg452kjs4rxk6f-1024.png",
               "size": 1024
             }
           ],
@@ -408,18 +408,18 @@
       "description": "<p>Project Indefensible emerged out of a series of research and discussion workshops on the global arms business. The result of this collaboration is the educational website and text of Indefensible. In order to stimulate this conversation, <a href=\"https://lust.nl\">LUST</a>, where I worked as a designer and developer, approached the design and implementation of the website as a critical tool for collaborative reading and writing. LUST offered speculations on scalable reading experiences between all target audiences, situations, and locations centered on the thematics of the Indefensible text.\nMy contribution to this project was mainly implementation and software development including both back-end and front-end. As a result, the website for Indefensible offers the reader a set of tools which you can find at the online website.</p>\n",
       "slug": "project-indefensible",
       "thumb": {
-        "src": "images/1dgbg423hjs4mqvqg-320.jpg",
+        "src": "images/1dgbg452kjs4rxnzw-320.jpg",
         "srcSet": [
           {
-            "path": "images/1dgbg423hjs4mqvqg-320.jpg",
+            "path": "images/1dgbg452kjs4rxnzw-320.jpg",
             "size": 320
           },
           {
-            "path": "images/1dgbg423hjs4mqvqg-640.jpg",
+            "path": "images/1dgbg452kjs4rxnzw-640.jpg",
             "size": 640
           },
           {
-            "path": "images/1dgbg423hjs4mqvqg-1024.jpg",
+            "path": "images/1dgbg452kjs4rxnzw-1024.jpg",
             "size": 1024
           }
         ],
@@ -429,18 +429,18 @@
       },
       "images": [
         {
-          "src": "images/1dgbg423hjs4mqvwi-320.png",
+          "src": "images/1dgbg452kjs4rxo6k-320.png",
           "srcSet": [
             {
-              "path": "images/1dgbg423hjs4mqvwi-320.png",
+              "path": "images/1dgbg452kjs4rxo6k-320.png",
               "size": 320
             },
             {
-              "path": "images/1dgbg423hjs4mqvwi-640.png",
+              "path": "images/1dgbg452kjs4rxo6k-640.png",
               "size": 640
             },
             {
-              "path": "images/1dgbg423hjs4mqvwi-1024.png",
+              "path": "images/1dgbg452kjs4rxo6k-1024.png",
               "size": 1024
             }
           ],
@@ -449,18 +449,18 @@
           "order": -1
         },
         {
-          "src": "images/1dgbg423hjs4mqxkg-320.png",
+          "src": "images/1dgbg452kjs4rxpdd-320.png",
           "srcSet": [
             {
-              "path": "images/1dgbg423hjs4mqxkg-320.png",
+              "path": "images/1dgbg452kjs4rxpdd-320.png",
               "size": 320
             },
             {
-              "path": "images/1dgbg423hjs4mqxkg-640.png",
+              "path": "images/1dgbg452kjs4rxpdd-640.png",
               "size": 640
             },
             {
-              "path": "images/1dgbg423hjs4mqxkg-1024.png",
+              "path": "images/1dgbg452kjs4rxpdd-1024.png",
               "size": 1024
             }
           ],
@@ -473,233 +473,23 @@
       "dataYear": 16
     },
     {
-      "html": "<h1 id=\"running-out\">Running Out</h1>\n<p><code>2016</code></p>\n<p><em>Real-time data Installation</em>\nExhibited at Salone del Mobile, Milano</p>\n<p><code>with</code> <a href=\"http://www.minddesign.info/\"><code>Niels Schrader</code></a>, <code>Gabor Kerekes</code>, <a href=\"http://veravandeseyp.com\"><code>Vera van de Seyp</code></a></p>\n<p>The installation Running Out by Graphic Design students Amir Houieh, Gábor Kerekes, and <a href=\"http://veravandeseyp.com\">Vera van de Seyp</a>, confronts its audience with the consequences of the rapidly increasing electricity consumption. In their research, the students address one of the biggest challenge of the 21st century: the global dependecy on electricity.\nThe work is centered around a dismantled computer screen that displays the CO2 emissions generated by the device itself and a countdown revealing the days left until the world runs out of natural resources (numbers based on projections published at COP21).\nIn fall 2015, the Climate Change Conference took place in Paris. Delegates of all United Nations member countries met to discuss urgent arrangement in relation of climate change. Their discussion resulted in the Paris Agreement that made 196 countries agree upon changing national and international policies for the sake of keeping the damage for the climate as low as possible.\nIf the average temperature in the world rises above 2ºC, the damage to the environment is unstoppable and the climate will grow into a vicious circle leading to a rapidly increasing amount of natural disasters. Right now, the average temperature rise is already at 1.5ºC and rising steadily. The largest contribution to this increase is the burning of fossil fuels to generate electrical energy.\nAbout a third of the carbon emissions that are generated is created in a domestic environment. This means that all of us contribute with our daily habits.\nThe interfaces through which people get in contact with their energy consumption leaves out all context: the carbon emissions generated by the device, in the home, but also the bigger context. The global change isn’t visible in the home and the time that is left before the 2ºC temperature elevation is crossed partially because of these daily domestic useages.\nWith their project, Houieh, Kerekes and Van de Seyp aim to lay bare how common energy interfaces seem to deliberately cover the urgency of the global energy crisis.</p>\n<p><em>Pictures by Sem Langendijk and Roel Backaert.</em></p>\n",
-      "title": "Running Out",
-      "description": "<p>The installation Running Out by Graphic Design students Amir Houieh, Gábor Kerekes, and <a href=\"http://veravandeseyp.com\">Vera van de Seyp</a>, confronts its audience with the consequences of the rapidly increasing electricity consumption. In their research, the students address one of the biggest challenge of the 21st century: the global dependecy on electricity.\nThe work is centered around a dismantled computer screen that displays the CO2 emissions generated by the device itself and a countdown revealing the days left until the world runs out of natural resources (numbers based on projections published at COP21).\nIn fall 2015, the Climate Change Conference took place in Paris. Delegates of all United Nations member countries met to discuss urgent arrangement in relation of climate change. Their discussion resulted in the Paris Agreement that made 196 countries agree upon changing national and international policies for the sake of keeping the damage for the climate as low as possible.\nIf the average temperature in the world rises above 2ºC, the damage to the environment is unstoppable and the climate will grow into a vicious circle leading to a rapidly increasing amount of natural disasters. Right now, the average temperature rise is already at 1.5ºC and rising steadily. The largest contribution to this increase is the burning of fossil fuels to generate electrical energy.\nAbout a third of the carbon emissions that are generated is created in a domestic environment. This means that all of us contribute with our daily habits.\nThe interfaces through which people get in contact with their energy consumption leaves out all context: the carbon emissions generated by the device, in the home, but also the bigger context. The global change isn’t visible in the home and the time that is left before the 2ºC temperature elevation is crossed partially because of these daily domestic useages.\nWith their project, Houieh, Kerekes and Van de Seyp aim to lay bare how common energy interfaces seem to deliberately cover the urgency of the global energy crisis.</p>\n",
-      "slug": "running-out",
-      "thumb": {
-        "src": "images/1dgbg423hjs4mr5lt-320.jpg",
-        "srcSet": [
-          {
-            "path": "images/1dgbg423hjs4mr5lt-320.jpg",
-            "size": 320
-          },
-          {
-            "path": "images/1dgbg423hjs4mr5lt-640.jpg",
-            "size": 640
-          },
-          {
-            "path": "images/1dgbg423hjs4mr5lt-1024.jpg",
-            "size": 1024
-          }
-        ],
-        "caption": null,
-        "alt": "Running Out-running-out-project.jpg",
-        "order": -1
-      },
-      "images": [
-        {
-          "src": "images/1dgbg423hjs4mr5q2-320.jpg",
-          "srcSet": [
-            {
-              "path": "images/1dgbg423hjs4mr5q2-320.jpg",
-              "size": 320
-            },
-            {
-              "path": "images/1dgbg423hjs4mr5q2-640.jpg",
-              "size": 640
-            },
-            {
-              "path": "images/1dgbg423hjs4mr5q2-1024.jpg",
-              "size": 1024
-            }
-          ],
-          "caption": null,
-          "alt": "Running Out-1-reset-5.jpg",
-          "order": 1
-        },
-        {
-          "src": "images/1dgbg423hjs4mr5tz-320.jpg",
-          "srcSet": [
-            {
-              "path": "images/1dgbg423hjs4mr5tz-320.jpg",
-              "size": 320
-            },
-            {
-              "path": "images/1dgbg423hjs4mr5tz-640.jpg",
-              "size": 640
-            },
-            {
-              "path": "images/1dgbg423hjs4mr5tz-1024.jpg",
-              "size": 1024
-            }
-          ],
-          "caption": null,
-          "alt": "Running Out-2-reset-7.jpg",
-          "order": 2
-        },
-        {
-          "src": "images/1dgbg423hjs4mr5y3-320.jpg",
-          "srcSet": [
-            {
-              "path": "images/1dgbg423hjs4mr5y3-320.jpg",
-              "size": 320
-            },
-            {
-              "path": "images/1dgbg423hjs4mr5y3-640.jpg",
-              "size": 640
-            },
-            {
-              "path": "images/1dgbg423hjs4mr5y3-1024.jpg",
-              "size": 1024
-            }
-          ],
-          "caption": null,
-          "alt": "Running Out-3-reset-8.jpg",
-          "order": 3
-        },
-        {
-          "src": "images/1dgbg423hjs4mr624-320.jpg",
-          "srcSet": [
-            {
-              "path": "images/1dgbg423hjs4mr624-320.jpg",
-              "size": 320
-            },
-            {
-              "path": "images/1dgbg423hjs4mr624-640.jpg",
-              "size": 640
-            },
-            {
-              "path": "images/1dgbg423hjs4mr624-1024.jpg",
-              "size": 1024
-            }
-          ],
-          "caption": null,
-          "alt": "Running Out-4-reset-9.jpg",
-          "order": 4
-        },
-        {
-          "src": "images/1dgbg423hjs4mr66p-320.jpg",
-          "srcSet": [
-            {
-              "path": "images/1dgbg423hjs4mr66p-320.jpg",
-              "size": 320
-            },
-            {
-              "path": "images/1dgbg423hjs4mr66p-640.jpg",
-              "size": 640
-            },
-            {
-              "path": "images/1dgbg423hjs4mr66p-1024.jpg",
-              "size": 1024
-            }
-          ],
-          "caption": null,
-          "alt": "Running Out-5-reset-10.jpg",
-          "order": 5
-        },
-        {
-          "src": "images/1dgbg423hjs4mr6am-320.jpg",
-          "srcSet": [
-            {
-              "path": "images/1dgbg423hjs4mr6am-320.jpg",
-              "size": 320
-            },
-            {
-              "path": "images/1dgbg423hjs4mr6am-640.jpg",
-              "size": 640
-            },
-            {
-              "path": "images/1dgbg423hjs4mr6am-1024.jpg",
-              "size": 1024
-            }
-          ],
-          "caption": null,
-          "alt": "Running Out-6-reset-11.jpg",
-          "order": 6
-        },
-        {
-          "src": "images/1dgbg423hjs4mr6el-320.jpg",
-          "srcSet": [
-            {
-              "path": "images/1dgbg423hjs4mr6el-320.jpg",
-              "size": 320
-            },
-            {
-              "path": "images/1dgbg423hjs4mr6el-640.jpg",
-              "size": 640
-            },
-            {
-              "path": "images/1dgbg423hjs4mr6el-1024.jpg",
-              "size": 1024
-            }
-          ],
-          "caption": null,
-          "alt": "Running Out-7-reset-12.jpg",
-          "order": 7
-        },
-        {
-          "src": "images/1dgbg423hjs4mr6im-320.jpg",
-          "srcSet": [
-            {
-              "path": "images/1dgbg423hjs4mr6im-320.jpg",
-              "size": 320
-            },
-            {
-              "path": "images/1dgbg423hjs4mr6im-640.jpg",
-              "size": 640
-            },
-            {
-              "path": "images/1dgbg423hjs4mr6im-1024.jpg",
-              "size": 1024
-            }
-          ],
-          "caption": null,
-          "alt": "Running Out-8-reset-6.jpg",
-          "order": 8
-        },
-        {
-          "src": "images/1dgbg423hjs4mr6md-320.jpg",
-          "srcSet": [
-            {
-              "path": "images/1dgbg423hjs4mr6md-320.jpg",
-              "size": 320
-            },
-            {
-              "path": "images/1dgbg423hjs4mr6md-640.jpg",
-              "size": 640
-            },
-            {
-              "path": "images/1dgbg423hjs4mr6md-1024.jpg",
-              "size": 1024
-            }
-          ],
-          "caption": null,
-          "alt": "Running Out-9-reset-13.jpg",
-          "order": 9
-        }
-      ],
-      "dateString": "2016",
-      "dataYear": 16
-    },
-    {
       "html": "<h1 id=\"re-\">Re-</h1>\n<p><code>2016</code></p>\n<p><em>A modular content-driven web browser</em>\n<a href=\"https://github.com/amirhouieh/re-\">github.com/amirhouieh/re-</a></p>\n<p>Re is my graduation project, which already contains some of the key ideas of the Repub project. Re is a new web browser, altering the way we surf and consume on the web. Re empowers the user to embrace the content of the web pages as well as the design, empowering them to reflect on the way content is shown. Re is a modular platform within which users can decide what type of content they want to see on a webpage\nThis is enabled by creating and adding content modules to the browser. Therefore, Re becomes a super minimal browser which is faster, more reliable, and more efficient in terms of data-consumption by cutting off all the noises from a webpage’s content.</p>\n",
       "title": "Re-",
       "description": "<p>Re is my graduation project, which already contains some of the key ideas of the Repub project. Re is a new web browser, altering the way we surf and consume on the web. Re empowers the user to embrace the content of the web pages as well as the design, empowering them to reflect on the way content is shown. Re is a modular platform within which users can decide what type of content they want to see on a webpage\nThis is enabled by creating and adding content modules to the browser. Therefore, Re becomes a super minimal browser which is faster, more reliable, and more efficient in terms of data-consumption by cutting off all the noises from a webpage’s content.</p>\n",
       "slug": "re-",
       "thumb": {
-        "src": "images/1dgbg423hjs4mqzba-320.png",
+        "src": "images/1dgbg452kjs4rxqj4-320.png",
         "srcSet": [
           {
-            "path": "images/1dgbg423hjs4mqzba-320.png",
+            "path": "images/1dgbg452kjs4rxqj4-320.png",
             "size": 320
           },
           {
-            "path": "images/1dgbg423hjs4mqzba-640.png",
+            "path": "images/1dgbg452kjs4rxqj4-640.png",
             "size": 640
           },
           {
-            "path": "images/1dgbg423hjs4mqzba-1024.png",
+            "path": "images/1dgbg452kjs4rxqj4-1024.png",
             "size": 1024
           }
         ],
@@ -709,18 +499,18 @@
       },
       "images": [
         {
-          "src": "images/1dgbg423hjs4mqzww-320.png",
+          "src": "images/1dgbg452kjs4rxqvs-320.png",
           "srcSet": [
             {
-              "path": "images/1dgbg423hjs4mqzww-320.png",
+              "path": "images/1dgbg452kjs4rxqvs-320.png",
               "size": 320
             },
             {
-              "path": "images/1dgbg423hjs4mqzww-640.png",
+              "path": "images/1dgbg452kjs4rxqvs-640.png",
               "size": 640
             },
             {
-              "path": "images/1dgbg423hjs4mqzww-1024.png",
+              "path": "images/1dgbg452kjs4rxqvs-1024.png",
               "size": 1024
             }
           ],
@@ -729,18 +519,18 @@
           "order": 1
         },
         {
-          "src": "images/1dgbg423hjs4mr0yw-320.png",
+          "src": "images/1dgbg452kjs4rxr4h-320.png",
           "srcSet": [
             {
-              "path": "images/1dgbg423hjs4mr0yw-320.png",
+              "path": "images/1dgbg452kjs4rxr4h-320.png",
               "size": 320
             },
             {
-              "path": "images/1dgbg423hjs4mr0yw-640.png",
+              "path": "images/1dgbg452kjs4rxr4h-640.png",
               "size": 640
             },
             {
-              "path": "images/1dgbg423hjs4mr0yw-1024.png",
+              "path": "images/1dgbg452kjs4rxr4h-1024.png",
               "size": 1024
             }
           ],
@@ -749,18 +539,18 @@
           "order": 2
         },
         {
-          "src": "images/1dgbg423hjs4mr201-320.png",
+          "src": "images/1dgbg452kjs4rxrfh-320.png",
           "srcSet": [
             {
-              "path": "images/1dgbg423hjs4mr201-320.png",
+              "path": "images/1dgbg452kjs4rxrfh-320.png",
               "size": 320
             },
             {
-              "path": "images/1dgbg423hjs4mr201-640.png",
+              "path": "images/1dgbg452kjs4rxrfh-640.png",
               "size": 640
             },
             {
-              "path": "images/1dgbg423hjs4mr201-1024.png",
+              "path": "images/1dgbg452kjs4rxrfh-1024.png",
               "size": 1024
             }
           ],
@@ -769,18 +559,18 @@
           "order": 3
         },
         {
-          "src": "images/1dgbg423hjs4mr32w-320.png",
+          "src": "images/1dgbg452kjs4rxrq8-320.png",
           "srcSet": [
             {
-              "path": "images/1dgbg423hjs4mr32w-320.png",
+              "path": "images/1dgbg452kjs4rxrq8-320.png",
               "size": 320
             },
             {
-              "path": "images/1dgbg423hjs4mr32w-640.png",
+              "path": "images/1dgbg452kjs4rxrq8-640.png",
               "size": 640
             },
             {
-              "path": "images/1dgbg423hjs4mr32w-1024.png",
+              "path": "images/1dgbg452kjs4rxrq8-1024.png",
               "size": 1024
             }
           ],
@@ -789,18 +579,18 @@
           "order": 4
         },
         {
-          "src": "images/1dgbg423hjs4mr3n8-320.png",
+          "src": "images/1dgbg452kjs4rxs3k-320.png",
           "srcSet": [
             {
-              "path": "images/1dgbg423hjs4mr3n8-320.png",
+              "path": "images/1dgbg452kjs4rxs3k-320.png",
               "size": 320
             },
             {
-              "path": "images/1dgbg423hjs4mr3n8-640.png",
+              "path": "images/1dgbg452kjs4rxs3k-640.png",
               "size": 640
             },
             {
-              "path": "images/1dgbg423hjs4mr3n8-1024.png",
+              "path": "images/1dgbg452kjs4rxs3k-1024.png",
               "size": 1024
             }
           ],
@@ -809,18 +599,18 @@
           "order": 5
         },
         {
-          "src": "images/1dgbg423hjs4mr477-320.png",
+          "src": "images/1dgbg452kjs4rxsgb-320.png",
           "srcSet": [
             {
-              "path": "images/1dgbg423hjs4mr477-320.png",
+              "path": "images/1dgbg452kjs4rxsgb-320.png",
               "size": 320
             },
             {
-              "path": "images/1dgbg423hjs4mr477-640.png",
+              "path": "images/1dgbg452kjs4rxsgb-640.png",
               "size": 640
             },
             {
-              "path": "images/1dgbg423hjs4mr477-1024.png",
+              "path": "images/1dgbg452kjs4rxsgb-1024.png",
               "size": 1024
             }
           ],
@@ -833,23 +623,233 @@
       "dataYear": 16
     },
     {
+      "html": "<h1 id=\"running-out\">Running Out</h1>\n<p><code>2016</code></p>\n<p><em>Real-time data Installation</em>\nExhibited at Salone del Mobile, Milano</p>\n<p><code>with</code> <a href=\"http://www.minddesign.info/\"><code>Niels Schrader</code></a>, <a href=\"https://krks.info/\"><code>Gabor Kerekes</code></a>, <a href=\"http://veravandeseyp.com\"><code>Vera van de Seyp</code></a></p>\n<p>The installation Running Out by Graphic Design students Amir Houieh, Gábor Kerekes, and <a href=\"http://veravandeseyp.com\">Vera van de Seyp</a>, confronts its audience with the consequences of the rapidly increasing electricity consumption. In their research, the students address one of the biggest challenge of the 21st century: the global dependecy on electricity.\nThe work is centered around a dismantled computer screen that displays the CO2 emissions generated by the device itself and a countdown revealing the days left until the world runs out of natural resources (numbers based on projections published at COP21).\nIn fall 2015, the Climate Change Conference took place in Paris. Delegates of all United Nations member countries met to discuss urgent arrangement in relation of climate change. Their discussion resulted in the Paris Agreement that made 196 countries agree upon changing national and international policies for the sake of keeping the damage for the climate as low as possible.\nIf the average temperature in the world rises above 2ºC, the damage to the environment is unstoppable and the climate will grow into a vicious circle leading to a rapidly increasing amount of natural disasters. Right now, the average temperature rise is already at 1.5ºC and rising steadily. The largest contribution to this increase is the burning of fossil fuels to generate electrical energy.\nAbout a third of the carbon emissions that are generated is created in a domestic environment. This means that all of us contribute with our daily habits.\nThe interfaces through which people get in contact with their energy consumption leaves out all context: the carbon emissions generated by the device, in the home, but also the bigger context. The global change isn’t visible in the home and the time that is left before the 2ºC temperature elevation is crossed partially because of these daily domestic useages.\nWith their project, Houieh, Kerekes and Van de Seyp aim to lay bare how common energy interfaces seem to deliberately cover the urgency of the global energy crisis.</p>\n<p><em>Pictures by Sem Langendijk and Roel Backaert.</em></p>\n",
+      "title": "Running Out",
+      "description": "<p>The installation Running Out by Graphic Design students Amir Houieh, Gábor Kerekes, and <a href=\"http://veravandeseyp.com\">Vera van de Seyp</a>, confronts its audience with the consequences of the rapidly increasing electricity consumption. In their research, the students address one of the biggest challenge of the 21st century: the global dependecy on electricity.\nThe work is centered around a dismantled computer screen that displays the CO2 emissions generated by the device itself and a countdown revealing the days left until the world runs out of natural resources (numbers based on projections published at COP21).\nIn fall 2015, the Climate Change Conference took place in Paris. Delegates of all United Nations member countries met to discuss urgent arrangement in relation of climate change. Their discussion resulted in the Paris Agreement that made 196 countries agree upon changing national and international policies for the sake of keeping the damage for the climate as low as possible.\nIf the average temperature in the world rises above 2ºC, the damage to the environment is unstoppable and the climate will grow into a vicious circle leading to a rapidly increasing amount of natural disasters. Right now, the average temperature rise is already at 1.5ºC and rising steadily. The largest contribution to this increase is the burning of fossil fuels to generate electrical energy.\nAbout a third of the carbon emissions that are generated is created in a domestic environment. This means that all of us contribute with our daily habits.\nThe interfaces through which people get in contact with their energy consumption leaves out all context: the carbon emissions generated by the device, in the home, but also the bigger context. The global change isn’t visible in the home and the time that is left before the 2ºC temperature elevation is crossed partially because of these daily domestic useages.\nWith their project, Houieh, Kerekes and Van de Seyp aim to lay bare how common energy interfaces seem to deliberately cover the urgency of the global energy crisis.</p>\n",
+      "slug": "running-out",
+      "thumb": {
+        "src": "images/1dgbg452kjs4rxtuw-320.jpg",
+        "srcSet": [
+          {
+            "path": "images/1dgbg452kjs4rxtuw-320.jpg",
+            "size": 320
+          },
+          {
+            "path": "images/1dgbg452kjs4rxtuw-640.jpg",
+            "size": 640
+          },
+          {
+            "path": "images/1dgbg452kjs4rxtuw-1024.jpg",
+            "size": 1024
+          }
+        ],
+        "caption": null,
+        "alt": "Running Out-running-out-project.jpg",
+        "order": -1
+      },
+      "images": [
+        {
+          "src": "images/1dgbg452kjs4rxtzi-320.jpg",
+          "srcSet": [
+            {
+              "path": "images/1dgbg452kjs4rxtzi-320.jpg",
+              "size": 320
+            },
+            {
+              "path": "images/1dgbg452kjs4rxtzi-640.jpg",
+              "size": 640
+            },
+            {
+              "path": "images/1dgbg452kjs4rxtzi-1024.jpg",
+              "size": 1024
+            }
+          ],
+          "caption": null,
+          "alt": "Running Out-1-reset-5.jpg",
+          "order": 1
+        },
+        {
+          "src": "images/1dgbg452kjs4rxu3l-320.jpg",
+          "srcSet": [
+            {
+              "path": "images/1dgbg452kjs4rxu3l-320.jpg",
+              "size": 320
+            },
+            {
+              "path": "images/1dgbg452kjs4rxu3l-640.jpg",
+              "size": 640
+            },
+            {
+              "path": "images/1dgbg452kjs4rxu3l-1024.jpg",
+              "size": 1024
+            }
+          ],
+          "caption": null,
+          "alt": "Running Out-2-reset-7.jpg",
+          "order": 2
+        },
+        {
+          "src": "images/1dgbg452kjs4rxu8j-320.jpg",
+          "srcSet": [
+            {
+              "path": "images/1dgbg452kjs4rxu8j-320.jpg",
+              "size": 320
+            },
+            {
+              "path": "images/1dgbg452kjs4rxu8j-640.jpg",
+              "size": 640
+            },
+            {
+              "path": "images/1dgbg452kjs4rxu8j-1024.jpg",
+              "size": 1024
+            }
+          ],
+          "caption": null,
+          "alt": "Running Out-3-reset-8.jpg",
+          "order": 3
+        },
+        {
+          "src": "images/1dgbg452kjs4rxucq-320.jpg",
+          "srcSet": [
+            {
+              "path": "images/1dgbg452kjs4rxucq-320.jpg",
+              "size": 320
+            },
+            {
+              "path": "images/1dgbg452kjs4rxucq-640.jpg",
+              "size": 640
+            },
+            {
+              "path": "images/1dgbg452kjs4rxucq-1024.jpg",
+              "size": 1024
+            }
+          ],
+          "caption": null,
+          "alt": "Running Out-4-reset-9.jpg",
+          "order": 4
+        },
+        {
+          "src": "images/1dgbg452kjs4rxuih-320.jpg",
+          "srcSet": [
+            {
+              "path": "images/1dgbg452kjs4rxuih-320.jpg",
+              "size": 320
+            },
+            {
+              "path": "images/1dgbg452kjs4rxuih-640.jpg",
+              "size": 640
+            },
+            {
+              "path": "images/1dgbg452kjs4rxuih-1024.jpg",
+              "size": 1024
+            }
+          ],
+          "caption": null,
+          "alt": "Running Out-5-reset-10.jpg",
+          "order": 5
+        },
+        {
+          "src": "images/1dgbg452kjs4rxumd-320.jpg",
+          "srcSet": [
+            {
+              "path": "images/1dgbg452kjs4rxumd-320.jpg",
+              "size": 320
+            },
+            {
+              "path": "images/1dgbg452kjs4rxumd-640.jpg",
+              "size": 640
+            },
+            {
+              "path": "images/1dgbg452kjs4rxumd-1024.jpg",
+              "size": 1024
+            }
+          ],
+          "caption": null,
+          "alt": "Running Out-6-reset-11.jpg",
+          "order": 6
+        },
+        {
+          "src": "images/1dgbg452kjs4rxuqt-320.jpg",
+          "srcSet": [
+            {
+              "path": "images/1dgbg452kjs4rxuqt-320.jpg",
+              "size": 320
+            },
+            {
+              "path": "images/1dgbg452kjs4rxuqt-640.jpg",
+              "size": 640
+            },
+            {
+              "path": "images/1dgbg452kjs4rxuqt-1024.jpg",
+              "size": 1024
+            }
+          ],
+          "caption": null,
+          "alt": "Running Out-7-reset-12.jpg",
+          "order": 7
+        },
+        {
+          "src": "images/1dgbg452kjs4rxuv9-320.jpg",
+          "srcSet": [
+            {
+              "path": "images/1dgbg452kjs4rxuv9-320.jpg",
+              "size": 320
+            },
+            {
+              "path": "images/1dgbg452kjs4rxuv9-640.jpg",
+              "size": 640
+            },
+            {
+              "path": "images/1dgbg452kjs4rxuv9-1024.jpg",
+              "size": 1024
+            }
+          ],
+          "caption": null,
+          "alt": "Running Out-8-reset-6.jpg",
+          "order": 8
+        },
+        {
+          "src": "images/1dgbg452kjs4rxuzw-320.jpg",
+          "srcSet": [
+            {
+              "path": "images/1dgbg452kjs4rxuzw-320.jpg",
+              "size": 320
+            },
+            {
+              "path": "images/1dgbg452kjs4rxuzw-640.jpg",
+              "size": 640
+            },
+            {
+              "path": "images/1dgbg452kjs4rxuzw-1024.jpg",
+              "size": 1024
+            }
+          ],
+          "caption": null,
+          "alt": "Running Out-9-reset-13.jpg",
+          "order": 9
+        }
+      ],
+      "dateString": "2016",
+      "dataYear": 16
+    },
+    {
       "html": "<h1 id=\"pixelator\">Pixelator</h1>\n<p><code>2015</code></p>\n<p><em>generative type_, _alternative tool</em>\n<a href=\"https://github.com/amirhouieh/type-pixelator\">source code on Github</a></p>\n<p><a href=\"https://archive.amir.cloud/pixelator/\">archive.amir.cloud/pixelator</a></p>\n<p>A simple <a href=\"http://www.drawbot.com\">Drawbot</a> module, pixelating texts.</p>\n",
       "title": "Pixelator",
       "description": "<p><em>generative type_, _alternative tool</em>\n<a href=\"https://github.com/amirhouieh/type-pixelator\">source code on Github</a></p>\n",
       "slug": "pixelator",
       "thumb": {
-        "src": "images/1dgbg423hjs4mqrgj-320.png",
+        "src": "images/1dgbg452kjs4rxkv8-320.png",
         "srcSet": [
           {
-            "path": "images/1dgbg423hjs4mqrgj-320.png",
+            "path": "images/1dgbg452kjs4rxkv8-320.png",
             "size": 320
           },
           {
-            "path": "images/1dgbg423hjs4mqrgj-640.png",
+            "path": "images/1dgbg452kjs4rxkv8-640.png",
             "size": 640
           },
           {
-            "path": "images/1dgbg423hjs4mqrgj-1024.png",
+            "path": "images/1dgbg452kjs4rxkv8-1024.png",
             "size": 1024
           }
         ],
@@ -859,18 +859,18 @@
       },
       "images": [
         {
-          "src": "images/1dgbg423hjs4mqrzy-320.png",
+          "src": "images/1dgbg452kjs4rxlbc-320.png",
           "srcSet": [
             {
-              "path": "images/1dgbg423hjs4mqrzy-320.png",
+              "path": "images/1dgbg452kjs4rxlbc-320.png",
               "size": 320
             },
             {
-              "path": "images/1dgbg423hjs4mqrzy-640.png",
+              "path": "images/1dgbg452kjs4rxlbc-640.png",
               "size": 640
             },
             {
-              "path": "images/1dgbg423hjs4mqrzy-1024.png",
+              "path": "images/1dgbg452kjs4rxlbc-1024.png",
               "size": 1024
             }
           ],
@@ -879,18 +879,18 @@
           "order": 1
         },
         {
-          "src": "images/1dgbg423hjs4mqsjk-320.png",
+          "src": "images/1dgbg452kjs4rxlr0-320.png",
           "srcSet": [
             {
-              "path": "images/1dgbg423hjs4mqsjk-320.png",
+              "path": "images/1dgbg452kjs4rxlr0-320.png",
               "size": 320
             },
             {
-              "path": "images/1dgbg423hjs4mqsjk-640.png",
+              "path": "images/1dgbg452kjs4rxlr0-640.png",
               "size": 640
             },
             {
-              "path": "images/1dgbg423hjs4mqsjk-1024.png",
+              "path": "images/1dgbg452kjs4rxlr0-1024.png",
               "size": 1024
             }
           ],
@@ -899,18 +899,18 @@
           "order": 1
         },
         {
-          "src": "images/1dgbg423hjs4mqt8r-320.png",
+          "src": "images/1dgbg452kjs4rxm6o-320.png",
           "srcSet": [
             {
-              "path": "images/1dgbg423hjs4mqt8r-320.png",
+              "path": "images/1dgbg452kjs4rxm6o-320.png",
               "size": 320
             },
             {
-              "path": "images/1dgbg423hjs4mqt8r-640.png",
+              "path": "images/1dgbg452kjs4rxm6o-640.png",
               "size": 640
             },
             {
-              "path": "images/1dgbg423hjs4mqt8r-1024.png",
+              "path": "images/1dgbg452kjs4rxm6o-1024.png",
               "size": 1024
             }
           ],
@@ -919,18 +919,18 @@
           "order": 2
         },
         {
-          "src": "images/1dgbg423hjs4mqtre-320.png",
+          "src": "images/1dgbg452kjs4rxml4-320.png",
           "srcSet": [
             {
-              "path": "images/1dgbg423hjs4mqtre-320.png",
+              "path": "images/1dgbg452kjs4rxml4-320.png",
               "size": 320
             },
             {
-              "path": "images/1dgbg423hjs4mqtre-640.png",
+              "path": "images/1dgbg452kjs4rxml4-640.png",
               "size": 640
             },
             {
-              "path": "images/1dgbg423hjs4mqtre-1024.png",
+              "path": "images/1dgbg452kjs4rxml4-1024.png",
               "size": 1024
             }
           ],
@@ -939,18 +939,18 @@
           "order": 2
         },
         {
-          "src": "images/1dgbg423hjs4mqua7-320.png",
+          "src": "images/1dgbg452kjs4rxn0b-320.png",
           "srcSet": [
             {
-              "path": "images/1dgbg423hjs4mqua7-320.png",
+              "path": "images/1dgbg452kjs4rxn0b-320.png",
               "size": 320
             },
             {
-              "path": "images/1dgbg423hjs4mqua7-640.png",
+              "path": "images/1dgbg452kjs4rxn0b-640.png",
               "size": 640
             },
             {
-              "path": "images/1dgbg423hjs4mqua7-1024.png",
+              "path": "images/1dgbg452kjs4rxn0b-1024.png",
               "size": 1024
             }
           ],
@@ -959,18 +959,18 @@
           "order": 2
         },
         {
-          "src": "images/1dgbg423hjs4mqurw-320.png",
+          "src": "images/1dgbg452kjs4rxnaz-320.png",
           "srcSet": [
             {
-              "path": "images/1dgbg423hjs4mqurw-320.png",
+              "path": "images/1dgbg452kjs4rxnaz-320.png",
               "size": 320
             },
             {
-              "path": "images/1dgbg423hjs4mqurw-640.png",
+              "path": "images/1dgbg452kjs4rxnaz-640.png",
               "size": 640
             },
             {
-              "path": "images/1dgbg423hjs4mqurw-1024.png",
+              "path": "images/1dgbg452kjs4rxnaz-1024.png",
               "size": 1024
             }
           ],
@@ -979,18 +979,18 @@
           "order": 5
         },
         {
-          "src": "images/1dgbg423hjs4mqv4k-320.png",
+          "src": "images/1dgbg452kjs4rxnjc-320.png",
           "srcSet": [
             {
-              "path": "images/1dgbg423hjs4mqv4k-320.png",
+              "path": "images/1dgbg452kjs4rxnjc-320.png",
               "size": 320
             },
             {
-              "path": "images/1dgbg423hjs4mqv4k-640.png",
+              "path": "images/1dgbg452kjs4rxnjc-640.png",
               "size": 640
             },
             {
-              "path": "images/1dgbg423hjs4mqv4k-1024.png",
+              "path": "images/1dgbg452kjs4rxnjc-1024.png",
               "size": 1024
             }
           ],
@@ -1008,18 +1008,18 @@
       "description": "<p>The Tomorrow Book, an experimental research project in form of an school assignment, is one of my early attempts to experiment with text driven design. Within this assignment, I studied various types of content containers in a digital environment and questioned the different reading experiences digital and analogue readers have to offer. As result, the Tomorrow Book was transferred onto a website where it claims that “a new container requires new content”. This website uses Wikipedia articles in order to generate new reading narratives for books.</p>\n",
       "slug": "tomorrow-book",
       "thumb": {
-        "src": "images/1dgbg423hjs4mr81x-320.png",
+        "src": "images/1dgbg452kjs4rxwme-320.png",
         "srcSet": [
           {
-            "path": "images/1dgbg423hjs4mr81x-320.png",
+            "path": "images/1dgbg452kjs4rxwme-320.png",
             "size": 320
           },
           {
-            "path": "images/1dgbg423hjs4mr81x-640.png",
+            "path": "images/1dgbg452kjs4rxwme-640.png",
             "size": 640
           },
           {
-            "path": "images/1dgbg423hjs4mr81x-1024.png",
+            "path": "images/1dgbg452kjs4rxwme-1024.png",
             "size": 1024
           }
         ],
@@ -1029,18 +1029,18 @@
       },
       "images": [
         {
-          "src": "images/1dgbg423hjs4mr8vf-320.jpg",
+          "src": "images/1dgbg452kjs4rxwyw-320.jpg",
           "srcSet": [
             {
-              "path": "images/1dgbg423hjs4mr8vf-320.jpg",
+              "path": "images/1dgbg452kjs4rxwyw-320.jpg",
               "size": 320
             },
             {
-              "path": "images/1dgbg423hjs4mr8vf-640.jpg",
+              "path": "images/1dgbg452kjs4rxwyw-640.jpg",
               "size": 640
             },
             {
-              "path": "images/1dgbg423hjs4mr8vf-1024.jpg",
+              "path": "images/1dgbg452kjs4rxwyw-1024.jpg",
               "size": 1024
             }
           ],
@@ -1049,18 +1049,18 @@
           "order": 1
         },
         {
-          "src": "images/1dgbg423hjs4mr8yu-320.jpg",
+          "src": "images/1dgbg452kjs4rxx2n-320.jpg",
           "srcSet": [
             {
-              "path": "images/1dgbg423hjs4mr8yu-320.jpg",
+              "path": "images/1dgbg452kjs4rxx2n-320.jpg",
               "size": 320
             },
             {
-              "path": "images/1dgbg423hjs4mr8yu-640.jpg",
+              "path": "images/1dgbg452kjs4rxx2n-640.jpg",
               "size": 640
             },
             {
-              "path": "images/1dgbg423hjs4mr8yu-1024.jpg",
+              "path": "images/1dgbg452kjs4rxx2n-1024.jpg",
               "size": 1024
             }
           ],
@@ -1069,18 +1069,18 @@
           "order": 2
         },
         {
-          "src": "images/1dgbg423hjs4mr929-320.jpg",
+          "src": "images/1dgbg452kjs4rxx6b-320.jpg",
           "srcSet": [
             {
-              "path": "images/1dgbg423hjs4mr929-320.jpg",
+              "path": "images/1dgbg452kjs4rxx6b-320.jpg",
               "size": 320
             },
             {
-              "path": "images/1dgbg423hjs4mr929-640.jpg",
+              "path": "images/1dgbg452kjs4rxx6b-640.jpg",
               "size": 640
             },
             {
-              "path": "images/1dgbg423hjs4mr929-1024.jpg",
+              "path": "images/1dgbg452kjs4rxx6b-1024.jpg",
               "size": 1024
             }
           ],
@@ -1089,18 +1089,18 @@
           "order": 3
         },
         {
-          "src": "images/1dgbg423hjs4mr95m-320.jpg",
+          "src": "images/1dgbg452kjs4rxxai-320.jpg",
           "srcSet": [
             {
-              "path": "images/1dgbg423hjs4mr95m-320.jpg",
+              "path": "images/1dgbg452kjs4rxxai-320.jpg",
               "size": 320
             },
             {
-              "path": "images/1dgbg423hjs4mr95m-640.jpg",
+              "path": "images/1dgbg452kjs4rxxai-640.jpg",
               "size": 640
             },
             {
-              "path": "images/1dgbg423hjs4mr95m-1024.jpg",
+              "path": "images/1dgbg452kjs4rxxai-1024.jpg",
               "size": 1024
             }
           ],
@@ -1109,18 +1109,18 @@
           "order": 4
         },
         {
-          "src": "images/1dgbg423hjs4mr99d-320.jpg",
+          "src": "images/1dgbg452kjs4rxxel-320.jpg",
           "srcSet": [
             {
-              "path": "images/1dgbg423hjs4mr99d-320.jpg",
+              "path": "images/1dgbg452kjs4rxxel-320.jpg",
               "size": 320
             },
             {
-              "path": "images/1dgbg423hjs4mr99d-640.jpg",
+              "path": "images/1dgbg452kjs4rxxel-640.jpg",
               "size": 640
             },
             {
-              "path": "images/1dgbg423hjs4mr99d-1024.jpg",
+              "path": "images/1dgbg452kjs4rxxel-1024.jpg",
               "size": 1024
             }
           ],
@@ -1138,18 +1138,18 @@
       "description": "<p>Text and Space is a physical translation of the text. I created a system which uses the text as input. It extracts the required data from the text in order to create an space and spacial experiment for the viewers.\nEvery word becomes a dot in a three dimensional space and by connecting the dots a new space is evolved. This project is one of my first attempts working with text and data as material and shaping my visuals through systematic approach.</p>\n",
       "slug": "text-and-space",
       "thumb": {
-        "src": "images/1dgbg423hjs4mr6qh-320.jpg",
+        "src": "images/1dgbg452kjs4rxv41-320.jpg",
         "srcSet": [
           {
-            "path": "images/1dgbg423hjs4mr6qh-320.jpg",
+            "path": "images/1dgbg452kjs4rxv41-320.jpg",
             "size": 320
           },
           {
-            "path": "images/1dgbg423hjs4mr6qh-640.jpg",
+            "path": "images/1dgbg452kjs4rxv41-640.jpg",
             "size": 640
           },
           {
-            "path": "images/1dgbg423hjs4mr6qh-1024.jpg",
+            "path": "images/1dgbg452kjs4rxv41-1024.jpg",
             "size": 1024
           }
         ],
@@ -1159,18 +1159,18 @@
       },
       "images": [
         {
-          "src": "images/1dgbg423hjs4mr6w9-320.jpg",
+          "src": "images/1dgbg452kjs4rxvbp-320.jpg",
           "srcSet": [
             {
-              "path": "images/1dgbg423hjs4mr6w9-320.jpg",
+              "path": "images/1dgbg452kjs4rxvbp-320.jpg",
               "size": 320
             },
             {
-              "path": "images/1dgbg423hjs4mr6w9-640.jpg",
+              "path": "images/1dgbg452kjs4rxvbp-640.jpg",
               "size": 640
             },
             {
-              "path": "images/1dgbg423hjs4mr6w9-1024.jpg",
+              "path": "images/1dgbg452kjs4rxvbp-1024.jpg",
               "size": 1024
             }
           ],
@@ -1179,18 +1179,18 @@
           "order": 1
         },
         {
-          "src": "images/1dgbg423hjs4mr71g-320.jpg",
+          "src": "images/1dgbg452kjs4rxvi3-320.jpg",
           "srcSet": [
             {
-              "path": "images/1dgbg423hjs4mr71g-320.jpg",
+              "path": "images/1dgbg452kjs4rxvi3-320.jpg",
               "size": 320
             },
             {
-              "path": "images/1dgbg423hjs4mr71g-640.jpg",
+              "path": "images/1dgbg452kjs4rxvi3-640.jpg",
               "size": 640
             },
             {
-              "path": "images/1dgbg423hjs4mr71g-1024.jpg",
+              "path": "images/1dgbg452kjs4rxvi3-1024.jpg",
               "size": 1024
             }
           ],
@@ -1199,18 +1199,18 @@
           "order": 2
         },
         {
-          "src": "images/1dgbg423hjs4mr76a-320.jpg",
+          "src": "images/1dgbg452kjs4rxvnq-320.jpg",
           "srcSet": [
             {
-              "path": "images/1dgbg423hjs4mr76a-320.jpg",
+              "path": "images/1dgbg452kjs4rxvnq-320.jpg",
               "size": 320
             },
             {
-              "path": "images/1dgbg423hjs4mr76a-640.jpg",
+              "path": "images/1dgbg452kjs4rxvnq-640.jpg",
               "size": 640
             },
             {
-              "path": "images/1dgbg423hjs4mr76a-1024.jpg",
+              "path": "images/1dgbg452kjs4rxvnq-1024.jpg",
               "size": 1024
             }
           ],
@@ -1219,18 +1219,18 @@
           "order": 3
         },
         {
-          "src": "images/1dgbg423hjs4mr7cw-320.jpg",
+          "src": "images/1dgbg452kjs4rxvud-320.jpg",
           "srcSet": [
             {
-              "path": "images/1dgbg423hjs4mr7cw-320.jpg",
+              "path": "images/1dgbg452kjs4rxvud-320.jpg",
               "size": 320
             },
             {
-              "path": "images/1dgbg423hjs4mr7cw-640.jpg",
+              "path": "images/1dgbg452kjs4rxvud-640.jpg",
               "size": 640
             },
             {
-              "path": "images/1dgbg423hjs4mr7cw-1024.jpg",
+              "path": "images/1dgbg452kjs4rxvud-1024.jpg",
               "size": 1024
             }
           ],
@@ -1239,18 +1239,18 @@
           "order": 5
         },
         {
-          "src": "images/1dgbg423hjs4mr7in-320.jpg",
+          "src": "images/1dgbg452kjs4rxw0h-320.jpg",
           "srcSet": [
             {
-              "path": "images/1dgbg423hjs4mr7in-320.jpg",
+              "path": "images/1dgbg452kjs4rxw0h-320.jpg",
               "size": 320
             },
             {
-              "path": "images/1dgbg423hjs4mr7in-640.jpg",
+              "path": "images/1dgbg452kjs4rxw0h-640.jpg",
               "size": 640
             },
             {
-              "path": "images/1dgbg423hjs4mr7in-1024.jpg",
+              "path": "images/1dgbg452kjs4rxw0h-1024.jpg",
               "size": 1024
             }
           ],
@@ -1259,18 +1259,18 @@
           "order": 6
         },
         {
-          "src": "images/1dgbg423hjs4mr7ou-320.jpg",
+          "src": "images/1dgbg452kjs4rxw87-320.jpg",
           "srcSet": [
             {
-              "path": "images/1dgbg423hjs4mr7ou-320.jpg",
+              "path": "images/1dgbg452kjs4rxw87-320.jpg",
               "size": 320
             },
             {
-              "path": "images/1dgbg423hjs4mr7ou-640.jpg",
+              "path": "images/1dgbg452kjs4rxw87-640.jpg",
               "size": 640
             },
             {
-              "path": "images/1dgbg423hjs4mr7ou-1024.jpg",
+              "path": "images/1dgbg452kjs4rxw87-1024.jpg",
               "size": 1024
             }
           ],
@@ -1279,18 +1279,18 @@
           "order": 7
         },
         {
-          "src": "images/1dgbg423hjs4mr7ve-320.jpg",
+          "src": "images/1dgbg452kjs4rxwez-320.jpg",
           "srcSet": [
             {
-              "path": "images/1dgbg423hjs4mr7ve-320.jpg",
+              "path": "images/1dgbg452kjs4rxwez-320.jpg",
               "size": 320
             },
             {
-              "path": "images/1dgbg423hjs4mr7ve-640.jpg",
+              "path": "images/1dgbg452kjs4rxwez-640.jpg",
               "size": 640
             },
             {
-              "path": "images/1dgbg423hjs4mr7ve-1024.jpg",
+              "path": "images/1dgbg452kjs4rxwez-1024.jpg",
               "size": 1024
             }
           ],
@@ -1303,193 +1303,23 @@
       "dataYear": 14
     },
     {
-      "html": "<h1 id=\"2001-a-space-odyssey-poster-series\">2001 a space odyssey / poster series</h1>\n<p><code>2013</code></p>\n<p><em>generative poster_, _alternative tool</em>\n<a href=\"https://archive.amir.cloud/2001_a_space_odyssey_round_1\">archive.amir.cloud/2001_a_space_odyssey_round_1</a>\n<a href=\"https://archive.amir.cloud/2001_a_space_odyssey_round_2\">archive.amir.cloud/2001_a_space_odyssey_round_2</a>\n<a href=\"https://archive.amir.cloud/2001_a_space_odyssey_round_3\">archive.amir.cloud/2001_a_space_odyssey_round_3</a>\n<a href=\"https://archive.amir.cloud/2001_a_space_odyssey_round_4\">archive.amir.cloud/2001_a_space_odyssey_round_4</a></p>\n<p>2001 a space odyssey is a poster assignment — by <a href=\"http://carvalho-bernau.com\">Susana Carvalho</a> — consist of 4 phases/iteration. While the research phase the concepts such as construction and deconstruction and recursive loops came to my focus point. Furthermore I discovered about the technique used by film in order to create a sound in one of the famous sequences. They used a audio feedback loop where speaker outputs the sound which it creates.\nHence this concept lead me a to design a system in which I could create my poster with: a visual feedback loop. The setup consist of a typography layer of title of the movie (as the initial material/input) and a tv screen (to output the visuals) and a camera (to catch the visual input).</p>\n",
-      "title": "2001 a space odyssey / poster series",
-      "description": "<p>2001 a space odyssey is a poster assignment — by <a href=\"http://carvalho-bernau.com\">Susana Carvalho</a> — consist of 4 phases/iteration. While the research phase the concepts such as construction and deconstruction and recursive loops came to my focus point. Furthermore I discovered about the technique used by film in order to create a sound in one of the famous sequences. They used a audio feedback loop where speaker outputs the sound which it creates.\nHence this concept lead me a to design a system in which I could create my poster with: a visual feedback loop. The setup consist of a typography layer of title of the movie (as the initial material/input) and a tv screen (to output the visuals) and a camera (to catch the visual input).</p>\n",
-      "slug": "2001-a-space-odyssey-poster-series",
-      "thumb": {
-        "src": "images/1dgbg423hjs4mqjhy-320.jpg",
-        "srcSet": [
-          {
-            "path": "images/1dgbg423hjs4mqjhy-320.jpg",
-            "size": 320
-          },
-          {
-            "path": "images/1dgbg423hjs4mqjhy-640.jpg",
-            "size": 640
-          },
-          {
-            "path": "images/1dgbg423hjs4mqjhy-1024.jpg",
-            "size": 1024
-          }
-        ],
-        "caption": null,
-        "alt": "2001 a space odyssey / poster series-_mg_6796_copy-2x.jpg",
-        "order": -1
-      },
-      "images": [
-        {
-          "src": "images/1dgbg423hjs4mqjon-320.jpg",
-          "srcSet": [
-            {
-              "path": "images/1dgbg423hjs4mqjon-320.jpg",
-              "size": 320
-            },
-            {
-              "path": "images/1dgbg423hjs4mqjon-640.jpg",
-              "size": 640
-            },
-            {
-              "path": "images/1dgbg423hjs4mqjon-1024.jpg",
-              "size": 1024
-            }
-          ],
-          "caption": null,
-          "alt": "2001 a space odyssey / poster series-_mg_6752_copy-2x.jpg",
-          "order": -1
-        },
-        {
-          "src": "images/1dgbg423hjs4mqjvz-320.jpg",
-          "srcSet": [
-            {
-              "path": "images/1dgbg423hjs4mqjvz-320.jpg",
-              "size": 320
-            },
-            {
-              "path": "images/1dgbg423hjs4mqjvz-640.jpg",
-              "size": 640
-            },
-            {
-              "path": "images/1dgbg423hjs4mqjvz-1024.jpg",
-              "size": 1024
-            }
-          ],
-          "caption": null,
-          "alt": "2001 a space odyssey / poster series-_mg_6796_copy-2x.jpg",
-          "order": -1
-        },
-        {
-          "src": "images/1dgbg423hjs4mqk2i-320.jpg",
-          "srcSet": [
-            {
-              "path": "images/1dgbg423hjs4mqk2i-320.jpg",
-              "size": 320
-            },
-            {
-              "path": "images/1dgbg423hjs4mqk2i-640.jpg",
-              "size": 640
-            },
-            {
-              "path": "images/1dgbg423hjs4mqk2i-1024.jpg",
-              "size": 1024
-            }
-          ],
-          "caption": null,
-          "alt": "2001 a space odyssey / poster series-_mg_6896_copy-2x.jpg",
-          "order": -1
-        },
-        {
-          "src": "images/1dgbg423hjs4mqk9b-320.jpg",
-          "srcSet": [
-            {
-              "path": "images/1dgbg423hjs4mqk9b-320.jpg",
-              "size": 320
-            },
-            {
-              "path": "images/1dgbg423hjs4mqk9b-640.jpg",
-              "size": 640
-            },
-            {
-              "path": "images/1dgbg423hjs4mqk9b-1024.jpg",
-              "size": 1024
-            }
-          ],
-          "caption": null,
-          "alt": "2001 a space odyssey / poster series-_mg_6903_copy-2x.jpg",
-          "order": -1
-        },
-        {
-          "src": "images/1dgbg423hjs4mqkh0-320.jpg",
-          "srcSet": [
-            {
-              "path": "images/1dgbg423hjs4mqkh0-320.jpg",
-              "size": 320
-            },
-            {
-              "path": "images/1dgbg423hjs4mqkh0-640.jpg",
-              "size": 640
-            },
-            {
-              "path": "images/1dgbg423hjs4mqkh0-1024.jpg",
-              "size": 1024
-            }
-          ],
-          "caption": null,
-          "alt": "2001 a space odyssey / poster series-_mg_6940_copy-2x.jpg",
-          "order": -1
-        },
-        {
-          "src": "images/1dgbg423hjs4mqko0-320.jpg",
-          "srcSet": [
-            {
-              "path": "images/1dgbg423hjs4mqko0-320.jpg",
-              "size": 320
-            },
-            {
-              "path": "images/1dgbg423hjs4mqko0-640.jpg",
-              "size": 640
-            },
-            {
-              "path": "images/1dgbg423hjs4mqko0-1024.jpg",
-              "size": 1024
-            }
-          ],
-          "caption": null,
-          "alt": "2001 a space odyssey / poster series-_mg_7168_copy-2x.jpg",
-          "order": -1
-        },
-        {
-          "src": "images/1dgbg423hjs4mqkvj-320.jpg",
-          "srcSet": [
-            {
-              "path": "images/1dgbg423hjs4mqkvj-320.jpg",
-              "size": 320
-            },
-            {
-              "path": "images/1dgbg423hjs4mqkvj-640.jpg",
-              "size": 640
-            },
-            {
-              "path": "images/1dgbg423hjs4mqkvj-1024.jpg",
-              "size": 1024
-            }
-          ],
-          "caption": null,
-          "alt": "2001 a space odyssey / poster series-_mg_7206-2x.jpg",
-          "order": -1
-        }
-      ],
-      "dateString": "2013",
-      "dataYear": 13
-    },
-    {
       "html": "<h1 id=\"1-week-of-my-life-publication\">1 week of my life / publication</h1>\n<p><code>2013</code></p>\n<p><em>generative book_, _alternative tool</em>\n<a href=\"https://archive.amir.cloud/1_week_of_my_life_publication\">archive.amir.cloud/1_week_of_my_life_publication</a></p>\n<p>1 week of my life is a series of artworks about one regular week of my life; one work for one day. This series could be consider as a irregular data-visualization representing the data.\nThe dataset was created by formulating my daily schedule into excel tables —categorizing my activities over the time(24hh). In order to make the data more humanized and so more flexible to make narratives, the third parameter was introduced: a parameter which represent my feeling regarding how slow or fast time is passed per activity category.</p>\n<p>This process results into 5 different dataset(s) (Monday to Friday) which are used as content/input for the artworks. You can see the all other related projects at <a href=\"https://archive.amir.cloud\">archive.amir.cloud</a>.\nThis publication is a generated visual book which is a documentation of these series. The book is design and programmed using html, css and javascript in web-browser.</p>\n",
       "title": "1 week of my life / publication",
       "description": "<p>1 week of my life is a series of artworks about one regular week of my life; one work for one day. This series could be consider as a irregular data-visualization representing the data.\nThe dataset was created by formulating my daily schedule into excel tables —categorizing my activities over the time(24hh). In order to make the data more humanized and so more flexible to make narratives, the third parameter was introduced: a parameter which represent my feeling regarding how slow or fast time is passed per activity category.</p>\n",
       "slug": "1-week-of-my-life-publication",
       "thumb": {
-        "src": "images/1dgbg423hjs4mqikj-320.jpg",
+        "src": "images/1dgbg452kjs4rxcqb-320.jpg",
         "srcSet": [
           {
-            "path": "images/1dgbg423hjs4mqikj-320.jpg",
+            "path": "images/1dgbg452kjs4rxcqb-320.jpg",
             "size": 320
           },
           {
-            "path": "images/1dgbg423hjs4mqikj-640.jpg",
+            "path": "images/1dgbg452kjs4rxcqb-640.jpg",
             "size": 640
           },
           {
-            "path": "images/1dgbg423hjs4mqikj-1024.jpg",
+            "path": "images/1dgbg452kjs4rxcqb-1024.jpg",
             "size": 1024
           }
         ],
@@ -1499,18 +1329,18 @@
       },
       "images": [
         {
-          "src": "images/1dgbg423hjs4mqiqg-320.jpg",
+          "src": "images/1dgbg452kjs4rxcyd-320.jpg",
           "srcSet": [
             {
-              "path": "images/1dgbg423hjs4mqiqg-320.jpg",
+              "path": "images/1dgbg452kjs4rxcyd-320.jpg",
               "size": 320
             },
             {
-              "path": "images/1dgbg423hjs4mqiqg-640.jpg",
+              "path": "images/1dgbg452kjs4rxcyd-640.jpg",
               "size": 640
             },
             {
-              "path": "images/1dgbg423hjs4mqiqg-1024.jpg",
+              "path": "images/1dgbg452kjs4rxcyd-1024.jpg",
               "size": 1024
             }
           ],
@@ -1519,10 +1349,10 @@
           "order": -1
         },
         {
-          "src": "images/1550149076957gif___.gif",
+          "src": "images/1550157794166gif___.gif",
           "srcSet": [
             {
-              "path": "images/1550149076957gif___.gif",
+              "path": "images/1550157794166gif___.gif",
               "size": 600
             }
           ],
@@ -1531,10 +1361,10 @@
           "order": -1
         },
         {
-          "src": "images/1550149076966gif____.gif",
+          "src": "images/1550157794170gif____.gif",
           "srcSet": [
             {
-              "path": "images/1550149076966gif____.gif",
+              "path": "images/1550157794170gif____.gif",
               "size": 600
             }
           ],
@@ -1543,18 +1373,18 @@
           "order": -1
         },
         {
-          "src": "images/1dgbg423hjs4mqiup-320.jpg",
+          "src": "images/1dgbg452kjs4rxd35-320.jpg",
           "srcSet": [
             {
-              "path": "images/1dgbg423hjs4mqiup-320.jpg",
+              "path": "images/1dgbg452kjs4rxd35-320.jpg",
               "size": 320
             },
             {
-              "path": "images/1dgbg423hjs4mqiup-640.jpg",
+              "path": "images/1dgbg452kjs4rxd35-640.jpg",
               "size": 640
             },
             {
-              "path": "images/1dgbg423hjs4mqiup-1024.jpg",
+              "path": "images/1dgbg452kjs4rxd35-1024.jpg",
               "size": 1024
             }
           ],
@@ -1563,18 +1393,18 @@
           "order": -1
         },
         {
-          "src": "images/1dgbg423hjs4mqj05-320.jpg",
+          "src": "images/1dgbg452kjs4rxd98-320.jpg",
           "srcSet": [
             {
-              "path": "images/1dgbg423hjs4mqj05-320.jpg",
+              "path": "images/1dgbg452kjs4rxd98-320.jpg",
               "size": 320
             },
             {
-              "path": "images/1dgbg423hjs4mqj05-640.jpg",
+              "path": "images/1dgbg452kjs4rxd98-640.jpg",
               "size": 640
             },
             {
-              "path": "images/1dgbg423hjs4mqj05-1024.jpg",
+              "path": "images/1dgbg452kjs4rxd98-1024.jpg",
               "size": 1024
             }
           ],
@@ -1583,18 +1413,18 @@
           "order": -1
         },
         {
-          "src": "images/1dgbg423hjs4mqj6i-320.jpg",
+          "src": "images/1dgbg452kjs4rxdf8-320.jpg",
           "srcSet": [
             {
-              "path": "images/1dgbg423hjs4mqj6i-320.jpg",
+              "path": "images/1dgbg452kjs4rxdf8-320.jpg",
               "size": 320
             },
             {
-              "path": "images/1dgbg423hjs4mqj6i-640.jpg",
+              "path": "images/1dgbg452kjs4rxdf8-640.jpg",
               "size": 640
             },
             {
-              "path": "images/1dgbg423hjs4mqj6i-1024.jpg",
+              "path": "images/1dgbg452kjs4rxdf8-1024.jpg",
               "size": 1024
             }
           ],
@@ -1603,23 +1433,193 @@
           "order": -1
         },
         {
-          "src": "images/1dgbg423hjs4mqjc8-320.jpg",
+          "src": "images/1dgbg452kjs4rxdme-320.jpg",
           "srcSet": [
             {
-              "path": "images/1dgbg423hjs4mqjc8-320.jpg",
+              "path": "images/1dgbg452kjs4rxdme-320.jpg",
               "size": 320
             },
             {
-              "path": "images/1dgbg423hjs4mqjc8-640.jpg",
+              "path": "images/1dgbg452kjs4rxdme-640.jpg",
               "size": 640
             },
             {
-              "path": "images/1dgbg423hjs4mqjc8-1024.jpg",
+              "path": "images/1dgbg452kjs4rxdme-1024.jpg",
               "size": 1024
             }
           ],
           "caption": null,
           "alt": "1 week of my life / publication-wednesdays8-2x.jpg",
+          "order": -1
+        }
+      ],
+      "dateString": "2013",
+      "dataYear": 13
+    },
+    {
+      "html": "<h1 id=\"2001-a-space-odyssey-poster-series\">2001 a space odyssey / poster series</h1>\n<p><code>2013</code></p>\n<p><em>generative poster_, _alternative tool</em>\n<a href=\"https://archive.amir.cloud/2001_a_space_odyssey_round_1\">archive.amir.cloud/2001_a_space_odyssey_round_1</a>\n<a href=\"https://archive.amir.cloud/2001_a_space_odyssey_round_2\">archive.amir.cloud/2001_a_space_odyssey_round_2</a>\n<a href=\"https://archive.amir.cloud/2001_a_space_odyssey_round_3\">archive.amir.cloud/2001_a_space_odyssey_round_3</a>\n<a href=\"https://archive.amir.cloud/2001_a_space_odyssey_round_4\">archive.amir.cloud/2001_a_space_odyssey_round_4</a></p>\n<p>2001 a space odyssey is a poster assignment — by <a href=\"http://carvalho-bernau.com\">Susana Carvalho</a> — consist of 4 phases/iteration. While the research phase the concepts such as construction and deconstruction and recursive loops came to my focus point. Furthermore I discovered about the technique used by film in order to create a sound in one of the famous sequences. They used a audio feedback loop where speaker outputs the sound which it creates.\nHence this concept lead me a to design a system in which I could create my poster with: a visual feedback loop. The setup consist of a typography layer of title of the movie (as the initial material/input) and a tv screen (to output the visuals) and a camera (to catch the visual input).</p>\n",
+      "title": "2001 a space odyssey / poster series",
+      "description": "<p>2001 a space odyssey is a poster assignment — by <a href=\"http://carvalho-bernau.com\">Susana Carvalho</a> — consist of 4 phases/iteration. While the research phase the concepts such as construction and deconstruction and recursive loops came to my focus point. Furthermore I discovered about the technique used by film in order to create a sound in one of the famous sequences. They used a audio feedback loop where speaker outputs the sound which it creates.\nHence this concept lead me a to design a system in which I could create my poster with: a visual feedback loop. The setup consist of a typography layer of title of the movie (as the initial material/input) and a tv screen (to output the visuals) and a camera (to catch the visual input).</p>\n",
+      "slug": "2001-a-space-odyssey-poster-series",
+      "thumb": {
+        "src": "images/1dgbg452kjs4rxdth-320.jpg",
+        "srcSet": [
+          {
+            "path": "images/1dgbg452kjs4rxdth-320.jpg",
+            "size": 320
+          },
+          {
+            "path": "images/1dgbg452kjs4rxdth-640.jpg",
+            "size": 640
+          },
+          {
+            "path": "images/1dgbg452kjs4rxdth-1024.jpg",
+            "size": 1024
+          }
+        ],
+        "caption": null,
+        "alt": "2001 a space odyssey / poster series-_mg_6796_copy-2x.jpg",
+        "order": -1
+      },
+      "images": [
+        {
+          "src": "images/1dgbg452kjs4rxe0n-320.jpg",
+          "srcSet": [
+            {
+              "path": "images/1dgbg452kjs4rxe0n-320.jpg",
+              "size": 320
+            },
+            {
+              "path": "images/1dgbg452kjs4rxe0n-640.jpg",
+              "size": 640
+            },
+            {
+              "path": "images/1dgbg452kjs4rxe0n-1024.jpg",
+              "size": 1024
+            }
+          ],
+          "caption": null,
+          "alt": "2001 a space odyssey / poster series-_mg_6752_copy-2x.jpg",
+          "order": -1
+        },
+        {
+          "src": "images/1dgbg452kjs4rxe8y-320.jpg",
+          "srcSet": [
+            {
+              "path": "images/1dgbg452kjs4rxe8y-320.jpg",
+              "size": 320
+            },
+            {
+              "path": "images/1dgbg452kjs4rxe8y-640.jpg",
+              "size": 640
+            },
+            {
+              "path": "images/1dgbg452kjs4rxe8y-1024.jpg",
+              "size": 1024
+            }
+          ],
+          "caption": null,
+          "alt": "2001 a space odyssey / poster series-_mg_6796_copy-2x.jpg",
+          "order": -1
+        },
+        {
+          "src": "images/1dgbg452kjs4rxefw-320.jpg",
+          "srcSet": [
+            {
+              "path": "images/1dgbg452kjs4rxefw-320.jpg",
+              "size": 320
+            },
+            {
+              "path": "images/1dgbg452kjs4rxefw-640.jpg",
+              "size": 640
+            },
+            {
+              "path": "images/1dgbg452kjs4rxefw-1024.jpg",
+              "size": 1024
+            }
+          ],
+          "caption": null,
+          "alt": "2001 a space odyssey / poster series-_mg_6896_copy-2x.jpg",
+          "order": -1
+        },
+        {
+          "src": "images/1dgbg452kjs4rxep1-320.jpg",
+          "srcSet": [
+            {
+              "path": "images/1dgbg452kjs4rxep1-320.jpg",
+              "size": 320
+            },
+            {
+              "path": "images/1dgbg452kjs4rxep1-640.jpg",
+              "size": 640
+            },
+            {
+              "path": "images/1dgbg452kjs4rxep1-1024.jpg",
+              "size": 1024
+            }
+          ],
+          "caption": null,
+          "alt": "2001 a space odyssey / poster series-_mg_6903_copy-2x.jpg",
+          "order": -1
+        },
+        {
+          "src": "images/1dgbg452kjs4rxexe-320.jpg",
+          "srcSet": [
+            {
+              "path": "images/1dgbg452kjs4rxexe-320.jpg",
+              "size": 320
+            },
+            {
+              "path": "images/1dgbg452kjs4rxexe-640.jpg",
+              "size": 640
+            },
+            {
+              "path": "images/1dgbg452kjs4rxexe-1024.jpg",
+              "size": 1024
+            }
+          ],
+          "caption": null,
+          "alt": "2001 a space odyssey / poster series-_mg_6940_copy-2x.jpg",
+          "order": -1
+        },
+        {
+          "src": "images/1dgbg452kjs4rxf5k-320.jpg",
+          "srcSet": [
+            {
+              "path": "images/1dgbg452kjs4rxf5k-320.jpg",
+              "size": 320
+            },
+            {
+              "path": "images/1dgbg452kjs4rxf5k-640.jpg",
+              "size": 640
+            },
+            {
+              "path": "images/1dgbg452kjs4rxf5k-1024.jpg",
+              "size": 1024
+            }
+          ],
+          "caption": null,
+          "alt": "2001 a space odyssey / poster series-_mg_7168_copy-2x.jpg",
+          "order": -1
+        },
+        {
+          "src": "images/1dgbg452kjs4rxfe2-320.jpg",
+          "srcSet": [
+            {
+              "path": "images/1dgbg452kjs4rxfe2-320.jpg",
+              "size": 320
+            },
+            {
+              "path": "images/1dgbg452kjs4rxfe2-640.jpg",
+              "size": 640
+            },
+            {
+              "path": "images/1dgbg452kjs4rxfe2-1024.jpg",
+              "size": 1024
+            }
+          ],
+          "caption": null,
+          "alt": "2001 a space odyssey / poster series-_mg_7206-2x.jpg",
           "order": -1
         }
       ],

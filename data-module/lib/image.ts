@@ -10,7 +10,10 @@ const createResponsiveImageName = (id: string, size: number, ext: string) => {
     return `${id}-${size}${ext}`;
 };
 
-export interface ImageSize { path: string, size: number }
+export interface ImageSize {
+    path: string,
+    size: number
+}
 
 const resizeHandlerFactory = (inPath: string) => {
     const imageFilename = path.basename(inPath);
@@ -21,14 +24,35 @@ const resizeHandlerFactory = (inPath: string) => {
         const filename = createResponsiveImageName(id, size, ext);
         const outputPath = path.join(IMAGES_DIR, filename);
         return sharp(inPath)
-        .resize(size)
-        .toFile(outputPath)
-        .then(() => ({
-            path: path.join("images", filename),
-            size,
-        }));
+            .flatten({background: {r: 255, g: 255, b: 255}})
+            .jpeg({progressive: true})
+            .resize(size)
+            .toFile(outputPath)
+            .then(() => ({
+                path: path.join("images", filename),
+                size,
+            }));
     }
 };
+
+// const createProgressiveJpeg = (inPath: string, size: number): Promise<ImageSize> => {
+//     const imageFilename = path.basename(inPath);
+//     const id = uniqid();
+//     const ext = path.extname(imageFilename);
+//
+//     const filename = createResponsiveImageName(id, size, ext);
+//     const outputPath = path.join(IMAGES_DIR, filename);
+//
+//     return sharp(inPath)
+//         .flatten({background: {r: 255, g: 255, b: 255}})
+//         .jpeg({progressive: true})
+//         .resize(size)
+//         .toFile(outputPath)
+//         .then(() => ({
+//             path: path.join("images", filename),
+//             size,
+//         }));
+// };
 
 export const processImage = async (imagePath: string, projectTitle: string): Promise<Image> => {
     const imageFilename = path.basename(imagePath);
@@ -45,11 +69,9 @@ export const processImage = async (imagePath: string, projectTitle: string): Pro
         order = parseInt(imageFilename[0]);
     }
 
-    console.log("imageFilename", imageFilename, path.extname(imageFilename) );
-
-    if(path.extname(imageFilename) === ".gif"){
-        const newName = new Date().getTime()+imageFilename;
-        const outputPath = path.join(IMAGES_DIR,newName );
+    if (path.extname(imageFilename) === ".gif") {
+        const newName = new Date().getTime() + imageFilename;
+        const outputPath = path.join(IMAGES_DIR, newName);
         try {
             await copyFileSync(imagePath, outputPath);
             return {
@@ -70,6 +92,7 @@ export const processImage = async (imagePath: string, projectTitle: string): Pro
 
         const sizes = await Promise.all(imageSizes.map(resize))
             .then((tasks) => tasks.sort((b, a) => b.size - a.size));
+
 
         return {
             src: `${sizes[0].path}`,
