@@ -1,6 +1,6 @@
 import * as React from "react";
 import {Head} from "react-static";
-import {join} from "path";
+import urljoin from "url-join";
 import htmlToText from "html2plaintext";
 
 interface IProps {
@@ -23,16 +23,15 @@ export const Seo: React.FunctionComponent<IProps> = (props) => {
         imagePath = "site-thumb.png",
     } = props;
 
-    const url = join(BASE_URL, path);
-    const imageUrl = join(BASE_URL, imagePath);
-    console.log(url);
-    const cleanDescription = htmlToText( description ).slice(0, 300) + "...";
+    const url = urljoin(BASE_URL, path);
+    const imageUrl = urljoin(BASE_URL, imagePath);
+    const cleanDescription = htmlToText(description).slice(0, 300) + "...";
 
     return (
         <Head>
             <title>{title}</title>
             <meta name={`keywords`} content={keywords}/>
-            <meta name={`description`} content={`${cleanDescription}`} />
+            <meta name={`description`} content={`${cleanDescription}`}/>
             <meta name={`copyright`} content={`amir.cloud`}/>
             <meta name={`language`} content={`EN`}/>
             <meta name={`Classification`} content={`Design/Programming`}/>
@@ -45,9 +44,13 @@ export const Seo: React.FunctionComponent<IProps> = (props) => {
             <meta property={`og:url`} content={`${url}`}/>
             <meta property={`og:image`} content={`${imageUrl}`}/>
             <meta property={`og:site_name`} content={`amir houieh`}/>
-            <meta property="og:type" content="website" />
-            <meta property={`og:description`} content={`${cleanDescription}`} />
-            <meta name="twitter:image" content={imageUrl} />
+            <meta property="og:type" content="website"/>
+            <meta property={`og:description`} content={`${cleanDescription}`}/>
+            <meta name="twitter:image" content={imageUrl}/>
+
+            <meta itemProp="name" content={`${url}`} />
+            <meta itemProp="description" content={`${cleanDescription}`} />
+            <meta itemProp="image" content={imageUrl} />
 
             <script type="application/ld+json">{`
               {
