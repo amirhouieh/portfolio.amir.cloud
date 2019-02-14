@@ -18,6 +18,8 @@ const App = () => (
             </BlurText>
             <br/>
             <br/>
+            <br/>
+            <br/>
             <Routes/>
         </div>
     </Router>

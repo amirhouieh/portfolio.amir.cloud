@@ -25,6 +25,7 @@ export const Seo: React.FunctionComponent<IProps> = (props) => {
 
     const url = join(BASE_URL, path);
     const imageUrl = join(BASE_URL, imagePath);
+    console.log(url);
     const cleanDescription = htmlToText( description ).slice(0, 300) + "...";
 
     return (
