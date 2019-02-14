@@ -27,28 +27,27 @@ class Nav extends React.Component<Props & RouteComponentProps, State> {
     }
 
     onItemClicked = (page: Page) => {
+        const { clickedItem } = this.state;
+
         this.setState({
             clickedItem: page.slug
         });
 
         if(isTouchDevice()){
-            const { clickedItem } = this.state;
-            this.setState({
-                redirect: clickedItem && clickedItem === page.slug
-            });
+            if( clickedItem && clickedItem === page.slug ){
+                this.props.history.push(`/${page.slug }`);
+            }
         }else{
-            this.setState({
-                redirect: true
-            });
+            this.props.history.push(`/${page.slug }`);
         }
     };
 
     render() {
         const { projects } = this.props;
 
-        if(this.state.redirect){
-            return <Redirect to={`/${this.state.clickedItem}`}/>
-        }
+        // if(this.state.redirect){
+        //     return <Redirect to={`/${this.state.clickedItem}`}/>
+        // }
 
         return (
             <nav>
