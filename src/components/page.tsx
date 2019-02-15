@@ -28,8 +28,22 @@ export const PageHeader: React.FunctionComponent<{page: Page, current?: boolean}
     </div>
 );
 
-export const PageThumbnail: React.FunctionComponent<{page: Page, onClick?: (p: Page) => void}> = ({page, onClick}) => (
-    <div className="page-thumbnail">
+const noop = () => {};
+
+export const PageThumbnail: React.FunctionComponent<{
+    page: Page,
+    onClick?: (p: Page) => void,
+    onMouseIn?: () => void,
+    onMouseOut?: () => void,
+}> = ({page, onClick, onMouseIn = noop, onMouseOut = noop}) => (
+    <div className="page-thumbnail"
+         onMouseEnter={() => {
+             onMouseIn();
+         }}
+         onMouseLeave={()=>{
+             onMouseOut();
+         }}
+    >
         <BlurText fontSize={50}
                   color={"blue"}
                   onClick={() => {
@@ -49,10 +63,10 @@ export const PageThumbnail: React.FunctionComponent<{page: Page, onClick?: (p: P
         <br/>
         <br/>
         <br/>
-        {
-            page.thumb &&
-            <Figure imgData={page.thumb}/>
-        }
+        {/*{*/}
+            {/*page.thumb &&*/}
+            {/*<Figure imgData={page.thumb}/>*/}
+        {/*}*/}
     </div>
 );
 
@@ -72,10 +86,10 @@ export const PageThumbnailSimple: React.FunctionComponent<{page: Page}> = ({page
                 __html: page.description
             }}/>
         </BlurText>
-        {
-            page.thumb &&
-            <Figure imgData={page.thumb}/>
-        }
+        {/*{*/}
+            {/*page.thumb &&*/}
+            {/*<Figure imgData={page.thumb}/>*/}
+        {/*}*/}
     </div>
 );
 

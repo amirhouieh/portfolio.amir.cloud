@@ -1,7 +1,8 @@
 import React from "react"
-import {Page} from "../../data-module/lib/types";
+import {Image, Page} from "../../data-module/lib/types";
 import {RouteComponentProps, withRouter} from "react-router";
 import {PageThumbnail} from "./page";
+import {Figure} from "./figure";
 
 interface Props {
     projects: Page[]
@@ -10,6 +11,7 @@ interface Props {
 interface State {
     isTouch: boolean;
     clickedItem: string | null;
+    hoveredThumb: Image | null;
     redirect: boolean;
 }
 
@@ -40,9 +42,16 @@ class Nav extends React.Component<Props & RouteComponentProps, State> {
         }
     };
 
+    onMuseIn = (page: Page) => {
+        this.setState({hoveredThumb: page.thumb});
+    }
+
+    onMuseOut = () => {
+        this.setState({hoveredThumb: null});
+    }
+
     render() {
         const { projects } = this.props;
-
         return (
             <nav>
                 {
@@ -50,8 +59,14 @@ class Nav extends React.Component<Props & RouteComponentProps, State> {
                         <PageThumbnail page={page}
                                        key={`page-thumb-${i}`}
                                        onClick={this.onItemClicked}
+                                       onMouseIn={() => this.onMuseIn(page)}
+                                       onMouseOut={() => this.onMuseOut()}
                         />
                     ))
+                }
+                {
+                    this.state.hoveredThumb &&
+                    <Figure imgData={this.state.hoveredThumb}/>
                 }
             </nav>
         )
