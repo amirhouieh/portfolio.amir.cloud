@@ -1,10 +1,7 @@
 import React from "react"
 import {Page} from "../../data-module/lib/types";
-import {Figure} from "./figure";
-import {BlurText} from "./blur-text";
-import {Redirect, RouteComponentProps, withRouter} from "react-router";
-import {BASE_URL} from "../../data-module/lib/consts";
-import {Link} from "react-static";
+import {RouteComponentProps, withRouter} from "react-router";
+import {PageThumbnail} from "./page";
 
 interface Props {
     projects: Page[]
@@ -15,6 +12,7 @@ interface State {
     clickedItem: string | null;
     redirect: boolean;
 }
+
 
 class Nav extends React.Component<Props & RouteComponentProps, State> {
     constructor(props: Props & RouteComponentProps) {
@@ -49,30 +47,11 @@ class Nav extends React.Component<Props & RouteComponentProps, State> {
             <nav>
                 {
                     projects.map((page, i) => (
-                        <div className="page-thumbnail"
-                             key={`page-thumb-${i}`}
-                        >
-                            <BlurText fontSize={50}
-                                      color={"blue"}
-                                      onClick={() => {
-                                          this.onItemClicked(page);
-                                      }}
-                            >
-                                <Link to={`${BASE_URL}/${page.slug}`} style={{display: "none"}}/>
-                                <h2 className="page-info">{page.title}</h2>
-                                <code className="date">{page.dateString}</code>
-                            </BlurText>
-                            <Link to={`${BASE_URL}/${page.slug}`} style={{display: "none"}}/>
-                            <p className="description"
-                               style={{display: "none"}}
-                            >
-                                {page.description}
-                            </p>
-                            <br/>
-                            <br/>
-                            <Figure imgData={page.thumb}/>
-                        </div>)
-                    )
+                        <PageThumbnail page={page}
+                                       key={`page-thumb-${i}`}
+                                       onClick={this.onItemClicked}
+                        />
+                    ))
                 }
             </nav>
         )

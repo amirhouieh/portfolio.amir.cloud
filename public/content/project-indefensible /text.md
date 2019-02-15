@@ -1,8 +1,11 @@
-Project Indefensible
-=======
-`2016`
-
-_website_, _publishing platform_
+---
+title: "Project Indefensible"
+tags:
+    - website
+    - publishing platform
+year:
+    - 2016
+---
 [projectindefensible.org](https://projectindefensible.org)
 
 `with` [`LUST/LUSTLAB`](https://lust.nl), [`Eric Li`](https://eric.young.li), [`Léna Robin`](https://linkedin.com/in/lenarobin)

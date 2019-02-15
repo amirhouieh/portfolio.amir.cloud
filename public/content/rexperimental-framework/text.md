@@ -1,9 +1,12 @@
-Rexperimental Framework
-=======
-`2018`
-
-_workshop_, _Lecture_
-[artexyz.info](https://artexyz.info)
+---
+title: Rexperimental Framework
+tags:
+    - workshop
+    - Lecture
+year:
+    - 2018
+---
+[project webpage](https://artexyz.info)
 
 `at` [`Artez Graphic design department`](https://www.artez.nl/en/course/graphic-design),
 

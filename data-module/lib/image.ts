@@ -57,6 +57,8 @@ const resizeHandlerFactory = (inPath: string) => {
 export const processImage = async (imagePath: string, projectTitle: string): Promise<Image> => {
     const imageFilename = path.basename(imagePath);
     const resize = resizeHandlerFactory(imagePath);
+    const img = sharp(imagePath);
+    const metadata = await img.metadata();
 
     let order = -1;
     let caption = null;
@@ -72,6 +74,7 @@ export const processImage = async (imagePath: string, projectTitle: string): Pro
     if (path.extname(imageFilename) === ".gif") {
         const newName = new Date().getTime() + imageFilename;
         const outputPath = path.join(IMAGES_DIR, newName);
+
         try {
             await copyFileSync(imagePath, outputPath);
             return {
@@ -80,6 +83,7 @@ export const processImage = async (imagePath: string, projectTitle: string): Pro
                 caption,
                 alt: caption ? caption : projectTitle + "-" + imageFilename,
                 order,
+                r: metadata.width/metadata.height
             };
         } catch (e) {
             console.log(e);
@@ -93,13 +97,13 @@ export const processImage = async (imagePath: string, projectTitle: string): Pro
         const sizes = await Promise.all(imageSizes.map(resize))
             .then((tasks) => tasks.sort((b, a) => b.size - a.size));
 
-
         return {
             src: `${sizes[0].path}`,
             srcSet: sizes,
             caption,
             alt: caption ? caption : projectTitle + "-" + imageFilename,
             order,
+            r: metadata.width/metadata.height
         };
 
     } catch (e) {

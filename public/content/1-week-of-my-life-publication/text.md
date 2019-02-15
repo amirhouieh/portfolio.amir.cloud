@@ -1,8 +1,11 @@
-1 week of my life / publication
-=======
-`2013`
-
-_generative book_, _alternative tool_
+---
+title: 1 week of my life / publication
+tags:
+    - generative book
+    - alternative tool
+year:
+    - 2013
+---
 [archive.amir.cloud/1_week_of_my_life_publication](https://archive.amir.cloud/1_week_of_my_life_publication)
 
 1 week of my life is a series of artworks about one regular week of my life; one work for one day. This series could be consider as a irregular data-visualization representing the data.

@@ -16,6 +16,7 @@ interface State {
 
 import "./style.css"
 import {Seo} from "../../components/seo";
+import {PageHeader} from "../../components/page";
 
 class Project extends React.Component<Props, State> {
 
@@ -61,11 +62,14 @@ class Project extends React.Component<Props, State> {
                      path={`${project.slug}`}
                      imagePath={project.thumb.src.replace("320", "1024")}
                 />
-                <div className="page-info"
-                     dangerouslySetInnerHTML={{
-                         __html: project.html
-                     }}
-                />
+                <div>
+                    <PageHeader page={project} />
+                    <div className="page-info"
+                         dangerouslySetInnerHTML={{
+                             __html: project.html
+                         }}
+                    />
+                </div>
                 <div className="page-images">
                     {
                         figures.map((img, i) =>

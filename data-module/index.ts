@@ -5,11 +5,10 @@ import slugify from "slugify";
 import * as path from "path";
 import {lstatSync, readdirSync, writeFileSync} from "fs";
 
-import {isNumber, isValidImageExt, isValidMarkdownExt, parseMd} from "./lib/utils";
+import {isValidImageExt, isValidMarkdownExt, parseMd} from "./lib/utils";
 import {processImage} from "./lib/image";
 import {CONTENT_DIR, DATA_PATH} from "./lib/consts";
 import {Page} from "./lib/types";
-
 
 const processFolder = async (folderDir: string): Promise<Page> => {
     const IMAGES_DIR_PATH = path.join(folderDir, "images");
@@ -25,43 +24,26 @@ const processFolder = async (folderDir: string): Promise<Page> => {
     const imagesPath = imagesFilenames.filter(isValidImageExt).map((p) => path.join(folderDir, "images", p));
 
     const markdown = await parseMd(path.join(folderDir, mdPath));
-    const thumb = await processImage(path.join(folderDir, thumbPath), markdown.title);
+    const {title, year, description, tags} = markdown.data;
+    const slug = slugify(title, {lower: true});
+
+    const thumb = thumbPath? await processImage(path.join(folderDir, thumbPath), title) : null;
 
     const images = await sequential(
-        imagesPath.map((img) => () => processImage(img, markdown.title)),
+        imagesPath.map((img) => () => processImage(img, title)),
     );
 
-
-    const slug = slugify(markdown.title, {lower: true});
-    const date = markdown.body.match(/<code>(.*?)<\/code>/g).map((val) => {
-        return val.replace(/<\/?code>/g,'');
-    });
-
-    const dateString = date? date[0] : "";
-    let year: string = "-1";
-
-    const getPadYear = (num: string) => num.length > 2 ? num.slice(2) : num;
-
-    if( dateString.indexOf("-") > -1){
-        const last = dateString.split("-")[1];
-        if(isNumber(last)){
-            year = last
-        }else{
-            year = new Date().getFullYear().toString()
-        }
-    }else{
-        year = dateString
-    }
-
     return {
-        html: markdown.body,
-        title: markdown.title,
-        description: markdown.description,
+        html: markdown.content,
+        title,
+        description,
+        tags,
+        current: markdown.data.current && markdown.data.current === true,
         slug,
         thumb,
         images,
-        dateString: dateString,
-        dataYear: parseInt(getPadYear(year))
+        dateString: year.join("-"),
+        dataYear: year.length > 1 ? year.pop() : year.shift()
     };
 };
 
@@ -81,7 +63,10 @@ const createProjectsPage = async (): Promise<Page[]> => {
 
 (async () => {
     const pages = await createProjectsPage();
+    const currentProjects = pages.filter((page) => page.current);
+    const archivedProjects = pages.filter((page) => !page.current);
     writeFileSync(DATA_PATH, JSON.stringify({
-        projects: pages
+        currentProjects,
+        archivedProjects
     }, null, 2));
 })();

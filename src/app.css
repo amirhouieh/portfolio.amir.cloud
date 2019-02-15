@@ -1,17 +1,34 @@
-.page-thumbnail:hover figure{
+.page-thumbnail:hover img{
   display: block;
 }
 
-nav {
+
+.page-thumbnail.simple .description{
+  font-size: 10px;
+}
+
+.current-projects-wrapper > .page-thumbnail {
+  float: left;
+  width: 26.6666666667%;
+}
+.current-projects-wrapper>.page-thumbnail+.page-thumbnail{
+  margin-left: 10%;
+}
+
+.current-projects-wrapper {
+  display: inline-block;
+}
+
+nav{
   column-count: 3;
   column-gap: 10%;
 }
 
-nav figure{
+nav img{
   position: fixed;
   display: none;
 
-  width: 75vw;
+  width: 65vw;
   max-width: 1024px;
 
   top: 50%;
@@ -21,8 +38,22 @@ nav figure{
   z-index: -1;
 }
 
+nav figure.vertical img{
+  width: auto;
+  height: 75vh;
+}
+
 nav > * {
   cursor: pointer;
+}
+
+.tags{
+  font-size: 10px;
+  margin-top: 5px;
+}
+
+.page-header{
+  max-width: 400px;
 }
 
 .slideShow {
@@ -47,14 +78,29 @@ nav > * {
   cursor: pointer;
 }
 
+footer{
+  position: fixed;
+  bottom: 50px;
+  left: 50px;
+}
+
 @media only screen and (max-width: 1000px) {
   nav {
     column-count: 2;
+  }
+  .current-projects-wrapper > .page-thumbnail {
+    width: 45%;
   }
 }
 
 @media only screen and (max-width: 600px) {
   nav {
     column-count: 1;
+  }
+  .current-projects-wrapper > .page-thumbnail {
+    width: 100%
+  }
+  .current-projects-wrapper>.page-thumbnail+.page-thumbnail{
+    margin-left: 0;
   }
 }

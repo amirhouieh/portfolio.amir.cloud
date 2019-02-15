@@ -2,6 +2,9 @@ import * as path from "path";
 import {readFileSync} from "fs";
 import * as marked from "marked";
 
+//@ts-ignore
+import * as yamlFront from "yaml-front-matter";
+
 import {ImageExt, MarkdownContent, MarkdownExt} from "./types";
 
 export const MATCH_NUMBER = new RegExp(/^[0-9]*$/);
@@ -14,12 +17,22 @@ export const isValidMarkdownExt = (filename: string): boolean =>
 export const isValidImageExt = (filename: string): boolean =>
     [ImageExt.GIF, ImageExt.JPEG, ImageExt.JPG, ImageExt.PNG].includes( path.extname(filename) );
 
+const readMarkdown = async (rawMd: string): Promise<{
+    [index: string]: any;
+    __content: string;
+}> => {
+    return await yamlFront.loadFront(rawMd);
+};
+
 export const parseMd = async (mdPath: string): Promise<MarkdownContent> => {
-    const md = readFileSync(mdPath, "utf8");
+    const mdRaw = readFileSync(mdPath, "utf8");
+    const md = await readMarkdown(mdRaw).catch(err => {
+        console.log("error reading markdown", mdPath);
+        console.log(err);
+        return null
+    });
 
-    const tokens = marked.lexer(md);
-    const header = tokens.find( (t) => t.type === "heading");
-
+    const tokens = marked.lexer(md.__content);
     // @ts-ignore
     const longestPara = tokens.filter( (t) => t.text )
         .sort(
@@ -28,12 +41,19 @@ export const parseMd = async (mdPath: string): Promise<MarkdownContent> => {
         )[0];
 
     // @ts-ignore
-    const title = header ? header.text : path.basename(TEST_FOLDER_DIR);
-
-    // @ts-ignore
     const description = longestPara ? marked.parse(longestPara.text) : title;
-    console.log(description)
+
     const body = marked.parser(tokens);
 
-    return { title, body, description};
+    return {
+        content: body,
+        data:{
+            title: md.title,
+            year: md.year,
+            tags: md.tags,
+            description,
+            current: md.current
+        }
+    };
+
 };

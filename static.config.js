@@ -13,9 +13,13 @@ const readData = () => JSON.parse( readFileSync('public/data.json').toString("ut
 export default {
   entry: path.join(__dirname, 'src', 'index.tsx'),
   siteRoot: "https://portfolio.amir.cloud",
-  getSiteData: async () => ({
-    projects: await readData().projects.map((page) => omit(page, "images"))
-  }),
+  getSiteData: async () => {
+    const db =  await readData()
+    return {
+      archivedProjects: db.archivedProjects.map((page) => omit(page, "images")),
+      currentProjects: db.currentProjects
+    }
+  },
   getRoutes: async () => {
     const data = await readData();
     return [
@@ -23,7 +27,7 @@ export default {
         path: '/',
         component: 'src/containers/home',
       },
-      ...data.projects.map((page) => ({
+      ...data.archivedProjects.map((page) => ({
         path: `/${page.slug}`,
         component: 'src/containers/project',
         getData: () => ({

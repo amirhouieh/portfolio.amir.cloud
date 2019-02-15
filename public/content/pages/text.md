@@ -1,8 +1,12 @@
-Pages
-=======
-`2016-17`
-
-_website_, _publishing platform_
+---
+title: Pages
+tags:
+    - website
+    - publishing platform
+year:
+    - 2016
+    - 2017
+---
 [pagesmagazine.net](https://pagesmagazine.net)
 
 `with` [`LUST/LUSTLAB`](https://lust.nl), [`Léna Robin`](https://linkedin.com/in/lenarobin), [`Gabor Kerekes`](https://krks.info/)

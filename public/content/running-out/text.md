@@ -1,8 +1,12 @@
-Running Out
-=======
-`2016`
-
-_Real-time data Installation_
+---
+title: Running Out
+tags:
+    - "real-time data"
+    - installation
+    - sustainability
+year:
+    - 2016
+---
 Exhibited at Salone del Mobile, Milano
 
 `with` [`Niels Schrader`](http://www.minddesign.info/), [`Gabor Kerekes`](https://krks.info/), [`Vera van de Seyp`](http://veravandeseyp.com)

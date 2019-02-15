@@ -25,6 +25,7 @@ export interface Image {
     caption: string | null;
     alt: string;
     order: number;
+    r: number;
 }
 
 export interface GifImage {
@@ -35,18 +36,25 @@ export interface GifImage {
 }
 
 export interface MarkdownContent {
-    body: string;
-    description: string;
-    title: string;
+    content: string;
+    data: {
+        description?: string;
+        title: string;
+        year: number[];
+        tags: string[];
+        current?: boolean;
+    }
 }
 
 export interface Page {
     html: string;
     images: Image[];
-    thumb: Image;
+    thumb: Image | null;
     slug: string;
+    current: boolean;
     dateString: string;
     dataYear: number;
     description: string;
     title: string;
+    tags: string[];
 }

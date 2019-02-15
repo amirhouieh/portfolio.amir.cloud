@@ -15,7 +15,9 @@ interface Props {
 
 export const Figure: React.FunctionComponent<Props&HTMLAttributes<HTMLImageElement>> = ({imgData, prefix = "", ...rest}) => {
     return (
-        <figure {...rest}>
+        <figure className={imgData.r > 1 ? "horizontal" : "vertical"}
+                {...rest}
+        >
             <img src={`${prefix}${imgData.src}`}
                  alt={`amir houieh - ${imgData.alt}`}
                  srcSet={createSrcSetQuery(imgData.srcSet, prefix)}

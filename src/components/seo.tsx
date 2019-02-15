@@ -1,5 +1,6 @@
 import * as React from "react";
 import {Head} from "react-static";
+//@ts-ignore
 import urljoin from "url-join";
 import htmlToText from "html2plaintext";
 
