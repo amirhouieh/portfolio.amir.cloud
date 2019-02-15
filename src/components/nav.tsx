@@ -45,10 +45,6 @@ class Nav extends React.Component<Props & RouteComponentProps, State> {
     render() {
         const { projects } = this.props;
 
-        // if(this.state.redirect){
-        //     return <Redirect to={`/${this.state.clickedItem}`}/>
-        // }
-
         return (
             <nav>
                 {
