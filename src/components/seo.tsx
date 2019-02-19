@@ -21,7 +21,7 @@ export const Seo: React.FunctionComponent<IProps> = (props) => {
         keywords = "amir houieh, amirhouieh",
         description = "This is a showcase for highlighted projects by Amir Houieh.",
         path = "",
-        imagePath = "site-thumb.png",
+        imagePath = "site-thumb-new.png",
     } = props;
 
     const url = urljoin(BASE_URL, path);

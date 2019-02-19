@@ -7,7 +7,7 @@ import {IMAGES_DIR} from "./consts";
 import {copyFileSync} from "fs";
 
 const createResponsiveImageName = (id: string, size: number, ext: string) => {
-    return `${id}-${size}${ext}`;
+    return `amir houieh-${id}-${size}${ext}`;
 };
 
 export interface ImageSize {
@@ -72,7 +72,7 @@ export const processImage = async (imagePath: string, projectTitle: string): Pro
     }
 
     if (path.extname(imageFilename) === ".gif") {
-        const newName = new Date().getTime() + imageFilename;
+        const newName = "amir houieh-" + new Date().getTime() + imageFilename;
         const outputPath = path.join(IMAGES_DIR, newName);
 
         try {

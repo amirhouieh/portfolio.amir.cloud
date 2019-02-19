@@ -14,17 +14,24 @@ interface Props {
 }
 
 export const Figure: React.FunctionComponent<Props&HTMLAttributes<HTMLImageElement>> = ({imgData, prefix = "", ...rest}) => {
+    const alt = `amir houieh - ${imgData.alt}`;
+
     return (
         <figure className={imgData.r > 1 ? "horizontal" : "vertical"}
                 {...rest}
         >
-            <img src={`${prefix}${imgData.src}`}
-                 alt={`amir houieh - ${imgData.alt}`}
-                 srcSet={createSrcSetQuery(imgData.srcSet, prefix)}
-            />
+            <a href={"javascript:;"} title={alt}>
+                <img src={`${prefix}${imgData.src}`}
+                     alt={alt}
+                     title={alt}
+                     srcSet={createSrcSetQuery(imgData.srcSet, prefix)}
+                />
+            </a>
             {
                 imgData.caption ?
-                    <figcaption>{imgData.caption}</figcaption>
+                    <figcaption>
+                        {imgData.caption}
+                    </figcaption>
                     :
                     ""
             }
