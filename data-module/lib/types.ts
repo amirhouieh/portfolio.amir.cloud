@@ -5,7 +5,13 @@ export const ImageExt = {
     JPEG: ".jpeg",
     PNG: ".png",
     GIF: ".gif",
+};
+
+
+export const VideoRemoteExt = {
+    WEBLOC: ".webloc"
 }
+
 
 export const MarkdownExt = {
     MD: ".md",
@@ -17,7 +23,12 @@ export enum ImageSizes{
     MEDIUM = 640,
     SMALL = 320,
     TINY = 20
-};
+}
+
+export enum VideoSource {
+    VIMEO = "vimeo",
+    YOUTUBE = "youtube"
+}
 
 export interface Image {
     src: string;
@@ -27,6 +38,14 @@ export interface Image {
     order: number;
     r: number;
 }
+
+export interface Video {
+    src: string;
+    caption: string | null;
+    order: number;
+    source: VideoSource.VIMEO | VideoSource.YOUTUBE
+}
+
 
 export interface GifImage {
     src: string;
@@ -49,6 +68,7 @@ export interface MarkdownContent {
 export interface Page {
     html: string;
     images: Image[];
+    videos: Video[];
     thumb: Image | null;
     slug: string;
     current: boolean;

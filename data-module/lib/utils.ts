@@ -5,7 +5,7 @@ import * as marked from "marked";
 //@ts-ignore
 import * as yamlFront from "yaml-front-matter";
 
-import {ImageExt, MarkdownContent, MarkdownExt} from "./types";
+import {ImageExt, MarkdownContent, MarkdownExt, VideoRemoteExt} from "./types";
 
 export const MATCH_NUMBER = new RegExp(/^[0-9]*$/);
 
@@ -16,6 +16,10 @@ export const isValidMarkdownExt = (filename: string): boolean =>
 
 export const isValidImageExt = (filename: string): boolean =>
     [ImageExt.GIF, ImageExt.JPEG, ImageExt.JPG, ImageExt.PNG].includes( path.extname(filename) );
+
+export const isValidVideoExt = (filename: string): boolean =>
+    [VideoRemoteExt.WEBLOC].includes( path.extname(filename) );
+
 
 const readMarkdown = async (rawMd: string): Promise<{
     [index: string]: any;

@@ -77,7 +77,7 @@ export default {
 
     // Add TypeScript Path Mappings (from tsconfig via webpack.config.js)
     // to react-statics alias resolution
-    config.resolve.alias = typescriptWebpackPaths.resolve.alias
+    config.resolve.alias = typescriptWebpackPaths.resolve.alias;
 
     // We replace the existing JS rule with one, that allows us to use
     // both TypeScript and JavaScript interchangeably
@@ -86,7 +86,7 @@ export default {
         oneOf: [
           {
             test: /\.(js|jsx|ts|tsx)$/,
-            exclude: defaultLoaders.jsLoader.exclude, // as std jsLoader exclude
+            exclude: defaultLoaders.jsLoader.exclude,
             use: [
               {
                 loader: 'babel-loader',

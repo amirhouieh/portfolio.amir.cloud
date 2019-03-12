@@ -5,10 +5,11 @@ import slugify from "slugify";
 import * as path from "path";
 import {lstatSync, readdirSync, writeFileSync} from "fs";
 
-import {isValidImageExt, isValidMarkdownExt, parseMd} from "./lib/utils";
+import {isValidImageExt, isValidMarkdownExt, isValidVideoExt, parseMd} from "./lib/utils";
 import {processImage} from "./lib/image";
 import {CONTENT_DIR, DATA_PATH} from "./lib/consts";
 import {Page} from "./lib/types";
+import {processRemoteVideo} from "./lib/video";
 
 const processFolder = async (folderDir: string): Promise<Page> => {
     const IMAGES_DIR_PATH = path.join(folderDir, "images");
@@ -17,11 +18,12 @@ const processFolder = async (folderDir: string): Promise<Page> => {
     console.log(`start porcess page: ${folderDir}`);
 
     const rootFiles = readdirSync(folderDir);
-    const imagesFilenames = readdirSync(IMAGES_DIR_PATH);
+    const mediaFilenames = readdirSync(IMAGES_DIR_PATH);
 
     const thumbPath = rootFiles.find(isValidImageExt);
     const mdPath = rootFiles.find(isValidMarkdownExt);
-    const imagesPath = imagesFilenames.filter(isValidImageExt).map((p) => path.join(folderDir, "images", p));
+    const imagesPath = mediaFilenames.filter(isValidImageExt).map((p) => path.join(folderDir, "images", p));
+    const videosPath = mediaFilenames.filter(isValidVideoExt).map((p) => path.join(folderDir, "images", p));
 
     const markdown = await parseMd(path.join(folderDir, mdPath));
     const {title, year, description, tags} = markdown.data;
@@ -33,6 +35,12 @@ const processFolder = async (folderDir: string): Promise<Page> => {
         imagesPath.map((img) => () => processImage(img, title)),
     );
 
+    const videos = await sequential(
+        videosPath.map((remoteVideo) => () => processRemoteVideo(remoteVideo)),
+    );
+
+    console.log(videos);
+
     return {
         html: markdown.content,
         title,
@@ -43,7 +51,8 @@ const processFolder = async (folderDir: string): Promise<Page> => {
         thumb,
         images,
         dateString: year.join("-"),
-        dataYear: year.length > 1 ? year.pop() : year.shift()
+        dataYear: year.length > 1 ? year.pop() : year.shift(),
+        videos: videos
     };
 };
 

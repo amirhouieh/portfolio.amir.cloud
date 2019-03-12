@@ -1,5 +1,6 @@
 import React from 'react'
 import { withRouteData } from 'react-static'
+import ReactPlayer from "react-player"
 
 import {Page} from "../../../data-module/lib/types";
 import {Figure} from "../../components/figure";
@@ -54,7 +55,7 @@ class Project extends React.Component<Props, State> {
         const { project } = this.props;
 
         const figures = [project.thumb, ...project.images];
-
+        console.log(project.videos)
         return (
             <div className="project container">
                 <Seo title={`${project.title} by Amir Houieh`}
@@ -71,6 +72,15 @@ class Project extends React.Component<Props, State> {
                     />
                 </div>
                 <div className="page-images">
+                    {
+                        project.videos.map((video, i) =>
+                            <ReactPlayer url={video.src}
+                                         playing={true}
+                                         key={`video-${i}`}
+                                         width={"auto"}
+                            />
+                        )
+                    }
                     {
                         figures.map((img, i) =>
                             <Figure imgData={img}
