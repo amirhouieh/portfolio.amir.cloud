@@ -5,6 +5,9 @@ tags:
     - alternative tool
 year:
     - 2013
+stack:
+    - js
+    - html/css
 ---
 [archive.amir.cloud/1_week_of_my_life_publication](https://archive.amir.cloud/1_week_of_my_life_publication)
 

@@ -5,6 +5,9 @@ year:
 tags:
     - research
     - website
+stack:
+    - js
+    - html/css
 ---
 [demo](https://tomorrow-book.amir.cloud)
 

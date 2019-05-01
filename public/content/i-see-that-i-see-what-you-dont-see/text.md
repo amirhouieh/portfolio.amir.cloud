@@ -5,6 +5,11 @@ tags:
     - interactive typography
 year:
     - 2019
+stack:
+    - es6
+    - html/css
+    - p5js
+    - webpack
 ---
 [triennale2019.hetnieuweinstituut.nl](https://triennale2019.hetnieuweinstituut.nl)
 

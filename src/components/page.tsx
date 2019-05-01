@@ -3,11 +3,16 @@ import {Page} from "../../data-module/lib/types";
 import {Link} from "react-static";
 import {BASE_URL} from "../../data-module/lib/consts";
 import {BlurText} from "./blur-text";
-import {Figure} from "./figure";
 
 export const PageTags: React.FunctionComponent<{tags: string[]}> = ({tags}) => (
     <div className={"tags"} dangerouslySetInnerHTML={{
         __html: tags.map(tag => `<i>${tag}</i>`).join(", ")
+    }}/>
+);
+
+export const PageStack: React.FunctionComponent<{stack: string[]}> = ({stack}) => (
+    <div className={"stack"} dangerouslySetInnerHTML={{
+        __html: stack.map(tag => `<span>${tag}</span>`).join("<span>, </span>")
     }}/>
 );
 
@@ -19,12 +24,16 @@ export const PageDate: React.FunctionComponent<{dateString: string}> = ({dateStr
     <code className="date">{dateString}</code>
 );
 
-export const PageHeader: React.FunctionComponent<{page: Page, current?: boolean}> = ({page, current=false}) => (
+export const PageHeader: React.FunctionComponent<{page: Page, current?: boolean, showStack?: boolean}> = ({page, current=false, showStack=false}) => (
     <div className={"page-header"}>
         <Link to={`${BASE_URL}/${page.slug}`} style={{display: "none"}}/>
         <PageDate dateString={current? `${page.dateString}-present` : page.dateString} />
         <PageTitle title={page.title}/>
         <PageTags tags={page.tags} />
+        {
+            (showStack && page.stack) &&
+                <PageStack stack={page.stack} />
+        }
     </div>
 );
 
@@ -35,7 +44,9 @@ export const PageThumbnail: React.FunctionComponent<{
     onClick?: (p: Page) => void,
     onMouseIn?: () => void,
     onMouseOut?: () => void,
-}> = ({page, onClick, onMouseIn = noop, onMouseOut = noop}) => (
+    textColor?: string,
+    showStack?: boolean
+}> = ({page, onClick, onMouseIn = noop, onMouseOut = noop, textColor="black", showStack=false}) => (
     <div className="page-thumbnail"
          onMouseEnter={() => {
              onMouseIn();
@@ -45,14 +56,14 @@ export const PageThumbnail: React.FunctionComponent<{
          }}
     >
         <BlurText fontSize={50}
-                  color={"blue"}
+                  color={textColor}
                   onClick={() => {
                       if(onClick){
                           onClick(page);
                       }
                   }}
         >
-            <PageHeader page={page}/>
+            <PageHeader page={page} showStack={showStack}/>
         </BlurText>
         <Link to={`${BASE_URL}/${page.slug}`} style={{display: "none"}}/>
         <p className="description"
@@ -63,20 +74,16 @@ export const PageThumbnail: React.FunctionComponent<{
         <br/>
         <br/>
         <br/>
-        {/*{*/}
-            {/*page.thumb &&*/}
-            {/*<Figure imgData={page.thumb}/>*/}
-        {/*}*/}
     </div>
 );
 
 
 
 
-export const PageThumbnailSimple: React.FunctionComponent<{page: Page}> = ({page}) => (
+export const PageThumbnailSimple: React.FunctionComponent<{page: Page, textColor: String}> = ({page, textColor}) => (
     <div className="page-thumbnail simple">
         <BlurText fontSize={32}
-                  color={"black"}
+                  color={textColor}
                   onClick={() => {
                   }}
         >

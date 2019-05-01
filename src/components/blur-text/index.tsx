@@ -23,7 +23,6 @@ export interface Point {
 export class BlurText extends React.Component<Props&HTMLAttributes<HTMLDivElement>, State>{
     private node = createRef<HTMLDivElement>();
 
-
     constructor(props: Props){
         super(props);
 

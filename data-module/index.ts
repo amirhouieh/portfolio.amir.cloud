@@ -26,7 +26,7 @@ const processFolder = async (folderDir: string): Promise<Page> => {
     const videosPath = mediaFilenames.filter(isValidVideoExt).map((p) => path.join(folderDir, "images", p));
 
     const markdown = await parseMd(path.join(folderDir, mdPath));
-    const {title, year, description, tags} = markdown.data;
+    const {title, year, description, tags, stack = null} = markdown.data;
     const slug = slugify(title, {lower: true});
 
     const thumb = thumbPath? await processImage(path.join(folderDir, thumbPath), title) : null;
@@ -39,8 +39,6 @@ const processFolder = async (folderDir: string): Promise<Page> => {
         videosPath.map((remoteVideo) => () => processRemoteVideo(remoteVideo)),
     );
 
-    console.log(videos);
-
     return {
         html: markdown.content,
         title,
@@ -50,6 +48,7 @@ const processFolder = async (folderDir: string): Promise<Page> => {
         slug,
         thumb,
         images,
+        stack,
         dateString: year.join("-"),
         dataYear: year.length > 1 ? year.pop() : year.shift(),
         videos: videos

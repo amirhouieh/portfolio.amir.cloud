@@ -6,6 +6,15 @@ tags:
 year:
     - 2016
     - 2017
+stack:
+    - es6
+    - html/css
+    - React
+    - Nodejs
+    - docker
+    - "monogo-DB"
+    - "express-js"
+    - "smtp-server"
 ---
 [pagesmagazine.net](https://pagesmagazine.net)
 

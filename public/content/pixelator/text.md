@@ -5,6 +5,9 @@ tags:
     - alternative tool
 year:
     - 2015
+stack:
+    - python
+    - drawbot
 ---
 [source code on Github](https://github.com/amirhouieh/type-pixelator)
 [archive.amir.cloud/pixelator](https://archive.amir.cloud/pixelator/)

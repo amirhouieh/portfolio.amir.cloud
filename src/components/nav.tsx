@@ -5,7 +5,9 @@ import {PageThumbnail} from "./page";
 import {Figure} from "./figure";
 
 interface Props {
-    projects: Page[]
+    projects: Page[];
+    textColor?: string;
+    withStack: boolean;
 }
 
 interface State {
@@ -22,7 +24,8 @@ class Nav extends React.Component<Props & RouteComponentProps, State> {
         this.state = {
             isTouch: false,
             clickedItem: null,
-            redirect: false
+            redirect: false,
+            hoveredThumb: null
         }
     }
 
@@ -44,14 +47,15 @@ class Nav extends React.Component<Props & RouteComponentProps, State> {
 
     onMuseIn = (page: Page) => {
         this.setState({hoveredThumb: page.thumb});
-    }
+    };
 
     onMuseOut = () => {
         this.setState({hoveredThumb: null});
-    }
+    };
 
     render() {
-        const { projects } = this.props;
+        const { projects, textColor = "blue", withStack} = this.props;
+
         return (
             <nav>
                 {
@@ -61,6 +65,8 @@ class Nav extends React.Component<Props & RouteComponentProps, State> {
                                        onClick={this.onItemClicked}
                                        onMouseIn={() => this.onMuseIn(page)}
                                        onMouseOut={() => this.onMuseOut()}
+                                       textColor={textColor}
+                                       showStack={withStack}
                         />
                     ))
                 }

@@ -2,6 +2,34 @@
   display: block;
 }
 
+body.dev{
+  background: black;
+}
+
+body img{
+  opacity: 0.75;
+}
+
+body.dev img{
+  opacity: 0.65;
+}
+
+body.dev a{
+  color: white;
+}
+
+body .stack{
+  font-family: monospace;
+  color: gray;
+  text-transform: uppercase;
+  font-size: 12px;
+}
+
+body.dev .stack{
+  font-family: monospace;
+  color: lightgray;
+  text-transform: uppercase;
+}
 
 .page-thumbnail.simple .description{
   font-size: 10px;
@@ -54,6 +82,24 @@ nav > * {
 
 .page-header{
   max-width: 400px;
+}
+
+.mood-control {
+  position: absolute;
+  top: 65px;
+  left: 90px;
+  font-family: monospace;
+  font-size: 10px;
+  color: gray;
+}
+.mood{
+  text-decoration: line-through;
+  cursor: pointer;
+}
+
+.mood.on{
+  text-decoration: none;
+  cursor: default;
 }
 
 .slideShow {

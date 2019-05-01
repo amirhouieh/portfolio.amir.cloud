@@ -6,6 +6,10 @@ tags:
     - DIY tool
 year:
     - 2016
+stack:
+    - js
+    - html/css
+    - "electron-js"
 ---
 _A modular content-driven web browser_
 [source code on Github](https://github.com/amirhouieh/re-)

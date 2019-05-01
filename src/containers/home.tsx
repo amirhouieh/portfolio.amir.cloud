@@ -11,31 +11,112 @@ interface Props {
     currentProjects: Page[];
 }
 
-const Home: React.FunctionComponent<Props> = ({archivedProjects, currentProjects}) => (
-    <div className="container home">
-        <Seo />
-        <section>
-            <div className={"current-projects-wrapper"}>
-                {
-                    currentProjects.map((project, i) => (
-                        <PageThumbnailSimple page={project}
-                                             key={`c-page-thumb-${i}`}
-                        />
-                    ))
-                }
+interface State {
+    isDevMode: boolean
+}
+
+class Home extends React.Component<Props, State>{
+    constructor(props: Props){
+        super(props);
+        this.state = {
+            isDevMode: false,
+        }
+    }
+
+    componentDidMount(): void {
+        this.onHashChange();
+        window.addEventListener("hashchange", this.onHashChange, false);
+    }
+
+    componentWillUnmount(): void {
+        window.removeEventListener("hashchange", this.onHashChange);
+    }
+
+    onHashChange = () => {
+
+        console.log("hashchange", window.location.hash);
+
+        if(window.location.hash === "#devmood"){
+            this.toggleMood();
+        }
+    };
+
+    toggleMood = () => {
+        if(window !== undefined){
+            if(this.state.isDevMode){
+                document.body.classList.remove("dev")
+            }else{
+                document.body.classList.add("dev")
+            }
+        }
+        this.setState({
+            isDevMode: !this.state.isDevMode
+        }, () => {
+            if(window !== undefined){
+                window.dispatchEvent(new Event('resize'));
+            }
+        });
+
+    };
+
+    render(){
+        const {archivedProjects, currentProjects} = this.props;
+        const { isDevMode } = this.state;
+        const projects = isDevMode?
+            archivedProjects.filter((project) => {
+                return project.stack !== null
+            })
+            :
+            archivedProjects;
+
+        return (
+            <div className={`container home`}>
+                <Seo />
+                <section className={"mood-control"}>
+                    <span className={`mood ${isDevMode? "":"on"}`} onClick={
+                        () => { if(isDevMode) this.toggleMood(); }
+                    }>Hybrid ME</span>
+                    <span><br/></span>
+                    <span className={`mood ${isDevMode? "on":""}`} onClick={
+                        () => { if(!isDevMode) this.toggleMood(); }
+                    }>Developer ME</span>
+                </section>
+                <section>
+                    <div className={"current-projects-wrapper"}>
+                        {
+                            currentProjects.map((project, i) => (
+                                <PageThumbnailSimple page={project}
+                                                     key={`c-page-thumb-${i}`}
+                                                     textColor={isDevMode? "lightBlue": "black"}
+                                />
+                            ))
+                        }
+                    </div>
+                </section>
+                <br/>
+                <br/>
+                <section>
+                    <Nav projects={projects}
+                         textColor={isDevMode? "lightGray": "blue"}
+                         withStack={isDevMode}
+                    />
+                </section>
+                <footer>
+                    {
+                        isDevMode &&
+                        <a href={"https://github.com/amirhouieh"}>
+                            <code>> my github</code>
+                            <br/>
+                        </a>
+                    }
+                    <a href={"https://amir.cloud"}>
+                        <code>> amir houieh</code>
+                    </a>
+                </footer>
             </div>
-        </section>
-        <br/>
-        <br/>
-        <section>
-            <Nav projects={archivedProjects}/>
-        </section>
-        <footer>
-            <a href={"https://amir.cloud"}>
-                <code>> amir houieh</code>
-            </a>
-        </footer>
-    </div>
-);
+        );
+    }
+}
+
 
 export default withSiteData(Home);

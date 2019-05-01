@@ -5,6 +5,10 @@ tags:
     - publishing platform
 year:
     - 2016
+
+stack:
+    - js
+    - html/css
 ---
 [projectindefensible.org](https://projectindefensible.org)
 

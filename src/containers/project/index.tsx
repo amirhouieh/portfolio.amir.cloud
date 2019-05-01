@@ -55,7 +55,7 @@ class Project extends React.Component<Props, State> {
         const { project } = this.props;
 
         const figures = [project.thumb, ...project.images];
-        console.log(project.videos)
+
         return (
             <div className="project container">
                 <Seo title={`${project.title} by Amir Houieh`}
@@ -64,7 +64,7 @@ class Project extends React.Component<Props, State> {
                      imagePath={project.thumb.src.replace("320", "1024")}
                 />
                 <div>
-                    <PageHeader page={project} />
+                    <PageHeader page={project} showStack={true}/>
                     <div className="page-info"
                          dangerouslySetInnerHTML={{
                              __html: project.html
