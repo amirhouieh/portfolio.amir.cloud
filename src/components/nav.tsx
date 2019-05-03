@@ -29,6 +29,10 @@ class Nav extends React.Component<Props & RouteComponentProps, State> {
         }
     }
 
+    componentDidMount(): void {
+        this.setState({isTouch: isTouchDevice()})
+    }
+
     onItemClicked = (page: Page) => {
         const { clickedItem } = this.state;
 
@@ -55,6 +59,7 @@ class Nav extends React.Component<Props & RouteComponentProps, State> {
 
     render() {
         const { projects, textColor = "blue", withStack} = this.props;
+        const { isTouch } = this.state;
 
         return (
             <nav>
@@ -67,6 +72,7 @@ class Nav extends React.Component<Props & RouteComponentProps, State> {
                                        onMouseOut={() => this.onMuseOut()}
                                        textColor={textColor}
                                        showStack={withStack}
+                                       blurSize={isTouch? 10: 50}
                         />
                     ))
                 }

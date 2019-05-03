@@ -45,8 +45,9 @@ export const PageThumbnail: React.FunctionComponent<{
     onMouseIn?: () => void,
     onMouseOut?: () => void,
     textColor?: string,
-    showStack?: boolean
-}> = ({page, onClick, onMouseIn = noop, onMouseOut = noop, textColor="black", showStack=false}) => (
+    showStack?: boolean,
+    blurSize?: number
+}> = ({page, onClick, onMouseIn = noop, onMouseOut = noop, textColor="black", showStack=false, blurSize}) => (
     <div className="page-thumbnail"
          onMouseEnter={() => {
              onMouseIn();
@@ -56,6 +57,7 @@ export const PageThumbnail: React.FunctionComponent<{
          }}
     >
         <BlurText fontSize={50}
+                  maxVolume={blurSize}
                   color={textColor}
                   onClick={() => {
                       if(onClick){

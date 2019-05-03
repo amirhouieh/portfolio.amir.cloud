@@ -25,7 +25,6 @@ export class BlurText extends React.Component<Props&HTMLAttributes<HTMLDivElemen
 
     constructor(props: Props){
         super(props);
-
         this.state = {
             center: {x: 0, y:0},
             blurVolume: props.blurVolume ? props.blurVolume : 50,
@@ -68,15 +67,15 @@ export class BlurText extends React.Component<Props&HTMLAttributes<HTMLDivElemen
 
 
     render(){
-        const { color = "black", ...rest } = this.props;
-        const { blurVolume } = this.state;
+        const { color = "black", maxVolume, blurVolume, ...rest } = this.props;
+        const blurSize = this.state.blurVolume;
 
         return (
             <div className={"blur"}
                  ref={this.node}
                  {...rest}
                  style={{
-                      textShadow: `0 0 ${blurVolume}px ${color}`,
+                      textShadow: `0 0 ${blurSize}px ${color}`,
                       color: "transparent",
                       display: "inline-block"
                   }}

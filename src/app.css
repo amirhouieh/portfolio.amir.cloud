@@ -14,6 +14,10 @@ body.dev img{
   opacity: 0.65;
 }
 
+.project img{
+  opacity: 1 !important;
+}
+
 body.dev a{
   color: white;
 }
@@ -29,6 +33,10 @@ body.dev .stack{
   font-family: monospace;
   color: lightgray;
   text-transform: uppercase;
+}
+
+body.dev {
+  color: white;
 }
 
 .page-thumbnail.simple .description{
