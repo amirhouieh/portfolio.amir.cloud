@@ -11,7 +11,7 @@
     "data:build": "yarn clean-up && ts-node --project tsconfig-data.json data-module/index",
     "data:sandbox": "ts-node --project tsconfig-data.json data-module/sandbox",
     "data:dev": "ts-node --project tsconfig-data.json data-module/index",
-    "clean-up": "rm -rf public/images && mkdir public/images"
+    "clean-up": "rm -rf public/images && mkdir public/images && rm -rf public/data.json"
   },
   "dependencies": {
     "axios": "^0.18.0",
