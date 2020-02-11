@@ -74,7 +74,7 @@ export const processImage = async (imagePath: string, projectTitle: string): Pro
     if (path.extname(imageFilename) === ".gif") {
         const newName = "amir_houieh-" + new Date().getTime() + imageFilename;
         const outputPath = path.join(IMAGES_DIR, newName);
-
+        
         try {
             await copyFileSync(imagePath, outputPath);
             return {
