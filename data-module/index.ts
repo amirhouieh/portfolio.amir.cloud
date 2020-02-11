@@ -16,7 +16,7 @@ const processFolder = async (folderDir: string): Promise<Page> => {
 
     console.log(`===`);
     console.log(`start porcess page: ${folderDir}`);
-    
+
     const rootFiles = await readdirSync(folderDir);
     let mediaFilenames: string[] = [];
 

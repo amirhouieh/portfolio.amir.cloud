@@ -1,4 +1,5 @@
 import React from "react"
+import { navigate } from "react-static";
 import {Image, Page} from "../../data-module/lib/types";
 import {RouteComponentProps, withRouter} from "react-router";
 import {PageThumbnail} from "./page";
@@ -16,7 +17,6 @@ interface State {
     hoveredThumb: Image | null;
     redirect: boolean;
 }
-
 
 class Nav extends React.Component<Props & RouteComponentProps, State> {
     constructor(props: Props & RouteComponentProps) {
@@ -45,7 +45,11 @@ class Nav extends React.Component<Props & RouteComponentProps, State> {
                 this.props.history.push(`/${page.slug }`);
             }
         }else{
-            this.props.history.push(`/${page.slug }`);
+            try{
+                this.props.history.push(`/${page.slug }`);
+            }catch (e) {
+                console.log(e);
+            }
         }
     };
 
