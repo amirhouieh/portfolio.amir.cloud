@@ -29,5 +29,3 @@ data-module/dist
 
 /public/images
 /public/images/**.*
-
-yarn.lock
