@@ -12,7 +12,7 @@ const readData = () => JSON.parse( readFileSync('public/data.json').toString("ut
 
 export default {
   entry: path.join(__dirname, 'src', 'index.tsx'),
-  siteRoot: "https://portfolio.amir.cloud",
+  siteRoot: "https://portfolio.amir.houieh.page",
   getSiteData: async () => {
     const db =  await readData()
     return {
