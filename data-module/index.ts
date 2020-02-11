@@ -16,9 +16,15 @@ const processFolder = async (folderDir: string): Promise<Page> => {
 
     console.log(`===`);
     console.log(`start porcess page: ${folderDir}`);
+    
+    const rootFiles = await readdirSync(folderDir);
+    let mediaFilenames: string[] = [];
 
-    const rootFiles = readdirSync(folderDir);
-    const mediaFilenames = readdirSync(IMAGES_DIR_PATH);
+    try{
+        mediaFilenames  = await readdirSync(IMAGES_DIR_PATH);
+    }catch (e) {
+        console.log("no image found!");
+    }
 
     const thumbPath = rootFiles.find(isValidImageExt);
     const mdPath = rootFiles.find(isValidMarkdownExt);
@@ -69,12 +75,12 @@ const createProjectsPage = async (): Promise<Page[]> => {
     return pages.sort((a,b) => b.dataYear - a.dataYear);
 };
 
+console.log("hi");
+
 (async () => {
     const pages = await createProjectsPage();
     const currentProjects = pages.filter((page) => page.current);
     const archivedProjects = pages.filter((page) => !page.current);
-    writeFileSync(DATA_PATH, JSON.stringify({
-        currentProjects,
-        archivedProjects
-    }, null, 2));
+    writeFileSync(DATA_PATH, JSON.stringify({currentProjects, archivedProjects}));
+    console.log( `${DATA_PATH} is created!`);
 })();

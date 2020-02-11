@@ -35,7 +35,7 @@ export const parseMd = async (mdPath: string): Promise<MarkdownContent> => {
         console.log(err);
         return null
     });
-    console.log(JSON.stringify(md, null, 2));
+
     const tokens = marked.lexer(md.__content);
     // @ts-ignore
     const longestPara = tokens.filter( (t) => t.text )
