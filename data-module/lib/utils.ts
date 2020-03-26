@@ -30,10 +30,11 @@ const readMarkdown = async (rawMd: string): Promise<{
 
 export const parseMd = async (mdPath: string): Promise<MarkdownContent> => {
     const mdRaw = readFileSync(mdPath, "utf8");
-    const md = await readMarkdown(mdRaw).catch(err => {
-        console.log("error reading markdown", mdPath);
-        console.log(err);
-        return null
+    const md = await readMarkdown(mdRaw)
+        .catch(err => {
+            console.log("error reading markdown", mdPath);
+            console.log(err);
+            return null
     });
 
     const tokens = marked.lexer(md.__content);
@@ -57,7 +58,8 @@ export const parseMd = async (mdPath: string): Promise<MarkdownContent> => {
             tags: md.tags,
             description,
             current: md.current,
-            stack: md.stack
+            stack: md.stack,
+            link: md.link
         }
     };
 

@@ -63,6 +63,7 @@ export interface MarkdownContent {
         year: number[];
         tags: string[];
         current?: boolean;
+        link?: string;
     }
 }
 
@@ -79,4 +80,5 @@ export interface Page {
     title: string;
     tags: string[];
     stack: string[] | null;
+    link?:string;
 }

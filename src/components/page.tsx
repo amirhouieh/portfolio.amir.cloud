@@ -28,7 +28,14 @@ export const PageHeader: React.FunctionComponent<{page: Page, current?: boolean,
     <div className={"page-header"}>
         <Link to={`${BASE_URL}/${page.slug}`} style={{display: "none"}}/>
         <PageDate dateString={current? `${page.dateString}-present` : page.dateString} />
-        <PageTitle title={page.title}/>
+        {
+            page.link?
+                <a href={page.link} target={"_blank"}>
+                    <PageTitle title={page.title}/>
+                </a>
+                :
+                <PageTitle title={page.title}/>
+        }
         <PageTags tags={page.tags} />
         {
             (showStack && page.stack) &&
