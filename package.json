@@ -14,7 +14,7 @@
     "clean-up": "rm -rf public/images && mkdir public/images && rm -rf public/data.json"
   },
   "dependencies": {
-    "axios": "^0.18.0",
+    "axios": "^0.21.1",
     "html2plaintext": "^2.1.0",
     "lodash": "^4.17.11",
     "marked": "^0.5.2",
