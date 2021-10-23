@@ -96,9 +96,7 @@ nav > * {
   position: absolute;
   top: 65px;
   left: 90px;
-  font-family: monospace;
   font-size: 10px;
-  color: gray;
 }
 .mood{
   text-decoration: line-through;

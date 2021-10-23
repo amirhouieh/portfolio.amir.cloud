@@ -53,6 +53,10 @@ header * {
     padding: 5px 0;
 }
 
+.san-serif, .san-serif *{
+    font-family: sans-serif, Arial;
+}
+
 @media only screen and (max-width: 600px) {
 
 }

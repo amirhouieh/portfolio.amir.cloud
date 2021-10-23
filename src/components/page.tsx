@@ -86,13 +86,11 @@ export const PageThumbnail: React.FunctionComponent<{
     </div>
 );
 
-
-
-
 export const PageThumbnailSimple: React.FunctionComponent<{page: Page, textColor: String}> = ({page, textColor}) => (
     <div className="page-thumbnail simple">
         <BlurText fontSize={32}
                   color={textColor}
+                  blurVolume={10}
                   onClick={() => {
                   }}
         >
@@ -102,10 +100,6 @@ export const PageThumbnailSimple: React.FunctionComponent<{page: Page, textColor
                 __html: page.description
             }}/>
         </BlurText>
-        {/*{*/}
-            {/*page.thumb &&*/}
-            {/*<Figure imgData={page.thumb}/>*/}
-        {/*}*/}
     </div>
 );
 

@@ -76,7 +76,7 @@ class Nav extends React.Component<Props & RouteComponentProps, State> {
                                        onMouseOut={() => this.onMuseOut()}
                                        textColor={textColor}
                                        showStack={withStack}
-                                       blurSize={isTouch? 10: 50}
+                                       blurSize={isTouch? 5:50}
                         />
                     ))
                 }

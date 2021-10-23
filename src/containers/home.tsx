@@ -22,7 +22,6 @@ class Home extends React.Component<Props, State>{
             isDevMode: false,
         }
     }
-
     componentDidMount(): void {
         this.onHashChange();
         window.addEventListener("hashchange", this.onHashChange, false);
@@ -73,15 +72,16 @@ class Home extends React.Component<Props, State>{
             <div className={`container home`}>
                 <Seo />
                 <section className={"mood-control"}>
-                    <span className={`mood ${isDevMode? "":"on"}`} onClick={
+                    <span className={`san-serif mood ${isDevMode? "":"on"}`} onClick={
                         () => { if(isDevMode) this.toggleMood(); }
-                    }>Hybrid ME</span>
+                    }>Hybrid me</span>
                     <span><br/></span>
-                    <span className={`mood ${isDevMode? "on":""}`} onClick={
+                    <span className={`san-serif mood ${isDevMode? "on":""}`} onClick={
                         () => { if(!isDevMode) this.toggleMood(); }
-                    }>Developer ME</span>
+                    }>Developer me</span>
                 </section>
                 <section>
+                    <h4 className={"san-serif"}>(CO)Founded & Entrepreneurial Works</h4>
                     <div className={"current-projects-wrapper"}>
                         {
                             currentProjects.map((project, i) => (
@@ -95,7 +95,10 @@ class Home extends React.Component<Props, State>{
                 </section>
                 <br/>
                 <br/>
+                <br/>
+                <br/>
                 <section>
+                    <h4 className={"san-serif"}>Other Projects</h4>
                     <Nav projects={projects}
                          textColor={isDevMode? "lightGray": "blue"}
                          withStack={isDevMode}

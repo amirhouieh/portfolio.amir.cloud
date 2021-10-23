@@ -1,12 +1,13 @@
 ---
-title: "SUSLIB"
+title: "HIRO"
 tags:
-    - software
-    - digital/physical interactions
-    - Machine learning
+    - Saas product
+    - Online platform
+    - Creative coding
+    - NFT
 year:
-    - 2018
+    - 2021
 current: true
-link: "https://suslib.com"
+link: "https://hir.oo"
 ---
-[SUSLIB](https://suslib.com) is a hybrid framework enhancing the experience of navigating, reading and collaborating within a collection of information such as a book library. This framework manifests as an software and a series of physical setups (interventions in space).
+[HIRO](https://hir.ooo) is a collaborative online platform for creating and publishing, customizable and embeddable interactive (art)works.
