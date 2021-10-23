@@ -74,11 +74,11 @@ class Home extends React.Component<Props, State>{
                 <section className={"mood-control"}>
                     <span className={`san-serif mood ${isDevMode? "":"on"}`} onClick={
                         () => { if(isDevMode) this.toggleMood(); }
-                    }>Hybrid me</span>
+                    }>Hybrid me 🐢✨</span>
                     <span><br/></span>
                     <span className={`san-serif mood ${isDevMode? "on":""}`} onClick={
                         () => { if(!isDevMode) this.toggleMood(); }
-                    }>Developer me</span>
+                    }>Developer me 🤓🧑‍💻‍💻</span>
                 </section>
                 <section>
                     <h4 className={"san-serif"}>(CO)Founded & Entrepreneurial Works</h4>

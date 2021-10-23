@@ -6,6 +6,7 @@ interface Props {
     color?: string;
     minVolume?: number;
     maxVolume?: number;
+    title?: string;
 }
 
 interface State {
@@ -44,9 +45,7 @@ export class BlurText extends React.Component<Props&HTMLAttributes<HTMLDivElemen
     }
 
     onResize = () => {
-        const rect = this.node.current.getBoundingClientRect();
         this.setState({
-            center: calcCenterPoint(rect),
             maxDistance: calcDistance({x:0, y:0}, {x: window.innerWidth, y: window.innerHeight}),
         });
     };
@@ -55,9 +54,12 @@ export class BlurText extends React.Component<Props&HTMLAttributes<HTMLDivElemen
         const { fontSize } = this.props;
         const { minVolume = 0, maxVolume = fontSize } = this.props;
 
+        const rect = this.node.current.getBoundingClientRect();
+        const center = calcCenterPoint(rect);
+
         const dx = calcDistance(
             {x: event.clientX, y: event.clientY},
-                this.state.center
+            center
             );
 
         this.setState({

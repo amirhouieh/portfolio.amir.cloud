@@ -66,6 +66,7 @@ export const PageThumbnail: React.FunctionComponent<{
         <BlurText fontSize={50}
                   maxVolume={blurSize}
                   color={textColor}
+                  title={page.slug}
                   onClick={() => {
                       if(onClick){
                           onClick(page);
@@ -86,11 +87,12 @@ export const PageThumbnail: React.FunctionComponent<{
     </div>
 );
 
-export const PageThumbnailSimple: React.FunctionComponent<{page: Page, textColor: String}> = ({page, textColor}) => (
+export const PageThumbnailSimple: React.FunctionComponent<{page: Page, textColor: string}> = ({page, textColor}) => (
     <div className="page-thumbnail simple">
-        <BlurText fontSize={32}
+        <BlurText fontSize={18}
                   color={textColor}
-                  blurVolume={10}
+                  blurVolume={9}
+                  maxVolume={9}
                   onClick={() => {
                   }}
         >

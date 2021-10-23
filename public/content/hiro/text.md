@@ -1,12 +1,11 @@
 ---
-title: "Repub"
+title: "HIRO"
 tags:
-    - experimental publishing
-    - software
-    - DIY tool
-    - decentralize publishing
+    - SAAS
+    - Online platform
+    - Creative coding
 year:
-    - 2018
+    - 2021
 current: true
 ---
-REPUB is a tool for do it yourself (DIY) digital publishing. It is a software framework which lets us set up our own way of publishing text, image, video, and audio using a distributed-decentralized architecture for content and design.
+[HIRO](https://hir.ooo) is a collaborative online platform for creating and publishing, customizable and embeddable interactive (art)works.

@@ -1,13 +1,14 @@
 ---
-title: "HIRO"
+title: "SUSLIB"
 tags:
-    - Saas product
-    - Online platform
-    - Creative coding
-    - NFT
+    - A.I. software
+    - digital/physical interactions
+    - SAAS
+    - Machine learning
+    - Future of knowledge
 year:
-    - 2021
+    - 2018
 current: true
-link: "https://hir.oo"
+link: "https://suslib.com"
 ---
-[HIRO](https://hir.ooo) is a collaborative online platform for creating and publishing, customizable and embeddable interactive (art)works.
+[SUSLIB](https://suslib.com) aims to build the future of knowledge interaction combining computational design, research and A.I. 
