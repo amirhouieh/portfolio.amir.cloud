@@ -72,13 +72,7 @@ class Home extends React.Component<Props, State>{
             <div className={`container home`}>
                 <Seo />
                 <section className={"mood-control"}>
-                    <span className={`san-serif mood ${isDevMode? "":"on"}`} onClick={
-                        () => { if(isDevMode) this.toggleMood(); }
-                    }>Hybrid me 🐢✨</span>
-                    <span><br/></span>
-                    <span className={`san-serif mood ${isDevMode? "on":""}`} onClick={
-                        () => { if(!isDevMode) this.toggleMood(); }
-                    }>Developer me 🤓🧑‍💻‍💻</span>
+                    <h3 className={`mood on`}>Hi 👋 🤓🧑‍💻‍💻🐢✨</h3>
                 </section>
                 <section>
                     <h4 className={"san-serif"}>(CO)Founded & Entrepreneurial Works</h4>
@@ -87,7 +81,7 @@ class Home extends React.Component<Props, State>{
                             currentProjects.map((project, i) => (
                                 <PageThumbnailSimple page={project}
                                                      key={`c-page-thumb-${i}`}
-                                                     textColor={isDevMode? "lightBlue": "black"}
+                                                     textColor={"lightBlue"}
                                 />
                             ))
                         }
@@ -100,18 +94,15 @@ class Home extends React.Component<Props, State>{
                 <section>
                     <h4 className={"san-serif"}>Other Projects</h4>
                     <Nav projects={projects}
-                         textColor={isDevMode? "lightGray": "blue"}
-                         withStack={isDevMode}
+                         textColor={"lightGray"}
+                         withStack={false}
                     />
                 </section>
                 <footer>
-                    {
-                        isDevMode &&
-                        <a href={"https://github.com/amirhouieh"}>
-                            <code>> my github</code>
-                            <br/>
-                        </a>
-                    }
+                    <a href={"https://github.com/amirhouieh"}>
+                        <code>> my github</code>
+                        <br/>
+                    </a>
                     <a href={"https://amir.cloud"}>
                         <code>> amir houieh</code>
                     </a>

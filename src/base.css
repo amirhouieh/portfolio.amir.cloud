@@ -38,7 +38,6 @@ body{
 
 small, figcaption, code{
     font-size: 14px;
-    /*font-family: monospace;*/
 }
 
 header{
@@ -54,7 +53,7 @@ header * {
 }
 
 .blur{
-    text-shadow: blue 0 0 25px;
+    text-shadow: white 0 0 25px;
     padding: 5px 0;
 }
 

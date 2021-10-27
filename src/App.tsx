@@ -11,7 +11,7 @@ import {BlurText} from "./components/blur-text";
 const App = () => (
     <Router>
         <div>
-            <BlurText fontSize={50} color={"blue"}>
+            <BlurText fontSize={50} color={"white"}>
                 <Link to={`/`}>
                     <h2 className="page-info">/</h2>
                 </Link>
