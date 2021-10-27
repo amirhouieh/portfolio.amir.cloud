@@ -59,6 +59,7 @@ export const PageThumbnail: React.FunctionComponent<{
          onMouseEnter={() => {
              onMouseIn();
          }}
+         onMouseOver={() => console.log("over")}
          onMouseLeave={()=>{
              onMouseOut();
          }}

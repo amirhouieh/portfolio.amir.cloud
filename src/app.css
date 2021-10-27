@@ -4,7 +4,7 @@ body, html{
 }
 
 body img{
-  opacity: 0.65;
+  opacity: 0.20;
 }
 
 .project img{
@@ -50,6 +50,10 @@ nav{
   grid-template-columns: 1fr 1fr 1fr;
 }
 
+.page-thumbnail{
+  z-index: 9
+}
+
 nav img{
   position: fixed;
   
@@ -60,7 +64,7 @@ nav img{
   left: 50%;
   transform: translate(-50%, -50%);
 
-  z-index: -1;
+  z-index: 1;
 }
 
 nav figure.vertical img{

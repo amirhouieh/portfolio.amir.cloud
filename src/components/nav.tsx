@@ -57,7 +57,7 @@ class Nav extends React.Component<Props & RouteComponentProps, State> {
         this.setState({hoveredThumb: page.thumb});
     };
 
-    onMuseOut = () => {
+    onMuseOut = (page: Page) => {
         this.setState({hoveredThumb: null});
     };
 
@@ -73,7 +73,7 @@ class Nav extends React.Component<Props & RouteComponentProps, State> {
                                        key={`page-thumb-${i}`}
                                        onClick={this.onItemClicked}
                                        onMouseIn={() => this.onMuseIn(page)}
-                                       onMouseOut={() => this.onMuseOut()}
+                                       onMouseOut={() => this.onMuseOut(page)}
                                        textColor={textColor}
                                        showStack={withStack}
                                        blurSize={isTouch? 5:50}
