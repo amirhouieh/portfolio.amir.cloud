@@ -1,5 +1,4 @@
 import React from "react"
-import { navigate } from "react-static";
 import {Image, Page} from "../../data-module/lib/types";
 import {RouteComponentProps, withRouter} from "react-router";
 import {PageThumbnail} from "./page";
@@ -57,7 +56,7 @@ class Nav extends React.Component<Props & RouteComponentProps, State> {
         this.setState({hoveredThumb: page.thumb});
     };
 
-    onMuseOut = (page: Page) => {
+    onMuseOut = () => {
         this.setState({hoveredThumb: null});
     };
 
@@ -66,14 +65,14 @@ class Nav extends React.Component<Props & RouteComponentProps, State> {
         const { isTouch } = this.state;
 
         return (
-            <nav>
+            <div className={"grid projectList"}>
                 {
                     projects.map((page, i) => (
                         <PageThumbnail page={page}
                                        key={`page-thumb-${i}`}
                                        onClick={this.onItemClicked}
                                        onMouseIn={() => this.onMuseIn(page)}
-                                       onMouseOut={() => this.onMuseOut(page)}
+                                       onMouseOut={() => this.onMuseOut()}
                                        textColor={textColor}
                                        showStack={withStack}
                                        blurSize={isTouch? 5:50}
@@ -84,7 +83,7 @@ class Nav extends React.Component<Props & RouteComponentProps, State> {
                     this.state.hoveredThumb &&
                     <Figure imgData={this.state.hoveredThumb}/>
                 }
-            </nav>
+            </div>
         )
     }
 

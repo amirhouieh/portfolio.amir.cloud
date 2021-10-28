@@ -13,7 +13,7 @@ img.vertical {
 }
 
 a, a:visited, a:active{
-    color: blue;
+    color: #BC00D1;
     text-decoration: none;
 }
 
@@ -24,6 +24,10 @@ p a{
 h1,h2,h3,h4{
     font-weight: normal;
     font-family: Arial, sans-serif;
+}
+
+.sans-serif, .sans-serif *{
+    font-family: sans-serif;
 }
 
 h2{

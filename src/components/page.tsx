@@ -2,7 +2,7 @@ import * as React from "react";
 import {Page} from "../../data-module/lib/types";
 import {Link} from "react-static";
 import {BASE_URL} from "../../data-module/lib/consts";
-import {BlurText} from "./blur-text";
+import { BlurText, BlurTextNative } from "./blur-text";
 
 export const PageTags: React.FunctionComponent<{tags: string[]}> = ({tags}) => (
     <div className={"tags"} dangerouslySetInnerHTML={{
@@ -106,4 +106,19 @@ export const PageThumbnailSimple: React.FunctionComponent<{page: Page, textColor
     </div>
 );
 
-
+export const PageThumbnailSimpleWithNativeBlue: React.FunctionComponent<{page: Page, textColor: string}> = ({page, textColor}) => (
+    <div className="page-thumbnail simple native">
+        <BlurTextNative
+                  fontSize={18}
+                  color={textColor}
+                  blurVolume={9}
+                  maxVolume={9}
+        >
+            <PageHeader page={page} current={true}/>
+            <br/>
+            <div className="description" dangerouslySetInnerHTML={{
+                __html: page.description
+            }}/>
+        </BlurTextNative>
+    </div>
+);

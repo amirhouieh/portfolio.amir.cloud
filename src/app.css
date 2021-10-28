@@ -11,10 +11,6 @@ body img{
   opacity: 1 !important;
 }
 
-body a{
-  color: white;
-}
-
 body .stack{
   font-family: monospace;
   color: lightgray;
@@ -25,36 +21,23 @@ body .stack{
   display: block;
 }
 
-.page-thumbnail.simple .description{
-  /*font-size: 10px;*/
-}
-
-.current-projects-wrapper > .page-thumbnail {
-  float: left;
-  width: 26.6666666667%;
-}
-
-.current-projects-wrapper>.page-thumbnail+.page-thumbnail{
-  margin-left: 10%;
-}
-
-.current-projects-wrapper {
-  display: inline-block;
-}
-
-nav{
-  /*column-count: 3;
-  column-gap: 10%;*/
+.grid{
   display: grid;
-  grid-column-gap: 10;
+  grid-column-gap: 10vw;
   grid-template-columns: 1fr 1fr 1fr;
 }
 
 .page-thumbnail{
-  z-index: 9
+  z-index: 9;
+  transition: opacity 250ms;
+  opacity: 1;
+  cursor: pointer;
 }
 
-nav img{
+.page-thumbnail:hover{
+}
+
+.grid.projectList img{
   position: fixed;
   
   width: 65vw;
@@ -67,12 +50,12 @@ nav img{
   z-index: 1;
 }
 
-nav figure.vertical img{
+.grid.projectList figure.vertical img{
   width: auto;
   height: 75vh;
 }
 
-nav > * {
+nav.projectList > * {
   cursor: pointer;
 }
 
@@ -129,23 +112,39 @@ footer{
   left: 50px;
 }
 
+.home .projectListWrapper{
+  margin-bottom: 6em;
+}
+
+.projectListWrapper.current .blur-native{
+  background: #BC00D1;
+  background: -webkit-linear-gradient(to right, #BC00D1 0%, #D91613 100%);
+  background: -moz-linear-gradient(to right, #BC00D1 0%, #D91613 100%);
+  background: linear-gradient(to right, #BC00D1 0%, #D91613 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+footer small {
+  font-size: 10px;
+  font-family: sans-serif;
+}
+.section-title{
+  opacity: 0.5;
+}
+
+footer{
+  display: none;
+}
+
 @media only screen and (max-width: 1000px) {
-  nav {
-    column-count: 2;
-  }
-  .current-projects-wrapper > .page-thumbnail {
-    width: 45%;
+  .grid{
+    grid-template-columns: 1fr 1fr;
   }
 }
 
 @media only screen and (max-width: 600px) {
-  nav {
-    column-count: 1;
-  }
-  .current-projects-wrapper > .page-thumbnail {
-    width: 100%
-  }
-  .current-projects-wrapper>.page-thumbnail+.page-thumbnail{
-    margin-left: 0;
+  .grid{
+    grid-template-columns: 1fr;
   }
 }

@@ -11,12 +11,14 @@ import {BlurText} from "./components/blur-text";
 const App = () => (
     <Router>
         <div>
-            <BlurText fontSize={50} color={"white"}>
+            <BlurText fontSize={50} color={"white"} maxVolume={10}>
                 <Link to={`/`}>
                     <h2 className="page-info">/</h2>
                 </Link>
+                <a title={"about me"} href={"https://amir.cloud"}>
+                    <small>amir houieh</small>
+                </a>
             </BlurText>
-            <br/>
             <br/>
             <br/>
             <br/>

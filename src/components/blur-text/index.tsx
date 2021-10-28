@@ -1,4 +1,4 @@
-import React, {createRef, HTMLAttributes} from "react";
+import React, { createRef, HTMLAttributes, useEffect, useRef, useState } from "react";
 
 interface Props {
     fontSize: number;
@@ -86,6 +86,68 @@ export class BlurText extends React.Component<Props&HTMLAttributes<HTMLDivElemen
             </div>
         )
     }
+}
+
+
+interface IBlurNativeProps extends HTMLAttributes<HTMLDivElement>{
+    fontSize: number;
+    blurVolume?: number;
+    color?: string;
+    minVolume?: number;
+    maxVolume?: number;
+    title?: string;
+}
+
+export const BlurTextNative = (props: IBlurNativeProps) => {
+    const {maxVolume=10, minVolume=0, title, blurVolume, onBlur, color, fontSize, ...rest} = props;
+
+    const ref = useRef(null);
+    const [blur, setBlur] = useState(10);
+    const [maxD, setMaxD] = useState(0);
+
+    const onMouseMove = (event: MouseEvent) => {
+        if(ref.current){
+            const rect = ref.current.getBoundingClientRect();
+            const center = calcCenterPoint(rect);
+            const dx = calcDistance(
+                {x: event.clientX, y: event.clientY},
+                center
+            );
+            setBlur(
+                mapRange(dx, 0, maxD, minVolume, maxVolume)
+            )
+        }
+    }
+
+    const onResize = () => {
+        setMaxD(
+            calcDistance({x:0, y:0}, {x: window.innerWidth, y: window.innerHeight})
+        );
+    }
+
+    useEffect(() => {
+        window.addEventListener("mousemove", onMouseMove);
+        window.addEventListener("resize", onResize);
+        onResize();
+        return () => {
+            window.removeEventListener("mousemove", onMouseMove);
+            window.removeEventListener("resize", onResize);
+        }
+    })
+
+    return (
+        <div className={"blur-native"}
+             ref={ref}
+             {...rest}
+             style={{
+                 filter: `blur(${blur}px)`,
+                 fontSize: `${fontSize}px`
+             }}
+        >
+            {props.children}
+        </div>
+    )
+
 }
 
 
