@@ -71,9 +71,15 @@ class Home extends React.Component<Props, State> {
                 <Seo/>
                 <section className={"projectListWrapper current"}>
                     <span className={"sans-serif section-title"}>(CO)Founded & Entrepreneurial Works</span>
+                    <br/>
+                    <br/>
                     <div className={"grid"}>
                         {
-                            currentProjects.map((project, i) => (
+                            currentProjects
+                                .sort((_, b) => {
+                                    return b.slug.indexOf("suslib") > -1? 100: -1
+                                })
+                                .map((project, i) => (
                                 <PageThumbnailSimpleWithNativeBlue
                                     page={project}
                                     key={`c-page-thumb-${i}`}
@@ -85,6 +91,8 @@ class Home extends React.Component<Props, State> {
                 </section>
                 <section className={"projectListWrapper"}>
                     <span className={"sans-serif section-title"}>Other Projects</span>
+                    <br/>
+                    <br/>
                     <Nav projects={projects}
                          textColor={"lightGray"}
                          withStack={false}

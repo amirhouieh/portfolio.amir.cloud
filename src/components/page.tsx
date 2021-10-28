@@ -82,9 +82,6 @@ export const PageThumbnail: React.FunctionComponent<{
         >
             {page.description}
         </p>
-        <br/>
-        <br/>
-        <br/>
     </div>
 );
 
