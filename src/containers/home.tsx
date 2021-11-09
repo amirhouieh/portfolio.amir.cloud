@@ -7,7 +7,7 @@ import { PageThumbnailSimpleWithNativeBlue } from "../components/page";
 
 
 interface Props {
-    archivedProjects: Page[];
+    projects: Page[];
     currentProjects: Page[];
 }
 
@@ -57,21 +57,13 @@ class Home extends React.Component<Props, State> {
     };
 
     render() {
-        const {archivedProjects, currentProjects} = this.props;
-        const {isDevMode} = this.state;
-        const projects = isDevMode ?
-            archivedProjects.filter((project) => {
-                return project.stack !== null
-            })
-            :
-            archivedProjects;
+        const {projects, currentProjects} = this.props;
 
         return (
             <div className={`container home`}>
                 <Seo/>
                 <section className={"projectListWrapper current"}>
-                    <span className={"sans-serif section-title"}>(CO)Founded & Entrepreneurial Works</span>
-                    <br/>
+                    <small className={"sans-serif section-title"}>(CO)Founded & Entrepreneurial Works</small>
                     <br/>
                     <div className={"grid"}>
                         {
@@ -90,11 +82,18 @@ class Home extends React.Component<Props, State> {
                     </div>
                 </section>
                 <section className={"projectListWrapper"}>
-                    <span className={"sans-serif section-title"}>Other Projects</span>
+                    <small className={"sans-serif section-title"}>Platforms, Systems and Tools</small>
+                    <br/>
+                    <Nav projects={projects.filter(p => p.order&&p.order)}
+                         textColor={"blue"}
+                         withStack={false}
+                    />
                     <br/>
                     <br/>
-                    <Nav projects={projects}
-                         textColor={"lightGray"}
+                    <br/>
+                    <small className={"sans-serif section-title"}>Other Projects</small>
+                    <Nav projects={projects.filter(p => !p.order)}
+                         textColor={"blue"}
                          withStack={false}
                     />
                 </section>

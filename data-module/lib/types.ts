@@ -64,6 +64,7 @@ export interface MarkdownContent {
         tags: string[];
         current?: boolean;
         link?: string;
+        order?: number;
     }
 }
 
@@ -81,4 +82,5 @@ export interface Page {
     tags: string[];
     stack: string[] | null;
     link?:string;
+    order?: number
 }

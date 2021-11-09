@@ -4,7 +4,7 @@ tags:
     - workshop
     - Lecture
 year:
-    - 2018
+    - 2016
 ---
 [project webpage](https://artexyz.info)
 

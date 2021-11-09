@@ -32,6 +32,7 @@ const processFolder = async (folderDir: string): Promise<Page> => {
     const videosPath = mediaFilenames.filter(isValidVideoExt).map((p) => path.join(folderDir, "images", p));
 
     const markdown = await parseMd(path.join(folderDir, mdPath));
+
     const {title, link, year, description, tags, stack = null} = markdown.data;
     const slug = slugify(title, {lower: true});
 
@@ -58,7 +59,8 @@ const processFolder = async (folderDir: string): Promise<Page> => {
         stack,
         dateString: year.join("-"),
         dataYear: year.length > 1 ? year.pop() : year.shift(),
-        videos: videos
+        videos: videos,
+        order: markdown.data.order
     };
 };
 
@@ -73,7 +75,9 @@ const createProjectsPage = async (): Promise<Page[]> => {
         folders.map((folderPath) => () => processFolder(folderPath)),
     );
 
-    return pages.sort((a,b) => b.dataYear - a.dataYear);
+    return pages.sort((a,b) => {
+        return (b.order||b.dataYear) - (a.order||a.dataYear);
+    });
 };
 
 (async () => {

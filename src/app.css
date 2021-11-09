@@ -1,10 +1,10 @@
 body, html{
-  background: #100c08;
-  color: white;
+  background: #ffffff;
+  /*color: white;*/
 }
 
 body img{
-  opacity: 0.20;
+  opacity: 1;
 }
 
 .project img{
@@ -25,7 +25,7 @@ body .stack{
   display: grid;
   grid-column-gap: 20px;
   grid-row-gap: 20px;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
 .page-thumbnail{
@@ -89,7 +89,7 @@ nav.projectList > * {
   position: fixed;
   top: 0;
   left: 0;
-  background-color: rgba(0,0,0, 0.9);
+  background-color: rgba(255, 255, 255, 0.9);
   width: calc(100vw - 100px);
   height: 100vh;
   padding: 50px;
@@ -114,7 +114,7 @@ footer{
 }
 
 .home .projectListWrapper{
-  margin-bottom: 6em;
+  margin-bottom: 3em;
 }
 
 .projectListWrapper.current .blur-native{
@@ -131,7 +131,8 @@ footer small {
   font-family: sans-serif;
 }
 .section-title{
-  opacity: 0.5;
+  opacity: 0.3;
+  margin-bottom: 0.5em;
 }
 
 footer{

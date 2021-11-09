@@ -16,7 +16,7 @@ export default {
   getSiteData: async () => {
     const db =  await readData()
     return {
-      archivedProjects: db.archivedProjects.map((page) => omit(page, "images")),
+      projects: db.archivedProjects.map((page) => omit(page, "images")),
       currentProjects: db.currentProjects
     }
   },

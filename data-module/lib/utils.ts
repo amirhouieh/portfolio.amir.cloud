@@ -59,7 +59,8 @@ export const parseMd = async (mdPath: string): Promise<MarkdownContent> => {
             description,
             current: md.current,
             stack: md.stack,
-            link: md.link
+            link: md.link,
+            order: md.order? parseInt(md.order): undefined
         }
     };
 
