@@ -11,6 +11,7 @@ stack:
     - Typescript
     - Next.js
     - Firebase
+order: 10001
 ---
 [took.wiki](https://took.wiki)
 
