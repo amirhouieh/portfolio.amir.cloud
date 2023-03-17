@@ -4,7 +4,7 @@ tags:
     - Experiment
     - Machine Learning
 year:
-    - 2022
+    - 2020
 
 stack:
     - StyleGan2 
