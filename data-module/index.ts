@@ -1,5 +1,4 @@
-// @ts-ignore
-import * as sequential from "promise-sequential";
+// Modern async processing - no need for promise-sequential
 
 import slugify from "slugify";
 import * as path from "path";
@@ -38,12 +37,12 @@ const processFolder = async (folderDir: string): Promise<Page> => {
 
     const thumb = thumbPath? await processImage(path.join(folderDir, thumbPath), title) : null;
 
-    const images = await sequential(
-        imagesPath.map((img) => () => processImage(img, title)),
+    const images = await Promise.all(
+        imagesPath.map((img) => processImage(img, title))
     );
 
-    const videos = await sequential(
-        videosPath.map((remoteVideo) => () => processRemoteVideo(remoteVideo)),
+    const videos = await Promise.all(
+        videosPath.map((remoteVideo) => processRemoteVideo(remoteVideo))
     );
 
     return {
@@ -71,8 +70,8 @@ const createProjectsPage = async (): Promise<Page[]> => {
         .map((f) => path.join(CONTENT_DIR, f))
         .filter((f) => lstatSync(f).isDirectory());
 
-    const pages: Page[] = await sequential(
-        folders.map((folderPath) => () => processFolder(folderPath)),
+    const pages: Page[] = await Promise.all(
+        folders.map((folderPath) => processFolder(folderPath))
     );
 
     return pages.sort((a,b) => {
