@@ -1,9 +1,17 @@
 ---
-title: Gray
-year: [2024]
-tags: ["AI-native", "blogging framework", "open-source", "contextual reading"]
-stack: ["Unbody", "NextJs", "ShadCN"]
-link: https://github.com/unbody-io/Gray
+title: "Gray"
+year:
+    - 2024
+tags:
+    - AI-native
+    - blogging framework
+    - open-source
+    - contextual reading
+stack:
+    - Unbody
+    - NextJs
+    - ShadCN
+link: "https://github.com/unbody-io/Gray"
 ---
 
 Gray is an AI-native, open-source blogging framework that makes reading more contextual and dynamic.

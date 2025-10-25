@@ -1,9 +1,26 @@
 ---
-title: Autonomous Libraries
-year: [2020]
-tags: ["R&D", "future-of-knowledge", "smart-city", "IoT"]
-stack: ["Word2Vec", "Elasticsearch", "OCR", "CV", "NLP", "OpenPose", "YOLOv3", "LSTMs", "TensorFlow", "AR interfaces", "modular architecture", "HCI"]
-link: https://suslib.com/research/autonomous-libraries
+title: "Autonomous Libraries"
+year:
+    - 2020
+tags:
+    - R&D
+    - future-of-knowledge
+    - smart-city
+    - IoT
+stack:
+    - Word2Vec
+    - Elasticsearch
+    - OCR
+    - CV
+    - NLP
+    - OpenPose
+    - YOLOv3
+    - LSTMs
+    - TensorFlow
+    - AR interfaces
+    - modular architecture
+    - HCI
+link: "https://suslib.com/research/autonomous-libraries"
 ---
 
 Autonomous Libraries (AL) was an R&D project where we asked: what would a library look like if we designed it from scratch for the age of digital knowledge production? Instead of one big central building, AL imagined a distributed network of hybrid knowledge spaces — modular, self-managed, community-run, and spread across everyday environments like coffeehouses, squares, or train stations.

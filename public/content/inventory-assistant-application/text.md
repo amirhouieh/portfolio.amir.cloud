@@ -1,9 +1,19 @@
 ---
-title: IAA (Inventory Assistant Application)
-year: [2020]
-tags: ["AR", "ML", "inventory management", "mobile app"]
-stack: ["ARKit/ARCore", "Knowledge Recognition API", "TensorFlow", "Elasticsearch", "REST API"]
-link: https://suslib.com/solution/inventory-assistant
+title: "IAA (Inventory Assistant Application)"
+year:
+    - 2020
+tags:
+    - AR
+    - ML
+    - inventory management
+    - mobile app
+stack:
+    - ARKit/ARCore
+    - Knowledge Recognition API
+    - TensorFlow
+    - Elasticsearch
+    - REST API
+link: "https://suslib.com/solution/inventory-assistant"
 ---
 
 IAA started as a side experiment to test what our Knowledge Recognition API could do in practice — and quickly grew into a full product. The idea was simple but powerful: point your tablet's camera at an object in a collection, and instantly know whether it's already in the inventory, check it in or out, or add it with enriched metadata generated on the fly.
