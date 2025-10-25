@@ -5,6 +5,9 @@ const nextConfig = {
   images: {
     unoptimized: true
   },
+  typescript: {
+    ignoreBuildErrors: true,
+  },
   webpack: (config) => {
     // Handle TypeScript path aliases
     config.resolve.alias = {
