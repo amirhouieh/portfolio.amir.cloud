@@ -66,9 +66,9 @@ class Project extends React.Component<Props, State> {
                     <Link href="/">
                         <h2 className="page-info">/</h2>
                     </Link>
-                    <a title={"about me"} href={"https://amir.cloud"}>
-                        <small>amir houieh</small>
-                    </a>
+                    <Link href="/projects">
+                        <small>Projects</small>
+                    </Link>
                 </BlurText>
                 <br/>
                 <br/>
