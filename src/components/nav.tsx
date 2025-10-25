@@ -1,6 +1,6 @@
 import React from "react"
+import { useRouter } from 'next/router'
 import {Image, Page} from "../../data-module/lib/types";
-import {RouteComponentProps, withRouter} from "react-router";
 import {PageThumbnail} from "./page";
 import {Figure} from "./figure";
 
@@ -10,86 +10,74 @@ interface Props {
     withStack: boolean;
 }
 
-interface State {
-    isTouch: boolean;
-    clickedItem: string | null;
-    hoveredThumb: Image | null;
-    redirect: boolean;
-}
 
-class Nav extends React.Component<Props & RouteComponentProps, State> {
-    constructor(props: Props & RouteComponentProps) {
-        super(props);
-        this.state = {
-            isTouch: false,
-            clickedItem: null,
-            redirect: false,
-            hoveredThumb: null
-        }
-    }
+const Nav: React.FC<Props> = ({ projects, textColor = "blue", withStack }) => {
+    const router = useRouter()
+    const [state, setState] = React.useState({
+        isTouch: false,
+        clickedItem: null as string | null,
+        hoveredThumb: null as Image | null
+    })
 
-    componentDidMount(): void {
-        this.setState({isTouch: isTouchDevice()})
-    }
+    React.useEffect(() => {
+        setState(prev => ({ ...prev, isTouch: isTouchDevice() }))
+    }, [])
 
-    onItemClicked = (page: Page) => {
-        const { clickedItem } = this.state;
+    const onItemClicked = (page: Page) => {
+        const { clickedItem } = state
 
-        this.setState({
+        setState(prev => ({
+            ...prev,
             clickedItem: page.slug
-        });
+        }))
 
         if(isTouchDevice()){
             if( clickedItem && clickedItem === page.slug ){
-                this.props.history.push(`/${page.slug }`);
+                router.push(`/${page.slug}`)
             }
         }else{
             try{
-                this.props.history.push(`/${page.slug }`);
+                router.push(`/${page.slug}`)
             }catch (e) {
-                console.log(e);
+                console.log(e)
             }
         }
-    };
-
-    onMuseIn = (page: Page) => {
-        this.setState({hoveredThumb: page.thumb});
-    };
-
-    onMuseOut = () => {
-        this.setState({hoveredThumb: null});
-    };
-
-    render() {
-        const { projects, textColor = "blue", withStack} = this.props;
-        const { isTouch } = this.state;
-
-        return (
-            <div className={"grid projectList"}>
-                {
-                    projects.map((page, i) => (
-                        <PageThumbnail page={page}
-                                       key={`page-thumb-${i}`}
-                                       onClick={this.onItemClicked}
-                                       onMouseIn={() => this.onMuseIn(page)}
-                                       onMouseOut={() => this.onMuseOut()}
-                                       textColor={textColor}
-                                       showStack={withStack}
-                                       blurSize={isTouch? 3:25}
-                        />
-                    ))
-                }
-                {
-                    this.state.hoveredThumb &&
-                    <Figure imgData={this.state.hoveredThumb}/>
-                }
-            </div>
-        )
     }
 
-};
+    const onMuseIn = (page: Page) => {
+        setState(prev => ({ ...prev, hoveredThumb: page.thumb }))
+    }
 
-export default withRouter<Props & RouteComponentProps<{}>>(Nav)
+    const onMuseOut = () => {
+        setState(prev => ({ ...prev, hoveredThumb: null }))
+    }
+
+    const { isTouch, hoveredThumb } = state
+
+    return (
+        <div className={"grid projectList"}>
+            {
+                projects.map((page, i) => (
+                    <PageThumbnail page={page}
+                                   key={`page-thumb-${i}`}
+                                   onClick={onItemClicked}
+                                   onMouseIn={() => onMuseIn(page)}
+                                   onMouseOut={() => onMuseOut()}
+                                   textColor={textColor}
+                                   showStack={withStack}
+                                   blurSize={isTouch? 3:25}
+                    />
+                ))
+            }
+            {
+                hoveredThumb &&
+                <Figure imgData={hoveredThumb}/>
+            }
+        </div>
+    )
+}
+
+export default Nav
 
 const isTouchDevice = () => {
     const deviceAgent = navigator.userAgent.toLowerCase();

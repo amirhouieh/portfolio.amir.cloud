@@ -1,7 +1,6 @@
 import * as React from "react";
 import {Page} from "../../data-module/lib/types";
-import {Link} from "react-static";
-import {BASE_URL} from "../../data-module/lib/consts";
+import Link from "next/link";
 import { BlurText, BlurTextNative } from "./blur-text";
 
 export const PageTags: React.FunctionComponent<{tags: string[]}> = ({tags}) => (
@@ -26,7 +25,7 @@ export const PageDate: React.FunctionComponent<{dateString: string}> = ({dateStr
 
 export const PageHeader: React.FunctionComponent<{page: Page, current?: boolean, showStack?: boolean}> = ({page, current=false, showStack=false}) => (
     <div className={"page-header"}>
-        <Link to={`${BASE_URL}/${page.slug}`} style={{display: "none"}}/>
+        <Link href={`/${page.slug}`} style={{display: "none"}}/>
         <PageDate dateString={current? `${page.dateString}-present` : page.dateString} />
         {
             page.link?
@@ -76,7 +75,7 @@ export const PageThumbnail: React.FunctionComponent<{
         >
             <PageHeader page={page} showStack={showStack}/>
         </BlurText>
-        <Link to={`${BASE_URL}/${page.slug}`} style={{display: "none"}}/>
+        <Link href={`/${page.slug}`} style={{display: "none"}}/>
         <p className="description"
            style={{display: "none"}}
         >

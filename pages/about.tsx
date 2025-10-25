@@ -1,18 +1,12 @@
-import React from "react"
-import {Link, Router} from "react-static"
-import {hot} from "react-hot-loader"
+import React from 'react'
+import Link from 'next/link'
+import { BlurText } from "../src/components/blur-text"
 
-import Routes from "react-static-routes"
-
-import "./base.css";
-import "./app.css";
-import {BlurText} from "./components/blur-text";
-
-const App = () => (
-    <Router>
+const About: React.FC = () => {
+    return (
         <div>
             <BlurText fontSize={50} color={"blue"} maxVolume={10}>
-                <Link to={`/`}>
+                <Link href="/">
                     <h2 className="page-info">/</h2>
                 </Link>
                 <a title={"about me"} href={"https://amir.cloud"}>
@@ -22,10 +16,13 @@ const App = () => (
             <br/>
             <br/>
             <br/>
-            <Routes/>
+            
+            <div className="container">
+                <h1>About</h1>
+                <p>This page is under construction.</p>
+            </div>
         </div>
-    </Router>
-)
+    )
+}
 
-
-export default hot(module)(App)
+export default About
