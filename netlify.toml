@@ -1,6 +1,6 @@
 [build]
-  command = "yarn export"
-  publish = "out"
+  command = "yarn build"
+  publish = ".next/export"
 
 [build.environment]
   NODE_VERSION = "18"
