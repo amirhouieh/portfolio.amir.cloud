@@ -1,12 +1,11 @@
 import React from "react"
 import { GetStaticProps } from 'next'
 import { readFileSync } from 'fs'
-import Link from 'next/link'
 import { Page, Image } from "../../data-module/lib/types"
 import Nav from "../../src/components/nav"
 import { Seo } from "../../src/components/seo"
-import { BlurText } from "../../src/components/blur-text"
 import { Figure } from "../../src/components/figure"
+import { Header } from "../../src/components/header"
 
 interface Props {
     projects: Page[]
@@ -118,14 +117,7 @@ class Home extends React.Component<Props, State> {
 
         return (
             <div>
-                <BlurText fontSize={36} color={"blue"} maxVolume={6}>
-                    <Link href="/">
-                        <h2 className="page-info">/</h2>
-                    </Link>
-                    <Link href="/projects">
-                        <small>Projects</small>
-                    </Link>
-                </BlurText>
+                <Header currentPage="projects" />
                 <br/>
                 <br/>
                 <br/>

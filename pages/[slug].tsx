@@ -1,7 +1,6 @@
 import React from 'react'
 import { GetStaticProps, GetStaticPaths } from 'next'
 import { readFileSync } from 'fs'
-import Link from 'next/link'
 import ReactPlayer from "react-player"
 
 import { Page } from "../data-module/lib/types"
@@ -9,7 +8,7 @@ import { Figure } from "../src/components/figure"
 import { Sideshow } from "../src/components/sideshow"
 import { Seo } from "../src/components/seo"
 import { PageHeader } from "../src/components/page"
-import { BlurText } from "../src/components/blur-text"
+import { Header } from "../src/components/header"
 
 interface Props {
   project: Page
@@ -62,14 +61,7 @@ class Project extends React.Component<Props, State> {
 
         return (
             <div>
-                <BlurText fontSize={36} color={"blue"} maxVolume={6}>
-                    <Link href="/">
-                        <h2 className="page-info">/</h2>
-                    </Link>
-                    <Link href="/projects">
-                        <small>Projects</small>
-                    </Link>
-                </BlurText>
+                <Header currentPage="project" />
                 <br/>
                 <br/>
                 <br/>
