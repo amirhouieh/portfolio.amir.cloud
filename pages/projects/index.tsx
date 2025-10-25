@@ -166,10 +166,9 @@ class Home extends React.Component<Props, State> {
                         </div>
                         <div className="image-display-column">
                             {this.state.hoveredImage && (
-                                <Figure imgData={this.state.hoveredImage} />
+                                <Figure imgData={this.state.hoveredImage} prefix="../" />
                             )}
-                        </div>
-                    </div>
+                        </div>                    </div>
                     <footer className={"sans-serif"}>
                         <span className={"sans-serif section-title"}>Get in touch 👋</span>
                         <br/>
