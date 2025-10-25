@@ -12,7 +12,6 @@ interface IProps {
     imagePath?: string;
 }
 
-
 const BASE_URL = "https://portfolio.amir.cloud";
 
 export const Seo: React.FunctionComponent<IProps> = (props) => {

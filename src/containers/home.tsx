@@ -62,25 +62,6 @@ class Home extends React.Component<Props, State> {
         return (
             <div className={`container home`}>
                 <Seo/>
-                <section className={"projectListWrapper current"}>
-                    <small className={"sans-serif section-title"}>(CO)Founded & Entrepreneurial Works</small>
-                    <br/>
-                    <div className={"grid"}>
-                        {
-                            currentProjects
-                                .sort((_, b) => {
-                                    return b.slug.indexOf("suslib") > -1? 100: -1
-                                })
-                                .map((project, i) => (
-                                <PageThumbnailSimpleWithNativeBlue
-                                    page={project}
-                                    key={`c-page-thumb-${i}`}
-                                    textColor={"lightBlue"}
-                                />
-                            ))
-                        }
-                    </div>
-                </section>
                 <section className={"projectListWrapper"}>
                     <small className={"sans-serif section-title"}>Platforms, Systems and Tools</small>
                     <br/>
