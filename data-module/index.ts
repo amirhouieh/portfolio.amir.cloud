@@ -32,7 +32,7 @@ const processFolder = async (folderDir: string): Promise<Page> => {
 
     const markdown = await parseMd(path.join(folderDir, mdPath));
 
-    const {title, link, year, description, tags, stack = null} = markdown.data;
+    const {title, link, year, description, blurb, tags, stack = null} = markdown.data;
     const slug = slugify(title, {lower: true});
 
     const thumb = thumbPath? await processImage(path.join(folderDir, thumbPath), title) : null;
@@ -50,6 +50,7 @@ const processFolder = async (folderDir: string): Promise<Page> => {
         link,
         title,
         description,
+        blurb,
         tags,
         current: markdown.data.current && markdown.data.current === true,
         slug,

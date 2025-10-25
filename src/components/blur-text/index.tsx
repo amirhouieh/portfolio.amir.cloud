@@ -1,4 +1,5 @@
 import React, { createRef, HTMLAttributes, useEffect, useRef, useState } from "react";
+import dynamic from 'next/dynamic';
 
 interface Props {
     fontSize: number;
@@ -34,37 +35,45 @@ export class BlurText extends React.Component<Props&HTMLAttributes<HTMLDivElemen
     }
 
     componentDidMount() {
-        this.onResize();
-        window.addEventListener("mousemove", this.onMouseMove);
-        window.addEventListener("resize", this.onResize);
+        if (typeof window !== 'undefined') {
+            this.onResize();
+            window.addEventListener("mousemove", this.onMouseMove);
+            window.addEventListener("resize", this.onResize);
+        }
     }
 
     componentWillUnmount() {
-        window.removeEventListener("mousemove", this.onMouseMove);
-        window.removeEventListener("resize", this.onResize);
+        if (typeof window !== 'undefined') {
+            window.removeEventListener("mousemove", this.onMouseMove);
+            window.removeEventListener("resize", this.onResize);
+        }
     }
 
     onResize = () => {
-        this.setState({
-            maxDistance: calcDistance({x:0, y:0}, {x: window.innerWidth, y: window.innerHeight}),
-        });
+        if (typeof window !== 'undefined') {
+            this.setState({
+                maxDistance: calcDistance({x:0, y:0}, {x: window.innerWidth, y: window.innerHeight}),
+            });
+        }
     };
 
     onMouseMove = (event: MouseEvent) => {
-        const { fontSize } = this.props;
-        const { minVolume = 0, maxVolume = fontSize } = this.props;
+        if (typeof window !== 'undefined' && this.node.current) {
+            const { fontSize } = this.props;
+            const { minVolume = 0, maxVolume = fontSize } = this.props;
 
-        const rect = this.node.current.getBoundingClientRect();
-        const center = calcCenterPoint(rect);
+            const rect = this.node.current.getBoundingClientRect();
+            const center = calcCenterPoint(rect);
 
-        const dx = calcDistance(
-            {x: event.clientX, y: event.clientY},
-            center
-            );
+            const dx = calcDistance(
+                {x: event.clientX, y: event.clientY},
+                center
+                );
 
-        this.setState({
-            blurVolume: mapRange(dx, 0, this.state.maxDistance, minVolume, maxVolume)
-        });
+            this.setState({
+                blurVolume: mapRange(dx, 0, this.state.maxDistance, minVolume, maxVolume)
+            });
+        }
     };
 
 
@@ -120,20 +129,24 @@ export const BlurTextNative = (props: IBlurNativeProps) => {
     }
 
     const onResize = () => {
-        setMaxD(
-            calcDistance({x:0, y:0}, {x: window.innerWidth, y: window.innerHeight})
-        );
+        if (typeof window !== 'undefined') {
+            setMaxD(
+                calcDistance({x:0, y:0}, {x: window.innerWidth, y: window.innerHeight})
+            );
+        }
     }
 
     useEffect(() => {
-        window.addEventListener("mousemove", onMouseMove);
-        window.addEventListener("resize", onResize);
-        onResize();
-        return () => {
-            window.removeEventListener("mousemove", onMouseMove);
-            window.removeEventListener("resize", onResize);
+        if (typeof window !== 'undefined') {
+            window.addEventListener("mousemove", onMouseMove);
+            window.addEventListener("resize", onResize);
+            onResize();
+            return () => {
+                window.removeEventListener("mousemove", onMouseMove);
+                window.removeEventListener("resize", onResize);
+            }
         }
-    })
+    }, [])
 
     return (
         <div className={"blur-native"}

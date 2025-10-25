@@ -28,16 +28,20 @@ class Project extends React.Component<Props, State> {
     }
 
     componentDidMount() {
-        this.onResize()
-        window.addEventListener("resize", this.onResize)
+        if (typeof window !== 'undefined') {
+            this.onResize()
+            window.addEventListener("resize", this.onResize)
+        }
     }
 
     componentWillUnmount() {
-        window.removeEventListener("resize", this.onResize)
+        if (typeof window !== 'undefined') {
+            window.removeEventListener("resize", this.onResize)
+        }
     }
 
     onResize = () => {
-        if(!this.state.isNarrow && window.innerWidth <= 740){
+        if (typeof window !== 'undefined' && !this.state.isNarrow && window.innerWidth <= 740){
             this.setState({isNarrow: true})
         }
     }
@@ -58,7 +62,7 @@ class Project extends React.Component<Props, State> {
 
         return (
             <div>
-                <BlurText fontSize={50} color={"blue"} maxVolume={10}>
+                <BlurText fontSize={36} color={"blue"} maxVolume={6}>
                     <Link href="/">
                         <h2 className="page-info">/</h2>
                     </Link>
@@ -78,6 +82,16 @@ class Project extends React.Component<Props, State> {
                     />
                     <div>
                         <PageHeader page={project} showStack={true}/>
+                        {
+                            project.thumb && (
+                                <div className="page-hero">
+                                    <Figure imgData={project.thumb}
+                                            onClick={() => this.showSlideShow(0)}
+                                            prefix={"../"}
+                                    />
+                                </div>
+                            )
+                        }
                         <div className="page-info"
                              dangerouslySetInnerHTML={{
                                  __html: project.html
@@ -95,10 +109,10 @@ class Project extends React.Component<Props, State> {
                             )
                         }
                         {
-                            figures.map((img, i) =>
+                            figures.slice(1).map((img, i) =>
                                 <Figure imgData={img}
-                                        onClick={() => this.showSlideShow(i)}
-                                        key={`fig-${i}`}
+                                        onClick={() => this.showSlideShow(i+1)}
+                                        key={`fig-${i+1}`}
                                         prefix={"../"}
                                 />
                             )

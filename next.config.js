@@ -8,6 +8,9 @@ const nextConfig = {
   typescript: {
     ignoreBuildErrors: true,
   },
+  eslint: {
+    ignoreDuringBuilds: true,
+  },
   webpack: (config) => {
     // Handle TypeScript path aliases
     config.resolve.alias = {

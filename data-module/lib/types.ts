@@ -58,6 +58,7 @@ export interface MarkdownContent {
     content: string;
     data: {
         description?: string;
+        blurb?: string;
         stack?: string[];
         title: string;
         year: number[];
@@ -78,6 +79,7 @@ export interface Page {
     dateString: string;
     dataYear: number;
     description: string;
+    blurb?: string;
     title: string;
     tags: string[];
     stack: string[] | null;

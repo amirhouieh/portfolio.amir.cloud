@@ -23,22 +23,21 @@ export const PageDate: React.FunctionComponent<{dateString: string}> = ({dateStr
     <code className="date">{dateString}</code>
 );
 
-export const PageHeader: React.FunctionComponent<{page: Page, current?: boolean, showStack?: boolean}> = ({page, current=false, showStack=false}) => (
+export const PageHeader: React.FunctionComponent<{page: Page, current?: boolean, showStack?: boolean, showExternalLink?: boolean}> = ({page, current=false, showStack=false, showExternalLink=true}) => (
     <div className={"page-header"}>
         <Link href={`/${page.slug}`} style={{display: "none"}}/>
         <PageDate dateString={current? `${page.dateString}-present` : page.dateString} />
-        {
-            page.link?
-                <a href={page.link} target={"_blank"}>
-                    <PageTitle title={page.title}/>
-                </a>
-                :
-                <PageTitle title={page.title}/>
-        }
+        <PageTitle title={page.title}/>
         <PageTags tags={page.tags} />
         {
             (showStack && page.stack) &&
                 <PageStack stack={page.stack} />
+        }
+        {
+            (page.link && showExternalLink) &&
+                <a href={page.link} target={"_blank"} className="external-link">
+                    {page.link}
+                </a>
         }
     </div>
 );
@@ -63,7 +62,7 @@ export const PageThumbnail: React.FunctionComponent<{
              onMouseOut();
          }}
     >
-        <BlurText fontSize={50}
+        <BlurText fontSize={36}
                   maxVolume={blurSize}
                   color={textColor}
                   title={page.slug}
@@ -73,23 +72,25 @@ export const PageThumbnail: React.FunctionComponent<{
                       }
                   }}
         >
-            <PageHeader page={page} showStack={showStack}/>
+            <PageHeader page={page} showStack={showStack} showExternalLink={false}/>
+            {page.blurb && (
+                <div className="blurb" 
+                     style={{fontSize: "13px", marginTop: "5px", lineHeight: "1.4", fontFamily: "sans-serif"}}
+                >
+                    {page.blurb}
+                </div>
+            )}
         </BlurText>
         <Link href={`/${page.slug}`} style={{display: "none"}}/>
-        <p className="description"
-           style={{display: "none"}}
-        >
-            {page.description}
-        </p>
     </div>
 );
 
 export const PageThumbnailSimple: React.FunctionComponent<{page: Page, textColor: string}> = ({page, textColor}) => (
     <div className="page-thumbnail simple">
-        <BlurText fontSize={18}
+        <BlurText fontSize={16}
                   color={textColor}
-                  blurVolume={9}
-                  maxVolume={9}
+                  blurVolume={5}
+                  maxVolume={5}
                   onClick={() => {
                   }}
         >
@@ -105,10 +106,10 @@ export const PageThumbnailSimple: React.FunctionComponent<{page: Page, textColor
 export const PageThumbnailSimpleWithNativeBlue: React.FunctionComponent<{page: Page, textColor: string}> = ({page, textColor}) => (
     <div className="page-thumbnail simple native">
         <BlurTextNative
-                  fontSize={18}
+                  fontSize={16}
                   color={textColor}
-                  blurVolume={9}
-                  maxVolume={9}
+                  blurVolume={5}
+                  maxVolume={5}
         >
             <PageHeader page={page} current={true}/>
             <br/>

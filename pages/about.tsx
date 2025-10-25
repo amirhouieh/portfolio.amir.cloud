@@ -5,7 +5,7 @@ import { BlurText } from "../src/components/blur-text"
 const About: React.FC = () => {
     return (
         <div>
-            <BlurText fontSize={50} color={"blue"} maxVolume={10}>
+            <BlurText fontSize={36} color={"blue"} maxVolume={6}>
                 <Link href="/">
                     <h2 className="page-info">/</h2>
                 </Link>

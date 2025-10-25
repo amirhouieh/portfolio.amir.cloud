@@ -2,16 +2,16 @@ import React from "react"
 import { useRouter } from 'next/router'
 import {Image, Page} from "../../data-module/lib/types";
 import {PageThumbnail} from "./page";
-import {Figure} from "./figure";
 
 interface Props {
     projects: Page[];
     textColor?: string;
     withStack: boolean;
+    onImageHover?: (image: Image | null) => void;
 }
 
 
-const Nav: React.FC<Props> = ({ projects, textColor = "blue", withStack }) => {
+const Nav: React.FC<Props> = ({ projects, textColor = "blue", withStack, onImageHover }) => {
     const router = useRouter()
     const [state, setState] = React.useState({
         isTouch: false,
@@ -46,32 +46,42 @@ const Nav: React.FC<Props> = ({ projects, textColor = "blue", withStack }) => {
 
     const onMuseIn = (page: Page) => {
         setState(prev => ({ ...prev, hoveredThumb: page.thumb }))
+        if (onImageHover) {
+            onImageHover(page.thumb)
+        }
     }
 
     const onMuseOut = () => {
         setState(prev => ({ ...prev, hoveredThumb: null }))
+        if (onImageHover) {
+            onImageHover(null)
+        }
     }
 
-    const { isTouch, hoveredThumb } = state
+    const { isTouch } = state
 
     return (
         <div className={"grid projectList"}>
             {
-                projects.map((page, i) => (
-                    <PageThumbnail page={page}
-                                   key={`page-thumb-${i}`}
-                                   onClick={onItemClicked}
-                                   onMouseIn={() => onMuseIn(page)}
-                                   onMouseOut={() => onMuseOut()}
-                                   textColor={textColor}
-                                   showStack={withStack}
-                                   blurSize={isTouch? 3:25}
-                    />
-                ))
-            }
-            {
-                hoveredThumb &&
-                <Figure imgData={hoveredThumb}/>
+                projects.map((page, i) => {
+                    // Calculate progressive blur: 0 for first project, increasing to max for last
+                    const maxBlur = isTouch ? 3 : 25
+                    const progressiveBlur = projects.length > 1 
+                        ? (i / (projects.length - 1)) * maxBlur 
+                        : 0
+                    
+                    return (
+                        <PageThumbnail page={page}
+                                       key={`page-thumb-${i}`}
+                                       onClick={onItemClicked}
+                                       onMouseIn={() => onMuseIn(page)}
+                                       onMouseOut={() => onMuseOut()}
+                                       textColor={textColor}
+                                       showStack={withStack}
+                                       blurSize={progressiveBlur}
+                        />
+                    )
+                })
             }
         </div>
     )
@@ -80,6 +90,9 @@ const Nav: React.FC<Props> = ({ projects, textColor = "blue", withStack }) => {
 export default Nav
 
 const isTouchDevice = () => {
+    if (typeof window === 'undefined' || typeof navigator === 'undefined') {
+        return false;
+    }
     const deviceAgent = navigator.userAgent.toLowerCase();
     return (deviceAgent.match(/(iphone|ipod|ipad)/) ||
         deviceAgent.match(/(android)/) ||

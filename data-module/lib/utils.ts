@@ -57,6 +57,7 @@ export const parseMd = async (mdPath: string): Promise<MarkdownContent> => {
             year: md.year,
             tags: md.tags,
             description,
+            blurb: md.blurb,
             current: md.current,
             stack: md.stack,
             link: md.link,
