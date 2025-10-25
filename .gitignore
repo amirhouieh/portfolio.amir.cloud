@@ -29,3 +29,6 @@ data-module/dist
 
 /public/images
 /public/images/**.*
+
+# Local Netlify folder
+.netlify
