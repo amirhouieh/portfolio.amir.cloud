@@ -12,15 +12,16 @@ export const Header: React.FC<Props> = ({ currentPage = 'home' }) => {
             <Link href="/">
                 <h2 className="page-info">/</h2>
             </Link>
-            {currentPage === 'projects' && (
-                <Link href="/projects">
-                    <small>Projects</small>
-                </Link>
-            )}
-            {currentPage === 'project' && (
-                <Link href="/projects">
-                    <small>Projects</small>
-                </Link>
+            <a title={"about me"} href={"https://amir.cloud"}>
+                <small>Amir Gorbani Houieh</small>
+            </a>
+            {(currentPage === 'projects' || currentPage === 'project') && (
+                <>
+                    <br />
+                    <Link href="/projects">
+                        <small>Projects</small>
+                    </Link>
+                </>
             )}
         </BlurText>
     )

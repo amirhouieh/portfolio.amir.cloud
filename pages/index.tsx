@@ -258,6 +258,10 @@ const LandingPage = () => {
                 <Link href="/">
                     /<h1 style={{ display: 'none' }}>Amir Houieh</h1>
                 </Link>
+                <br />
+                <a title={"about me"} href={"https://amir.cloud"}>
+                    <small>Amir Gorbani Houieh</small>
+                </a>
             </h2>
             <br />
             <br />
