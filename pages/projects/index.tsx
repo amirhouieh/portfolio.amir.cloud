@@ -2,11 +2,11 @@ import React from "react"
 import { GetStaticProps } from 'next'
 import { readFileSync } from 'fs'
 import Link from 'next/link'
-import { Page, Image } from "../data-module/lib/types"
-import Nav from "../src/components/nav"
-import { Seo } from "../src/components/seo"
-import { BlurText } from "../src/components/blur-text"
-import { Figure } from "../src/components/figure"
+import { Page, Image } from "../../data-module/lib/types"
+import Nav from "../../src/components/nav"
+import { Seo } from "../../src/components/seo"
+import { BlurText } from "../../src/components/blur-text"
+import { Figure } from "../../src/components/figure"
 
 interface Props {
     projects: Page[]
