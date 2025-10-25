@@ -126,17 +126,6 @@ class Home extends React.Component<Props, State> {
                         <small>Projects</small>
                     </Link>
                 </BlurText>
-                <p className="bio" style={{
-                    fontSize: "14px", 
-                    lineHeight: "1.6", 
-                    marginTop: "15px",
-                    // fontFamily: "sans-serif",
-                    maxWidth: "500px"
-                }}>
-                    I'm a founder and engineer working on adaptive systems, memory, and generative intelligence — basically making AI less artificial.
-                    <br/><br/>
-                    I founded <a href="https://suslib.com" target="_blank" style={{color: "blue"}}>Suslib</a>, an R&D lab blending ML, HCI, and smart environments, and now <a href="https://unbody.io" target="_blank" style={{color: "blue"}}>Unbody</a>, an open-source and SaaS stack for AI-native development — covering RAG, memory, and tool calling.
-                </p>
                 <br/>
                 <br/>
                 <br/>
