@@ -155,9 +155,9 @@ export const mapRange = (value: number, low1: number, high1: number, low2: numbe
     return low2 + (high2 - low2) * (value - low1) / (high1 - low1);
 }
 
-export const calcCenterPoint = (rect: DOMRect | ClientRect): Point => {
-    const x = rect instanceof DOMRect ? rect.x : rect.left;
-    const y = rect instanceof DOMRect ? rect.y : rect.top;
+export const calcCenterPoint = (rect: DOMRect): Point => {
+    const x = rect.x;
+    const y = rect.y;
     return {
         x: x + (rect.width / 2),
         y: y + (rect.height / 2),

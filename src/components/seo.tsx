@@ -1,5 +1,5 @@
 import * as React from "react";
-import {Head} from "react-static";
+import Head from "next/head";
 //@ts-ignore
 import urljoin from "url-join";
 import htmlToText from "html2plaintext";

@@ -1,7 +1,7 @@
 import * as path from "path";
-import * as uniqid from "uniqid";
+import uniqid from "uniqid";
 import {Image, ImageSizes} from "./types";
-import * as sharp from "sharp";
+import sharp from "sharp";
 import {isNumber} from "./utils";
 import {IMAGES_DIR} from "./consts";
 import {copyFileSync} from "fs";

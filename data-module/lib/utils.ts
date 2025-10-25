@@ -31,7 +31,7 @@ const readMarkdown = async (rawMd: string): Promise<{
 export const parseMd = async (mdPath: string): Promise<MarkdownContent> => {
     const mdRaw = readFileSync(mdPath, "utf8");
     const md = await readMarkdown(mdRaw)
-        .catch(err => {
+        .catch((err): null => {
             console.log("error reading markdown", mdPath);
             console.log(err);
             return null
