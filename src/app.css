@@ -304,3 +304,30 @@ footer{
     display: none;
   }
 }
+
+/* Posts and Talks styling */
+.posts-list,
+.talks-list {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.posts-list {
+  max-width: 500px;
+}
+
+.talks-list {
+  max-width: 700px;
+}
+
+.post-item,
+.talk-item {
+  cursor: pointer;
+  transition: all 100ms ease-in-out;
+}
+
+.post-description,
+.talk-description {
+  font-family: sans-serif;
+}

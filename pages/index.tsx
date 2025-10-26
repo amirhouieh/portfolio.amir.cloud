@@ -104,6 +104,30 @@ export default function Home() {
                         </p>
                     </small>
                 </div>
+                <div className="index-item">
+                    <BlurText fontSize={28} maxVolume={projectsMaxBlur}>
+                        <Link href="/posts" style={{ textDecoration: 'none' }}>
+                            <h2 style={{ fontSize: '28px' }}>Posts</h2>
+                        </Link>
+                    </BlurText>
+                    <small>
+                        <p>
+                            Blog posts and writings.
+                        </p>
+                    </small>
+                </div>
+                <div className="index-item">
+                    <BlurText fontSize={28} maxVolume={projectsMaxBlur}>
+                        <Link href="/talks" style={{ textDecoration: 'none' }}>
+                            <h2 style={{ fontSize: '28px' }}>Talks</h2>
+                        </Link>
+                    </BlurText>
+                    <small>
+                        <p>
+                            Conference talks and presentations.
+                        </p>
+                    </small>
+                </div>
                 <br />
                 <br />
                 <div className="">

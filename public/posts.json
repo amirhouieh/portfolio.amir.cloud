@@ -1,0 +1,93 @@
+[
+  {
+    "url": "https://unbody.io/blog/gen-data-ui-state",
+    "image": "https://framerusercontent.com/images/PUGltQRFIWUWocOktm1f1OjGuw.png?width=3762&height=2118",
+    "date": "May 28, 2025",
+    "title": "Managing the UI state for generative data flow",
+    "description": "Managing UI state for generative data requires understanding multi-stage, streamed, and interpretative outputs, contrasting with CRUD models. Key strategies include handling streaming updates, managing context as a first-class state, treating each stage as a state machine, and incorporating retries as a feature."
+  },
+  {
+    "url": "https://unbody.io/blog/query-to-context",
+    "image": "https://framerusercontent.com/images/objRWtJksi9fkB6TdOVKlcLpcU.png?width=2508&height=1412",
+    "date": "Mar 5, 2025",
+    "title": "From Query to Context: Building Agentic RAG with Unbody's JSON Endpoint",
+    "description": "Building effective Retrieval-Augmented Generation (RAG) systems requires parsing user queries into structured parameters for precise retrieval and response generation. The Agentic RAG approach improves upon naive methods by understanding user intent and applying relevant filters, enhancing the quality of generated answers."
+  },
+  {
+    "url": "https://unbody.io/blog/ai-forced-vs-ai-native",
+    "image": "https://framerusercontent.com/images/CmEbQ5FjzZU9WFVD6R2kBHUJMJ4.png?width=2880&height=1498",
+    "date": "Nov 14, 2024",
+    "title": "AI-native vs AI-forced",
+    "description": "The rise of AI-native applications marks a pivotal shift in software design—where AI isn't just a feature, but the foundation. Yet, developers are held back by fragmented, AI-forced stacks that make building AI-native products complex, costly, and inefficient. In this blog, we explore the challenges of disconnected AI and product workflows, introduce the core components of AI-native software, and share how Unbody unifies these worlds into a seamless development stack to enable smarter, more adaptive applications."
+  },
+  {
+    "url": "https://unbody.io/blog/ai-is-complex",
+    "image": "https://framerusercontent.com/images/yYFqNPjmPNS0gOtJiRa2z9uSJk.jpg?width=1200&height=808",
+    "date": "Aug 13, 2024",
+    "title": "AI is Complex, Do Not Try This In-House",
+    "description": ""
+  },
+  {
+    "url": "https://unbody.io/blog/ai-native-app",
+    "image": "https://framerusercontent.com/images/irFiP75Agu3mWwqxBCL4xL6L5U.jpg?width=4352&height=3424",
+    "date": "Apr 30, 2024",
+    "title": "What the F**k is an AI-native app?",
+    "description": "Build a unique experience by mixing and matching components."
+  },
+  {
+    "url": "https://unbody.io/blog/simplifying-ai-development",
+    "image": "https://framerusercontent.com/images/cRQdybuih2LMc4hEvWBZgOtYNA.png?width=1437&height=998",
+    "date": "Mar 3, 2024",
+    "title": "Simplifying the Complexity of AI Development and Integration",
+    "description": ""
+  },
+  {
+    "url": "https://unbody.io/blog/efficient-ai-integration",
+    "image": "https://framerusercontent.com/images/CptGusuJtxijf7Lzyv3k4MAxg.jpg?width=1280&height=720",
+    "date": "Mar 3, 2024",
+    "title": "Efficient AI Integration",
+    "description": ""
+  },
+  {
+    "url": "https://unbody.io/blog/ai-for-your-data",
+    "image": "https://framerusercontent.com/images/Yv5y0n6YmJBI92Dc45F3Bq6n8A.png?width=1437&height=998",
+    "date": "Feb 28, 2024",
+    "title": "AI for your data, from anywhere in any format.",
+    "description": ""
+  },
+  {
+    "url": "https://unbody.io/blog/gmeet-ai-assistant-appsmith",
+    "image": "https://framerusercontent.com/images/2EVfxUobWO5BH8fO4eyCyGRgqsU.png?width=1920&height=1080",
+    "date": "Dec 13, 2023",
+    "title": "How to build a Google Meet AI assistant app in 10 minutes with Unbody & AppSmith",
+    "description": ""
+  },
+  {
+    "url": "https://unbody.io/blog/ai-in-2023",
+    "image": "https://framerusercontent.com/images/l4BLPVPWm49pfMp9QavNXMWPjp4.png?width=1024&height=1024",
+    "date": "Dec 11, 2023",
+    "title": "AI in 2023: Paradoxical Advancement",
+    "description": ""
+  },
+  {
+    "url": "https://unbody.io/blog/create-a-landing-page-that-performs-great",
+    "image": "https://framerusercontent.com/images/SRfyZOOuoBWKz2nMF9NgyMdOVcw.png?width=1024&height=1024",
+    "date": "Dec 11, 2023",
+    "title": "Bounties: Rethinking the design of blogging for the AI age (#1)",
+    "description": ""
+  },
+  {
+    "url": "https://unbody.io/blog/hello-world",
+    "image": "https://framerusercontent.com/images/R1XXXue50x9bL4myIW6MiKJ8.jpg?width=1792&height=1024",
+    "date": "Nov 28, 2023",
+    "title": "Unbody: all AI buzz in one endpoint, one line of code",
+    "description": "An invisible layer, a headless ai api, a seamless modular pipeline from private data to frontend"
+  },
+  {
+    "url": "https://unbody.io/blog/ai-at-websummit",
+    "image": "https://framerusercontent.com/images/iV1bxADGULmfRc9kn1Rzdp3eNU.jpg?width=1280&height=960",
+    "date": "Nov 20, 2023",
+    "title": "Navigating AI Trends: Insights from Web Summit 2023 with Unbody",
+    "description": "While AI dominated Web Summit 2023, the over-reliance on basic OpenAI integrations revealed a gap in the market. This post explores the untapped potential for more innovative AI applications and how platforms like Unbody are paving the way for deeper, more creative AI integration—without requiring extensive technical expertise."
+  }
+]
