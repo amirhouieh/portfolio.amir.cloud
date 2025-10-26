@@ -1,5 +1,6 @@
 ---
 title: Pixelator
+blurb: "Drawbot module for pixelating text—exploring generative typography."
 tags:
     - generative type
     - alternative tool

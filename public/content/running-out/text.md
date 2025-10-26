@@ -1,5 +1,6 @@
 ---
 title: Running Out
+blurb: "Installation confronting audiences with electricity consumption and CO2 emissions—exhibited at Salone del Mobile, Milano."
 tags:
     - "real-time data"
     - installation

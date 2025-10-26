@@ -1,5 +1,6 @@
 ---
 title: 1 week of my life / publication
+blurb: "Generative visual book documenting one week of life through data visualization—daily schedules visualized with time perception."
 tags:
     - generative book
     - alternative tool

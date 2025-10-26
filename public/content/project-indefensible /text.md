@@ -1,5 +1,6 @@
 ---
 title: "Project Indefensible"
+blurb: "Educational website on the global arms business with collaborative reading and writing tools—critical publishing platform."
 tags:
     - website
     - publishing platform

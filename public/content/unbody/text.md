@@ -1,5 +1,6 @@
 ---
 title: "Unbody"
+blurb: "API for advanced AI (chatbots, generative search, RAG) that works with your private data from Google Drive, Slack, PDFs, videos—all via GraphQL."
 tags:
     - A.I. software
     - SAAS

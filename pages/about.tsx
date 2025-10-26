@@ -1,18 +1,12 @@
 import React from 'react'
 import Link from 'next/link'
 import { BlurText } from "../src/components/blur-text"
+import { Header } from "../src/components/header"
 
 const About: React.FC = () => {
     return (
         <div>
-            <BlurText fontSize={36} color={"blue"} maxVolume={6}>
-                <Link href="/">
-                    <h2 className="page-info">/</h2>
-                </Link>
-                <a title={"about me"} href={"https://amir.cloud"}>
-                    <small>amir houieh</small>
-                </a>
-            </BlurText>
+            <Header currentPage="home" />
             <br/>
             <br/>
             <br/>

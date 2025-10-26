@@ -1,5 +1,6 @@
 ---
 title: "ISIA Urbino Digital Platform"
+blurb: "Publishing platform using Google Drive as CMS—content managed via GDocs/Sheets, exposed via REST & GraphQL APIs."
 tags:
     - website
     - publishing platform

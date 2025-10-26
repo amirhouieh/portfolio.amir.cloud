@@ -1,5 +1,6 @@
 ---
 title: Text & Space
+blurb: "Data-driven spatial installation that translates text into 3D space—every word becomes a dot, connecting to form new environments."
 tags:
     - data visualization
     - installation

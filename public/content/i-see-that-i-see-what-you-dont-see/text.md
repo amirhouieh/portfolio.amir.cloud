@@ -1,5 +1,6 @@
 ---
 title: I See That I See What You Do not See
+blurb: "Interactive typographic web cover combining generative design with real-time interaction—collaboration with Studio Moniker."
 tags:
     - generative typography
     - interactive typography

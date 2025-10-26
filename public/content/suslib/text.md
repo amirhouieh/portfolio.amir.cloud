@@ -1,5 +1,6 @@
 ---
 title: "SUSLIB"
+blurb: "R&D lab building the future of knowledge interaction through computational design, research, and AI."
 tags:
     - A.I. software
     - digital/physical interactions

@@ -1,5 +1,6 @@
 ---
 title: Rexperimental Framework
+blurb: "4-day workshop on experimental publishing frameworks based on decentralized networks—exploring p2p content distribution."
 tags:
     - workshop
     - Lecture

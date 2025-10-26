@@ -1,5 +1,6 @@
 ---
 title: 2001 a space odyssey / poster series
+blurb: "Generative poster series using visual feedback loops—camera captures screen output to create recursive, evolving visuals."
 tags:
     - generative poster
     - alternative tool

@@ -64,12 +64,6 @@ const Nav: React.FC<Props> = ({ projects, textColor = "blue", withStack, onImage
         <div className={"grid projectList"}>
             {
                 projects.map((page, i) => {
-                    // Calculate progressive blur: 0 for first project, increasing to max for last
-                    const maxBlur = isTouch ? 3 : 25
-                    const progressiveBlur = projects.length > 1 
-                        ? (i / (projects.length - 1)) * maxBlur 
-                        : 0
-                    
                     return (
                         <PageThumbnail page={page}
                                        key={`page-thumb-${i}`}
@@ -78,7 +72,6 @@ const Nav: React.FC<Props> = ({ projects, textColor = "blue", withStack, onImage
                                        onMouseOut={() => onMuseOut()}
                                        textColor={textColor}
                                        showStack={withStack}
-                                       blurSize={progressiveBlur}
                         />
                     )
                 })

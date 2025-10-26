@@ -1,5 +1,6 @@
 ---
 title: Tomorrow Book
+blurb: "Experimental website that generates new reading narratives from Wikipedia articles—exploring digital vs analog reading experiences."
 year:
     - 2015
 tags:

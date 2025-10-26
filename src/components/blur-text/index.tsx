@@ -1,5 +1,4 @@
 import React, { createRef, HTMLAttributes, useEffect, useRef, useState } from "react";
-import dynamic from 'next/dynamic';
 
 interface Props {
     fontSize: number;
@@ -8,6 +7,7 @@ interface Props {
     minVolume?: number;
     maxVolume?: number;
     title?: string;
+    distanceSensitivity?: number; // 0-1, where 0 = no sensitivity (always sharp in element), 1 = full sensitivity (need to be at center)
 }
 
 interface State {
@@ -27,9 +27,19 @@ export class BlurText extends React.Component<Props&HTMLAttributes<HTMLDivElemen
 
     constructor(props: Props){
         super(props);
+        const { minVolume = 0, blurVolume, maxVolume } = props;
+        // Check if narrow screen or touch device for initial blur
+        const isNarrow = typeof window !== 'undefined' && (window.innerWidth <= 800 || ('ontouchstart' in window || navigator.maxTouchPoints > 0));
+        // On narrow/touch: start at minVolume (sharp), on desktop: start at middle blur
+        const initialBlur = blurVolume !== undefined 
+            ? blurVolume 
+            : isNarrow 
+                ? minVolume 
+                : (maxVolume !== undefined ? maxVolume / 2 : 25);
+        
         this.state = {
             center: {x: 0, y:0},
-            blurVolume: props.blurVolume ? props.blurVolume : 50,
+            blurVolume: initialBlur,
             maxDistance: 0,
         }
     }
@@ -59,19 +69,33 @@ export class BlurText extends React.Component<Props&HTMLAttributes<HTMLDivElemen
 
     onMouseMove = (event: MouseEvent) => {
         if (typeof window !== 'undefined' && this.node.current) {
-            const { fontSize } = this.props;
+            const { fontSize, distanceSensitivity = 1 } = this.props;
             const { minVolume = 0, maxVolume = fontSize } = this.props;
 
             const rect = this.node.current.getBoundingClientRect();
             const center = calcCenterPoint(rect);
-
+            
+            // Calculate distance from mouse to center
             const dx = calcDistance(
                 {x: event.clientX, y: event.clientY},
                 center
-                );
+            );
+            
+            // Calculate the maximum distance within the element (half diagonal)
+            const elementMaxDistance = Math.sqrt(
+                Math.pow(rect.width / 2, 2) + Math.pow(rect.height / 2, 2)
+            );
+            
+            // Apply sensitivity: 
+            // - At 0 sensitivity, if mouse is in element, use minVolume (sharp)
+            // - At 1 sensitivity, use full range based on distance to center
+            const effectiveDistance = dx * distanceSensitivity;
+            const effectiveMaxDistance = distanceSensitivity === 0 
+                ? elementMaxDistance 
+                : this.state.maxDistance;
 
             this.setState({
-                blurVolume: mapRange(dx, 0, this.state.maxDistance, minVolume, maxVolume)
+                blurVolume: mapRange(effectiveDistance, 0, effectiveMaxDistance, minVolume, maxVolume)
             });
         }
     };

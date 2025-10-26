@@ -1,18 +1,12 @@
 import React from 'react'
 import Link from 'next/link'
 import { BlurText } from "../src/components/blur-text"
+import { Header } from "../src/components/header"
 
 const Custom404: React.FC = () => {
     return (
         <div>
-            <BlurText fontSize={36} color={"blue"} maxVolume={3}>
-                <Link href="/">
-                    <h2 className="page-info">/</h2>
-                </Link>
-                <a title={"about me"} href={"https://amir.cloud"}>
-                    <small>amir houieh</small>
-                </a>
-            </BlurText>
+            <Header currentPage="home" />
             <br/>
             <br/>
             <br/>
@@ -21,7 +15,7 @@ const Custom404: React.FC = () => {
                 <h1>404 - Page Not Found</h1>
                 <p>The page you are looking for does not exist.</p>
                 <Link href="/">
-                    <a>Go back home</a>
+                    Go back home
                 </Link>
             </div>
         </div>

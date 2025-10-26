@@ -1,5 +1,6 @@
 ---
 title: The 25th Hour
+blurb: "WebGL visualization of autonomous car impact on traffic flow in Ingolstadt—project by Audi in partnership with KIT."
 tags:
     - data visualization
     - webGl

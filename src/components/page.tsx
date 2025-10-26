@@ -16,11 +16,11 @@ export const PageStack: React.FunctionComponent<{stack: string[]}> = ({stack}) =
 );
 
 export const PageTitle: React.FunctionComponent<{title: string}> = ({title}) => (
-    <h2 className="page-info">{title}</h2>
+    <h2 className="page-info" style={{ fontSize: '20px', textTransform: 'none' }}>{title}</h2>
 );
 
 export const PageDate: React.FunctionComponent<{dateString: string}> = ({dateString}) => (
-    <code className="date">{dateString}</code>
+    <code className="date" style={{ fontSize: '10px' }}>{dateString}</code>
 );
 
 export const PageHeader: React.FunctionComponent<{page: Page, current?: boolean, showStack?: boolean, showExternalLink?: boolean}> = ({page, current=false, showStack=false, showExternalLink=true}) => (
@@ -50,28 +50,33 @@ export const PageThumbnail: React.FunctionComponent<{
     onMouseIn?: () => void,
     onMouseOut?: () => void,
     textColor?: string,
-    showStack?: boolean,
-    blurSize?: number
-}> = ({page, onClick, onMouseIn = noop, onMouseOut = noop, textColor="black", showStack=false, blurSize}) => (
-    <div className="page-thumbnail"
-         onMouseEnter={() => {
-             onMouseIn();
-         }}
-         onMouseOver={() => console.log("over")}
-         onMouseLeave={()=>{
-             onMouseOut();
-         }}
-    >
-        <BlurText fontSize={36}
-                  maxVolume={blurSize}
-                  color={textColor}
-                  title={page.slug}
-                  onClick={() => {
-                      if(onClick){
-                          onClick(page);
-                      }
-                  }}
+    showStack?: boolean
+}> = ({page, onClick, onMouseIn = noop, onMouseOut = noop, textColor="black", showStack=false}) => {
+    // Check if narrow screen or touch device
+    const isNarrow = typeof window !== 'undefined' && (window.innerWidth <= 800 || ('ontouchstart' in window || navigator.maxTouchPoints > 0));
+    const maxBlur = isNarrow ? 2 : 15;
+    
+    return (
+        <div className="page-thumbnail"
+             onMouseEnter={() => {
+                 onMouseIn();
+             }}
+             onMouseOver={() => console.log("over")}
+             onMouseLeave={()=>{
+                 onMouseOut();
+             }}
         >
+            <BlurText fontSize={24}
+                      color={textColor}
+                      title={page.slug}
+                      distanceSensitivity={0.5}
+                      maxVolume={maxBlur}
+                      onClick={() => {
+                          if(onClick){
+                              onClick(page);
+                          }
+                      }}
+            >
             <PageHeader page={page} showStack={showStack} showExternalLink={false}/>
             {page.blurb && (
                 <div className="blurb" 
@@ -83,7 +88,8 @@ export const PageThumbnail: React.FunctionComponent<{
         </BlurText>
         <Link href={`/${page.slug}`} style={{display: "none"}}/>
     </div>
-);
+    );
+};
 
 export const PageThumbnailSimple: React.FunctionComponent<{page: Page, textColor: string}> = ({page, textColor}) => (
     <div className="page-thumbnail simple">

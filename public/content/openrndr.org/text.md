@@ -1,5 +1,6 @@
 ---
 title: OPENRNDR.org
+blurb: "Website for the creative coding framework OPENRNDR."
 tags:
     - web application
 year:

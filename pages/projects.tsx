@@ -1,11 +1,13 @@
 import React from "react"
 import { GetStaticProps } from 'next'
 import { readFileSync } from 'fs'
-import { Page, Image } from "../../data-module/lib/types"
-import Nav from "../../src/components/nav"
-import { Seo } from "../../src/components/seo"
-import { Figure } from "../../src/components/figure"
-import { Header } from "../../src/components/header"
+import Link from 'next/link'
+import { Page, Image } from "../data-module/lib/types"
+import Nav from "../src/components/nav"
+import { Seo } from "../src/components/seo"
+import { BlurText } from "../src/components/blur-text"
+import { Figure } from "../src/components/figure"
+import { Header } from "../src/components/header"
 
 interface Props {
     projects: Page[]
@@ -120,7 +122,6 @@ class Home extends React.Component<Props, State> {
                 <Header currentPage="projects" />
                 <br/>
                 <br/>
-                <br/>
                 
                 <div className={`container home`}>
                     <Seo/>
@@ -130,7 +131,7 @@ class Home extends React.Component<Props, State> {
                                 <small className={"sans-serif section-title"}>AI & Machine Learning</small>
                                 <br/>
                                 <Nav projects={aiProjects}
-                                     textColor={"#0000FF"}
+                                     textColor={"black"}
                                      withStack={false}
                                      onImageHover={this.handleImageHover}
                                 />
@@ -139,7 +140,7 @@ class Home extends React.Component<Props, State> {
                                 <br/>
                                 <small className={"sans-serif section-title"}>Creative Tools & Platforms</small>
                                 <Nav projects={otherProjects}
-                                     textColor={"#0000FF"}
+                                     textColor={"black"}
                                      withStack={false}
                                      onImageHover={this.handleImageHover}
                                 />
@@ -147,9 +148,10 @@ class Home extends React.Component<Props, State> {
                         </div>
                         <div className="image-display-column">
                             {this.state.hoveredImage && (
-                                <Figure imgData={this.state.hoveredImage} prefix="../" />
+                                <Figure imgData={this.state.hoveredImage} prefix="/" />
                             )}
-                        </div>                    </div>
+                        </div>
+                    </div>
                     <footer className={"sans-serif"}>
                         <span className={"sans-serif section-title"}>Get in touch 👋</span>
                         <br/>

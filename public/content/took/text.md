@@ -1,5 +1,6 @@
 ---
 title: TOOK.wiki
+blurb: "Online reader generator using Wikipedia as knowledge source—creates new narratives from your text based on entity extraction."
 year:
     - 2021
 tags:

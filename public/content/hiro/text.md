@@ -1,5 +1,6 @@
 ---
 title: "HIRO"
+blurb: "Marketplace for generative and interactive artworks."
 tags:
     - SAAS
     - Online platform
